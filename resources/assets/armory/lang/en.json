@@ -1,0 +1,16 @@
+{
+  "game:tabname-armory": "Armory",
+
+  "item-sword-long-regular-*bronze": "Long sword (Bronze)",
+  "item-sword-long-regular-iron": "Long sword (Iron)",
+  "item-sword-long-regular-steel": "Long sword (Steel)",
+  "item-shield-light-*-crude": "Light shield (Hide)",
+  "item-shield-light-*-copper": "Light shield (Copper)",
+  "item-shield-light-*-*bronze": "Light shield (Bronze)",
+  "item-shield-light-*-iron": "Light shield (Iron)",
+  "item-shield-light-*-steel": "Light shield (Steel)",
+  "item-shield-heavy-*-crude": "Heavy shield (Wicker)",
+  "item-shield-heavy-*-copper": "Heavy shield (Copper)",
+  "item-shield-heavy-*-*bronze": "Heavy shield (Bronze)",
+  "item-shield-heavy-*-iron": "Heavy shield (Iron)"
+}
