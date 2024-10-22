@@ -1,0 +1,175 @@
+﻿{
+  "code": "sword",
+  "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "sword", "onehanded"],
+  "behaviorsByType": {
+    "*-steel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+          "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "handle",
+              "Attribute": "handleTexture",
+              "Default": "game:block/leather/plain",
+              "HandbookValues": [
+                "game:block/leather/plain",
+                "game:block/leather/black",
+                "game:block/leather/blue",
+                "game:block/leather/chromium",
+                "game:block/leather/gray",
+                "game:block/leather/green",
+                "game:block/leather/orange",
+                "game:block/leather/pink",
+                "game:block/leather/purple",
+                "game:block/leather/red",
+                "game:block/leather/white",
+                "game:block/leather/yellow"
+              ]
+            }
+          ],
+          "CreativeTabs": ["general", "armory-colors"]
+        }
+      }
+    ],
+    "*": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+          "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "handle",
+              "Attribute": "handleTexture",
+              "Default": "game:block/wood/debarked/oak",
+              "HandbookValues": [
+                "game:block/wood/debarked/aged",
+                "game:block/wood/debarked/birch",
+                "game:block/wood/debarked/oak",
+                "game:block/wood/debarked/maple",
+                "game:block/wood/debarked/pine",
+                "game:block/wood/debarked/acacia",
+                "game:block/wood/debarked/kapok",
+                "game:block/wood/debarked/baldcypress",
+                "game:block/wood/debarked/larch",
+                "game:block/wood/debarked/redwood",
+                "game:block/wood/debarked/ebony",
+                "game:block/wood/debarked/walnut",
+                "game:block/wood/debarked/purpleheart"
+              ]
+            }
+          ],
+          "CreativeTabs": ["general", "armory-colors"]
+        }
+      }
+    ]
+  },
+  "variantgroups": [
+    {"code": "handling", "states": ["short"]},
+    {"code": "type", "states": ["plain"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+  ],
+  "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
+  "shapeByType": {
+    "*-copper": {"base": "swords/sword-leaf-{type}"},
+    "*-tinbronze": {"base": "swords/sword-gladius-{type}"},
+    "*-bismuthbronze": {"base": "swords/sword-gladius-{type}"},
+    "*-blackbronze": {"base": "swords/sword-gladius-{type}"},
+    "*-iron": {"base": "swords/sword-shorter-{type}"},
+    "*-meteoriciron": {"base": "swords/sword-short-{type}"},
+    "*-steel": {"base": "swords/sword-arming-{type}"}
+  },
+  "tool": "sword",
+  "attributes": {
+    "handbook": {"groupBy": ["sword-short-*"]},
+    "groundStorageTransformByType": {
+      "*-copper": {"translation": {"x": 0.5, "y": 0, "z": 0.34}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7},
+      "*-*bronze": {"translation": {"x": 0.5, "y": 0, "z": 0.42}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+      "*-*iron": {"translation": {"x": 0.5, "y": 0, "z": 0.37}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+      "*-steel": {"translation": {"x": 0.5, "y": 0.1, "z": 0.35}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
+    },
+    "toolrackTransformByType": {
+      "*-copper": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}},
+      "*-*bronze": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}},
+      "*-*iron": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}},
+      "*-steel": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}}
+    },
+    "ProficiencyStats": ["meleeProficiency", "knightlyProficiency", "oneHandedSwordsProficiency"],
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": true,
+      "CanBlock": false,
+      "CanSprint": true,
+      "AttackSpeedMultiplier": 1.1,
+      "Attack": {
+        "StopOnTerrainHit": true,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-copper": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 2, "Damage": 4}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.1, 0, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 4}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.1, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.1, 0.5, 2.25, -0.1, 0.5]}],
+          "*-meteoriciron": [
+            {"Damage": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 4}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.1, 0.5, 2.4, -0.1, 0.5]}
+          ],
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 4}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.6, 0, 0.5]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackAnimationByType": {
+        "*-copper": {"Main": ["armory:sword-short-thrust-1", "armory:sword-short-thrust-2", "armory:sword-short-thrust-3"]},
+        "*-*bronze": {"Main": ["armory:sword-short-thrust-1", "armory:sword-short-thrust-2", "armory:sword-short-thrust-3"]},
+        "*-iron": {"Main": ["armory:sword-short-thrust-4", "armory:sword-short-thrust-5", "armory:sword-short-thrust-6"]},
+        "*-meteoriciron": {"Main": ["armory:sword-short-thrust-4", "armory:sword-short-thrust-5", "armory:sword-short-thrust-6"]},
+        "*-steel": {"Main": ["armory:sword-short-thrust-4", "armory:sword-short-thrust-5", "armory:sword-short-thrust-6"]}
+      },
+      "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
+      "SpeedPenalty": 0,
+      "BlockSpeedPenalty": 0,
+      "Parry": {
+        "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+        "Directions": [90, 90, 90, 90],
+        "Sound": "game:sounds/held/shieldblock-metal-heavy",
+        "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9},
+        "CanBlockProjectiles": false
+      },
+      "ParryCooldownMs": 600,
+      "BlockCooldownMs": 0,
+      "BlockAnimation": "armory:sword-short-parry",
+      "ReadyAnimation": "armory:sword-short-ready",
+      "IdleAnimation": "armory:sword-short-idle",
+      "AttackTpAnimation": "falx"
+    }
+  },
+  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 550, "*-bismuthbronze": 600, "*-blackbronze": 650, "*-iron": 600, "*-meteoriciron": 750, "*-steel": 1250},
+  "creativeinventory": {"general": ["*"], "armory": ["*"]},
+  "guiTransformByType": {
+    "*-copper": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
+    "*-*bronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
+    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.9, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
+    "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.8, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}}
+  },
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
+  "tpHandTransform": {"translation": {"x": 0.33, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
+}

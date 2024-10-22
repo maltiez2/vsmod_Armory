@@ -1,0 +1,13 @@
+[
+  {
+    "file": "armory:itemtypes/handle",
+    "op": "addmerge",
+    "path": "/behaviors/0/properties/Textures/0/HandbookValues",
+    "value": [
+      "game:block/wood/debarked/podocarpustotara",
+      "game:block/wood/debarked/nothofagusmenziesii",
+      "game:block/wood/debarked/dacrydiumcupressinum",
+      "game:block/wood/debarked/araucariaheterophylla"
+    ]
+  }
+]

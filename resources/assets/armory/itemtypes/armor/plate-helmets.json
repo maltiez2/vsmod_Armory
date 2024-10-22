@@ -1,0 +1,81 @@
+﻿{
+  "code": "armor",
+  "class": "CombatOverhaul:WearableArmor",
+  "variantgroups": [
+    {"code": "bodypart", "states": ["head"]},
+    {"code": "construction", "states": ["plate"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]},
+    {"code": "subtype", "states": ["open", "light", "riveted"]}
+  ],
+  "skipVariants": ["*-gold-light", "*-silver-light"],
+  "shapeByType": {"*-*bronze-*": {"base": "armor/{construction}/{subtype}-helmet/{bodypart}-bronze"}, "*": {"base": "armor/{construction}/{subtype}-helmet/{bodypart}-{material}"}},
+  "texturesByType": {
+    "*-open": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/chain/{material}"}},
+    "*-light": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/scale/{material}"}},
+    "*-riveted": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/scale/{material}"}}
+  },
+  "storageFlags": 128,
+  "attributes": {
+    "visibleDamageEffect": true,
+    "materialCount": 4,
+    "clothesCategory": "armorhead",
+    "attachableToEntity": {
+      "texturePrefixCode": "armor-{bodypart}-{construction}-{material}-{subtype}",
+      "disableElementsByType": {
+        "*-open": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"],
+        "*-light": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"],
+        "*-riveted": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
+      },
+      "keepElementsByType": {"*": []}
+    },
+    "handbook": {"groupBy": ["armor-{bodypart}-plate-*-{subtype}"]}
+  },
+  "behaviors": [
+    {
+      "name": "CombatOverhaul:Armor",
+      "properties": {
+        "Layers": ["Outer"],
+        "ZonesByType": {"*-open": ["Head"], "*-light": ["Head", "Face"], "*-riveted": ["Head", "Face"]},
+        "ResistsByType": {
+          "*-copper-riveted": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1},
+          "*-*bronze-riveted": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 3},
+          "*-*iron-riveted": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 5},
+          "*-steel-riveted": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7},
+          "*-gold-riveted": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7},
+          "*-silver-riveted": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7},
+          "*-copper-*": {"PiercingAttack": 6, "SlashingAttack": 4, "BluntAttack": 2},
+          "*-*bronze-*": {"PiercingAttack": 7, "SlashingAttack": 5, "BluntAttack": 4},
+          "*-*iron-*": {"PiercingAttack": 8, "SlashingAttack": 6, "BluntAttack": 6},
+          "*-steel-*": {"PiercingAttack": 9, "SlashingAttack": 7, "BluntAttack": 8},
+          "*-gold-*": {"PiercingAttack": 9, "SlashingAttack": 7, "BluntAttack": 8},
+          "*-silver-*": {"PiercingAttack": 9, "SlashingAttack": 7, "BluntAttack": 8}
+        },
+        "FlatReductionByType": {"*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}},
+        "PlayerStatsByType": {
+          "*-open": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.02, "healingeffectivness": -0.03, "hungerrate": 0.04},
+          "*-light": {"walkspeed": 0, "manipulationSpeed": -0.03, "steadyAim": -0.06, "healingeffectivness": -0.06, "hungerrate": 0.08},
+          "*-riveted": {"walkspeed": 0, "manipulationSpeed": -0.03, "steadyAim": -0.06, "healingeffectivness": -0.06, "hungerrate": 0.08}
+        }
+      }
+    }
+  ],
+  "durabilityByType": {
+    "*-gold-*": 800,
+    "*-silver-*": 2000,
+    "*-copper-*": 1000,
+    "*-tinbronze-*": 2000,
+    "*-bismuthbronze-*": 1800,
+    "*-blackbronze-*": 2400,
+    "*-iron-*": 4400,
+    "*-meteoriciron-*": 5600,
+    "*-steel-*": 11000
+  },
+  "creativeinventory": {"general": ["*"], "armory-armor": ["*"]},
+  "renderAlphaTest": 0.25,
+  "heldTpIdleAnimation": "holdunderarm",
+  "tpHandTransformByType": {
+    "*": {"translation": {"x": -0.82, "y": -2.2, "z": -0.5}, "rotation": {"x": 18, "y": 169, "z": 30}, "origin": {"x": 0.5, "y": 1.7, "z": 0.5}, "scale": 0.64}
+  },
+  "guiTransformByType": {"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -26, "y": -46, "z": -180}, "origin": {"x": 0.6, "y": 1.72, "z": 0.5}, "scale": 2}},
+  "groundTransformByType": {"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0.34, "y": 1.71, "z": 0.5}, "scale": 3.1}}
+}

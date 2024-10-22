@@ -1,0 +1,39 @@
+﻿[
+  {
+    "file": "game:itemtypes/combatoverhaul/spear",
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "CombatOverhaul:TexturesFromAttributes",
+      "properties": {
+        "Textures": [
+          {
+            "Code": "handleTexture",
+            "Attribute": "handleTexture",
+            "Default": "game:block/wood/debarked/oak",
+            "HandbookValuesByType": {
+              "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": [],
+              "*": [
+                "game:block/wood/debarked/aged",
+                "game:block/wood/debarked/birch",
+                "game:block/wood/debarked/oak",
+                "game:block/wood/debarked/maple",
+                "game:block/wood/debarked/pine",
+                "game:block/wood/debarked/acacia",
+                "game:block/wood/debarked/kapok",
+                "game:block/wood/debarked/baldcypress",
+                "game:block/wood/debarked/larch",
+                "game:block/wood/debarked/redwood",
+                "game:block/wood/debarked/ebony",
+                "game:block/wood/debarked/walnut",
+                "game:block/wood/debarked/purpleheart"
+              ]
+            }
+          }
+        ],
+        "CreativeTabs": ["general", "armory-colors"]
+      }
+    }
+  },
+  {"file": "game:recipes/grid/tool/spear", "op": "add", "path": "/enabled", "value": false}
+]

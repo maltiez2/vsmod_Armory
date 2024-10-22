@@ -1,0 +1,82 @@
+﻿[
+  {
+    "ingredientPattern": "PLP",
+    "recipeGroup": 1,
+    "ingredients": {"L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 4}, "P": {"type": "item", "code": "armory:part-{part}-steel{material}plated"}},
+    "allowedVariants": {"material": ["gold", "silver"], "part": ["breastplate"]},
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-torso-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PLP",
+    "recipeGroup": 1,
+    "ingredients": {"L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2}, "P": {"type": "item", "code": "armory:part-{part}-steel{material}plated"}},
+    "allowedVariants": {"material": ["gold", "silver"], "part": ["smallarmorplate"]},
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-arms-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "P,L,P",
+    "recipeGroup": 1,
+    "ingredients": {"L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2}, "P": {"type": "item", "code": "armory:part-{part}-steel{material}plated"}},
+    "allowedVariants": {"material": ["gold", "silver"], "part": ["smallarmorplate"]},
+    "width": 1,
+    "height": 3,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-hands-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PPL",
+    "recipeGroup": 1,
+    "ingredients": {"L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2}, "P": {"type": "item", "code": "armory:part-{part}-steel{material}plated"}},
+    "allowedVariants": {"material": ["gold", "silver"], "part": ["smallarmorplate"]},
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-legs-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "P,P,L",
+    "recipeGroup": 1,
+    "ingredients": {"L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2}, "P": {"type": "item", "code": "armory:part-{part}-steel{material}plated"}},
+    "allowedVariants": {"material": ["gold", "silver"], "part": ["smallarmorplate"]},
+    "width": 1,
+    "height": 3,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-feet-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {"type": "item", "code": "armory:armor-head-plate-steel-{subtype}"},
+      "M": {"type": "item", "code": "game:metalplate-{metal}", "quantity": 1},
+      "F": {"type": "item", "code": "game:powder-borax", "quantity": 4}
+    },
+    "allowedVariants": {"metal": ["gold", "silver"], "subtype": ["open", "riveted"]},
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "copyAttributesFrom": "P",
+    "output": {"type": "item", "code": "armory:armor-head-plate-{metal}-{subtype}"}
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {"type": "item", "code": "game:armor-head-plate-steel"},
+      "M": {"type": "item", "code": "game:metalplate-{metal}", "quantity": 2},
+      "F": {"type": "item", "code": "game:powder-borax", "quantity": 8}
+    },
+    "allowedVariants": {"metal": ["gold", "silver"]},
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "copyAttributesFrom": "P",
+    "output": {"type": "item", "code": "game:armor-head-plate-{metal}"}
+  }
+]

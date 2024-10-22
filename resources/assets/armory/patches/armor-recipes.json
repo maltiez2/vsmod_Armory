@@ -1,0 +1,5 @@
+﻿[
+  {"file": "combatoverhaul:recipes/grid/armor/plate", "op": "add", "path": "/0/enabled", "value": false},
+  {"file": "combatoverhaul:recipes/grid/armor/plate", "op": "add", "path": "/1/enabled", "value": false},
+  {"file": "combatoverhaul:recipes/grid/armor/plate", "op": "add", "path": "/2/enabled", "value": false}
+]

@@ -1,0 +1,17 @@
+﻿[
+  {
+    "ingredient": {"type": "item", "code": "game:ingot-steel"},
+    "name": "hammerhead",
+    "pattern": [[
+      "__##__###___",
+      "_##########_",
+      "__##__###___"
+    ],
+    [
+      "__##__###___",
+      "__##__###___",
+      "__##__###___"
+    ]],
+    "output": {"type": "item", "code": "armory:part-hammerhead-steel"}
+  }
+]

@@ -1,0 +1,153 @@
+﻿{
+  "code": "javelin",
+  "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "weapon-ranged", "projectile", "javelin", "onehanded"],
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 2,
+        "sprintKey": true,
+        "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+        "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+      }
+    },
+    {
+      "name": "CombatOverhaul:Projectile",
+      "properties": {
+        "stats": {
+          "AdditionalDurabilityCost": 0,
+          "CollisionRadius": 0.05,
+          "DamageStatsByType": {
+            "*-obisidan": {"DamageType": "PiercingAttack", "Damage": 6},
+            "*-flint": {"DamageType": "PiercingAttack", "Damage": 6},
+            "*-copper": {"DamageType": "PiercingAttack", "Damage": 8},
+            "*-*bronze": {"DamageType": "PiercingAttack", "Damage": 10},
+            "*-iron": {"DamageType": "PiercingAttack", "Damage": 10},
+            "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 10},
+            "*-steel": {"DamageType": "PiercingAttack", "Damage": 10},
+            "*": {"DamageType": "PiercingAttack", "Damage": 4}
+          },
+          "SpeedThreshold": 0.3,
+          "Knockback": 0.1,
+          "EntityCode": "armory:javelin-{type}-{material}",
+          "DurabilityDamage": 5,
+          "DropChance": 1
+        }
+      }
+    }
+  ],
+  "variantgroups": [
+    {"code": "type", "states": ["plain"]},
+    {
+      "code": "material",
+      "states": [
+        "chert",
+        "granite",
+        "andesite",
+        "basalt",
+        "obsidian",
+        "peridotite",
+        "flint",
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    }
+  ],
+  "tool": "javelin",
+  "shapeByType": {
+    "@.*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {"base": "armory:spears/javelin-flint-plain"},
+    "*": {"base": "armory:spears/javelin-{material}-plain"}
+  },
+  "texturesByType": {"@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"head": {"base": "game:block/stone/rock/{material}1"}}},
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.5, "y": 1, "z": 0.44}, "rotation": {"x": 10, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "toolrackTransform": {"translation": {"x": 0.3, "y": 0.05, "z": 0.6}, "rotation": {"x": 90, "y": 1, "z": 0}, "scale": 1.2},
+    "handbook": {"groupBy": ["javelin-plain-*"]},
+    "ProficiencyStats": ["rangedProficiency", "meleeProficiency", "javelinsProficiency"],
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "CanThrow": true,
+      "SpeedPenalty": 0,
+      "AttackCooldownMs": 550,
+      "GripLengthFactor": 2,
+      "GripMinLength": 0,
+      "GripMaxLength": 0,
+      "Attack": {
+        "StopOnTerrainHit": true,
+        "StopOnEntityHit": false,
+        "CollideWithTerrain": true,
+        "HitOnlyOneEntity": true,
+        "MaxReach": 9,
+        "DamageTypes": [
+          {
+            "DamageByType": {
+              "*-flint": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 4},
+              "*-obsidian": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 4},
+              "*-copper": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 4},
+              "*-*bronze": {"DamageType": "PiercingAttack", "Tier": 3, "Damage": 4},
+              "*-iron": {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 4},
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 4},
+              "*-steel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 4},
+              "*": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 2}
+            },
+            "Knockback": 0.5,
+            "DurabilityDamage": 1,
+            "Collider": [0.6, 0, 0.5, 1.2, 0, 0.5]
+          }
+        ]
+      },
+      "HandleAttack": {
+        "StopOnTerrainHit": true,
+        "StopOnEntityHit": false,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Tier": 1, "Damage": 1}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [-1.2, 0, 0.5, 0.6, 0, 0.5]}]
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "HandleHitSound": "game:sounds/held/shieldblock-wood-light",
+      "AttackAnimation": {"Main": ["armory:javelin-attack-1", "armory:javelin-attack-2", "armory:javelin-attack-3"]},
+      "TpAttackAnimation": {"Main": "combatoverhaul-spear-hit"},
+      "ReadyAnimation": "armory:javelin-ready",
+      "IdleAnimation": "armory:javelin-idle",
+      "AttackTpAnimation": "falx"
+    },
+    "ThrowAttack": {
+      "AimAnimation": "armory:javelin-aim",
+      "ThrowAnimation": "armory:javelin-throw",
+      "Aiming": {
+        "AimDifficulty": 1,
+        "CursorType": "Fixed",
+        "AccuracyOvertimeSec": 0,
+        "CursorTextureReady": "combatoverhaul:gui/aiming/arrow-full.png",
+        "CursorTextureNotReady": "combatoverhaul:gui/aiming/arrow-part.png",
+        "AllowSprint": true,
+        "MoveSpeedPenalty": 0.1,
+        "AimDrift": 60,
+        "AimTwitch": 4,
+        "AnimationFollowX": 5.5,
+        "AnimationFollowY": 5.5,
+        "VerticalLimit": 0.25,
+        "VerticalOffset": -0.05
+      },
+      "DamageTierByType": {"*-flint": 1, "*-obsidian": 2, "*-copper": 2, "*-*bronze": 3, "*-iron": 4, "*-meteoriciron": 5, "*-steel": 6, "*": 1},
+      "Velocity": 0.7,
+      "Zeroing": 2
+    }
+  },
+  "durabilitybytype": {"*-copper": 160, "*-tinbronze": 300, "*-bismuthbronze": 340, "*-blackbronze": 360, "*-iron": 320, "*-meteoriciron": 400, "*-steel": 450, "*": 80},
+  "creativeinventory": {"general": ["*"], "armory": ["*"]},
+  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 1, "y": 0.1, "z": 0.3}, "scale": 2},
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
+  "tpHandTransform": {"translation": {"x": -1, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+}

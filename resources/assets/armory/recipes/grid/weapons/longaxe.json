@@ -1,0 +1,20 @@
+﻿[
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "armory:part-longaxehead-*",
+        "name": "material",
+        "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      },
+      "H": {"type": "item", "code": "armory:handle-medium"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "name": "axe",
+    "output": {"type": "item", "code": "armory:axe-long-plain-{material}"}
+  }
+]

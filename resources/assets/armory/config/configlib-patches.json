@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "patches": {
+    "number": {
+      "armory:itemtypes/weapons/axe-long.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/club.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier",
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/halberd.json": {
+        "attributes/TwoHandedStance/DirectionalAttacks/@@*/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier",
+        "attributes/TwoHandedStance/DirectionalAttacks/@@*/DamageTypes/1/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/javelin.json": {
+        "attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier",
+        "behaviors/1/properties/stats/DamageStatsByType/@@*/Damage": "value * javelins_range_damage_multiplier",
+        "attributes/ThrowAttack/Aiming/AimDifficulty": "value * javelins_aiming_difficulty",
+      },
+      "armory:itemtypes/weapons/mace.json": {
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/pike.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/sword-great.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/sword-long.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier",
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/sword-short.json": {
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/quarterstaff.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier"
+      }
+    },
+    "integer": {
+      "armory:itemtypes/weapons/javelin.json": {
+        "behaviors/1/properties/stats/DurabilityDamage": "javelins_thrown_durability_consumption"
+      }
+    },
+    "string": {
+      "armory:itemtypes/weapons/javelin.json": {
+        "attributes/ThrowAttack/Aiming/CursorType": "javelins_aiming_cursor_type"
+      }
+    }
+  },
+  "settings": [
+    {
+      "code": "melee_weapons_damage_multiplier",
+      "type": "float",
+      "ingui": "armory:setting-melee_weapons_damage_multiplier",
+      "default": 1.0,
+      "logarithmic": true,
+      "range": {
+        "min": 0.2,
+        "max": 5.0
+      }
+    },
+    {
+      "code": "javelins_range_damage_multiplier",
+      "type": "float",
+      "ingui": "armory:setting-javelins_range_damage_multiplier",
+      "default": 1.0,
+      "logarithmic": true,
+      "range": {
+        "min": 0.2,
+        "max": 5.0
+      }
+    },
+    {
+      "code": "javelins_aiming_cursor_type",
+      "type": "string",
+      "ingui": "armory:setting-javelins_aiming_cursor_type",
+      "clientSide": true,
+      "default": "Fixed",
+      "values": [
+        "None",
+        "Vanilla",
+        "Fixed",
+        "Moving"
+      ]
+    },
+    {
+      "code": "javelins_aiming_difficulty",
+      "type": "float",
+      "ingui": "armory:setting-javelins_aiming_difficulty",
+      "default": 1.0,
+      "range": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "code": "javelins_thrown_durability_consumption",
+      "type": "integer",
+      "ingui": "armory:setting-javelins_thrown_durability_consumption",
+      "default": 5,
+      "range": {
+        "min": 1,
+        "max": 20
+      }
+    }
+  ]
+}

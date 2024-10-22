@@ -1,0 +1,10 @@
+[
+  {
+    "file": "armory:itemtypes/weapons/club",
+    "op": "addmerge",
+    "path": "/behaviors/1/properties/Textures/0/HandbookValues",
+    "value": [
+      "game:block/wood/debarked/lysilomalatisiliquum"
+    ]
+  }
+]

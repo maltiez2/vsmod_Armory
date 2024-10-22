@@ -1,0 +1,172 @@
+﻿[
+  {
+    "ingredientPattern": "PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
+      "P": {
+        "type": "item",
+        "code": "armory:part-breastplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-torso-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:flaxtwine", "quantity": 2},
+      "P": {
+        "type": "item",
+        "code": "armory:part-breastplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-torso-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-arms-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PLP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:flaxtwine", "quantity": 2},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-arms-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "P,L,P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-hands-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "P,L,P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:flaxtwine", "quantity": 2},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-hands-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-legs-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "PPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:flaxtwine", "quantity": 2},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-legs-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "P,P,L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-feet-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "P,P,L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {"type": "item", "code": "game:flaxtwine", "quantity": 2},
+      "P": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "armory:armor-feet-plate-{material}-vanilla"}
+  }
+]

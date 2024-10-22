@@ -1,0 +1,32 @@
+﻿[
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {"type": "item", "code": "armory:part-{part}-steel"},
+      "M": {"type": "item", "code": "game:metalplate-{metal}", "quantity": 1},
+      "F": {"type": "item", "code": "game:powder-borax", "quantity": 4}
+    },
+    "allowedVariants": {"metal": ["gold", "silver"], "part": ["smallarmorplate"]},
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "copyAttributesFrom": "P",
+    "output": {"type": "item", "code": "armory:part-{part}-steel{metal}plated"}
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {"type": "item", "code": "armory:part-{part}-steel"},
+      "M": {"type": "item", "code": "game:metalplate-{metal}", "quantity": 2},
+      "F": {"type": "item", "code": "game:powder-borax", "quantity": 8}
+    },
+    "allowedVariants": {"metal": ["gold", "silver"], "part": ["breastplate"]},
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "copyAttributesFrom": "P",
+    "output": {"type": "item", "code": "armory:part-{part}-steel{metal}plated"}
+  }
+]

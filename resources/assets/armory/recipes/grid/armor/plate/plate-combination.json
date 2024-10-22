@@ -1,0 +1,30 @@
+﻿[
+  {
+    "ingredientPattern": "TAH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {"type": "item", "code": "armory:armor-torso-plate-{material}-vanilla"},
+      "A": {"type": "item", "code": "armory:armor-arms-plate-{material}-vanilla"},
+      "H": {"type": "item", "code": "armory:armor-hands-plate-{material}-vanilla"}
+    },
+    "allowedVariants": {"material": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]},
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "name": "plate armor",
+    "averageDurability": true,
+    "output": {"type": "item", "code": "game:armor-body-plate-{material}"}
+  },
+  {
+    "ingredientPattern": "L,F",
+    "recipeGroup": 1,
+    "ingredients": {"L": {"type": "item", "code": "armory:armor-legs-plate-{material}-vanilla"}, "F": {"type": "item", "code": "armory:armor-feet-plate-{material}-vanilla"}},
+    "allowedVariants": {"material": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]},
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "name": "plate armor",
+    "averageDurability": true,
+    "output": {"type": "item", "code": "game:armor-legs-plate-{material}"}
+  }
+]
