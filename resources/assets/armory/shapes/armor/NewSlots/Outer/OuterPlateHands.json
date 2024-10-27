@@ -1,0 +1,83 @@
+{
+	"editor": {
+		"backDropShape": "D:/Vintage Story/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"iron": [64,64],
+		"steel - Copy": [64,64],
+		"steel": [64,64],
+		"steel2": [64,64],
+		"steel3": [64,64],
+		"steel4": [64,64],
+		"steel5": [64,64],
+		"steel6": [64,64],
+		"steel7": [64,64],
+		"steel8": [64,64],
+		"steel9": [64,64],
+		"steel10": [64,64],
+		"steel11": [64,64],
+		"steel12": [64,64],
+		"tailored-red": [64,64],
+		"bismuthbronze": [64,64],
+		"blackbronze": [64,64],
+		"copper": [64,64],
+		"tinbronze": [64,64],
+		"gold": [64,64],
+		"meteoriciron": [64,64],
+		"silver": [64,64],
+		"tinbronze2": [64,64],
+		"tinbronze3": [64,64],
+		"tinbronze4": [64,64],
+		"tinbronze5": [64,64],
+		"tinbronze6": [64,64],
+		"tinbronze7": [64,64],
+		"tinbronze8": [64,64],
+		"tinbronze9": [64,64]
+	},
+	"textures": {
+		"steel": "D:/coarmor_0.0.1/assets/game/textures/entity/humanoid/serapharmor/plate/steel"
+	},
+	"elements": [
+		{
+			"name": "ArmorHandL",
+			"from": [ 6.7716, 9.7663, 12.1594 ],
+			"to": [ 10.2716, 13.1663, 14.1594 ],
+			"unwrapMode": 3,
+			"uv": [ 32.0, 40.0 ],
+			"rotationOrigin": [ 6.7716, 9.7663, 12.0094 ],
+			"rotationX": -2.0052,
+			"rotationY": 1.0782,
+			"rotationZ": -2.066,
+			"faces": {
+				"north": { "texture": "#steel", "uv": [ 39.5, 42.0, 43.0, 45.0 ] },
+				"east": { "texture": "#steel", "uv": [ 37.5, 42.0, 39.5, 45.0 ] },
+				"south": { "texture": "#steel", "uv": [ 34.0, 42.0, 37.5, 45.0 ] },
+				"west": { "texture": "#steel", "uv": [ 32.0, 42.0, 34.0, 45.0 ] },
+				"up": { "texture": "#steel", "uv": [ 34.0, 40.0, 37.5, 42.0 ] },
+				"down": { "texture": "#steel", "uv": [ 34.0, 45.0, 37.5, 47.0 ], "rotation": 180 }
+			}
+		},
+		{
+			"name": "ArmorHandR",
+			"from": [ 6.7152, 9.8088, 1.5873 ],
+			"to": [ 10.2152, 13.2088, 3.5873 ],
+			"unwrapMode": 1,
+			"uv": [ 43.0, 40.0 ],
+			"rotationOrigin": [ 6.7152, 9.8088, 1.5873 ],
+			"rotationX": 2.0052,
+			"rotationY": -1.0782,
+			"rotationZ": -2.066,
+			"faces": {
+				"north": { "texture": "#steel", "uv": [ 45.0, 42.0, 48.5, 45.0 ] },
+				"east": { "texture": "#steel", "uv": [ 43.0, 42.0, 45.0, 45.0 ] },
+				"south": { "texture": "#steel", "uv": [ 50.5, 42.0, 54.0, 45.0 ] },
+				"west": { "texture": "#steel", "uv": [ 48.5, 42.0, 50.5, 45.0 ] },
+				"up": { "texture": "#steel", "uv": [ 45.0, 40.0, 48.5, 42.0 ], "rotation": 180 },
+				"down": { "texture": "#steel", "uv": [ 45.0, 45.0, 48.5, 47.0 ] }
+			}
+		}
+	]}

@@ -1,0 +1,86 @@
+{
+	"editor": {
+		"backDropShape": "D:/Vintage Story/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"collapsedPaths": "Root/ArmorLowerArmL,Root/ArmorUpperTorso,Root/ArmorUpperLegR,Root/ArmorCoatL,Root/ArmorLowerArmR,Root/ArmorUpperArmR,Root/ArmorCoatR,Root/ArmorUpperArmL,Root/ArmorUpperLegL",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"wood - Copy": [64,64],
+		"steel": [64,64],
+		"tinbronze": [64,64],
+		"copper": [64,64],
+		"gold": [64,64],
+		"iron": [64,64]
+	},
+	"textures": {
+		"steel": "D:/coarmor_0.0.1/assets/game/textures/entity/humanoid/serapharmor/brigandine/steel"
+	},
+	"elements": [
+		{
+			"name": "ArmorUpperArmR",
+			"stepParentName": "UpperArmR",
+			"from": [ -0.2, -0.2, -0.4 ],
+			"to": [ 3.1, 7.2, 2.1 ],
+			"uv": [ 36.0, -0.5 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.3 ],
+			"faces": {
+				"north": { "texture": "#steel", "uv": [ 36.0, 2.0, 39.0, 9.0 ], "autoUv": false },
+				"east": { "texture": "#steel", "uv": [ 39.0, 2.0, 41.0, 9.0 ], "autoUv": false },
+				"south": { "texture": "#steel", "uv": [ 41.0, 2.0, 44.0, 9.0 ], "autoUv": false },
+				"west": { "texture": "#steel", "uv": [ 44.0, 2.0, 46.0, 9.0 ], "autoUv": false },
+				"up": { "texture": "#steel", "uv": [ 36.0, 0.0, 39.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#steel", "uv": [ 39.0, 0.0, 42.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorUpperArmL",
+			"stepParentName": "UpperArmL",
+			"from": [ -0.2, -0.2, -0.2 ],
+			"to": [ 3.1, 7.2, 2.3 ],
+			"uv": [ 26.5, 4.0 ],
+			"rotationOrigin": [ -0.2, -0.2, -0.2 ],
+			"faces": {
+				"north": { "texture": "#steel", "uv": [ 26.0, 2.0, 29.0, 9.0 ], "autoUv": false },
+				"east": { "texture": "#steel", "uv": [ 29.0, 2.0, 31.0, 9.0 ], "autoUv": false },
+				"south": { "texture": "#steel", "uv": [ 31.0, 2.0, 34.0, 9.0 ], "autoUv": false },
+				"west": { "texture": "#steel", "uv": [ 34.0, 2.0, 36.0, 9.0 ], "autoUv": false },
+				"up": { "texture": "#steel", "uv": [ 26.0, 0.0, 29.0, 2.0 ], "autoUv": false },
+				"down": { "texture": "#steel", "uv": [ 29.0, 0.0, 32.0, 2.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerArmR",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.2, 1.79, -0.26 ],
+			"to": [ 2.7, 8.19, 2.26 ],
+			"uv": [ 36.0, 9.0 ],
+			"rotationOrigin": [ -0.2, 1.8, -0.4 ],
+			"faces": {
+				"north": { "texture": "#steel", "uv": [ 36.0, 11.5, 38.5, 17.5 ] },
+				"east": { "texture": "#steel", "uv": [ 38.5, 11.5, 41.0, 17.5 ] },
+				"south": { "texture": "#steel", "uv": [ 41.0, 11.5, 43.5, 17.5 ] },
+				"west": { "texture": "#steel", "uv": [ 43.5, 11.5, 46.0, 17.5 ] },
+				"up": { "texture": "#steel", "uv": [ 36.0, 9.0, 38.5, 11.5 ] },
+				"down": { "texture": "#steel", "uv": [ 38.5, 9.0, 41.0, 11.5 ] }
+			}
+		},
+		{
+			"name": "ArmorLowerArmL",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.2, 1.79, -0.26 ],
+			"to": [ 2.7, 8.19, 2.26 ],
+			"uv": [ 26.0, 9.0 ],
+			"rotationOrigin": [ -0.2, 1.8, -0.3 ],
+			"faces": {
+				"north": { "texture": "#steel", "uv": [ 26.0, 11.5, 28.5, 17.5 ] },
+				"east": { "texture": "#steel", "uv": [ 28.5, 11.5, 31.0, 17.5 ] },
+				"south": { "texture": "#steel", "uv": [ 31.0, 11.5, 33.5, 17.5 ] },
+				"west": { "texture": "#steel", "uv": [ 33.5, 11.5, 36.0, 17.5 ] },
+				"up": { "texture": "#steel", "uv": [ 26.0, 9.0, 28.5, 11.5 ] },
+				"down": { "texture": "#steel", "uv": [ 28.5, 9.0, 31.0, 11.5 ] }
+			}
+		}
+	]}

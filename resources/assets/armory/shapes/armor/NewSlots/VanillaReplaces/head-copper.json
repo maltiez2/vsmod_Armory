@@ -1,0 +1,66 @@
+{
+	"editor": {
+		"backDropShape": "D:/Vintage Story/Vintagestory/assets/game/shapes/entity/humanoid/seraph-faceless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"copper": [64,64]
+	},
+	"textures": {
+		"copper": "D:/coarmor_0.0.1/assets/game/textures/entity/humanoid/serapharmor/plate/copper"
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ -0.2, -0.5, -0.6 ],
+			"to": [ 5.9, 5.5, 5.7 ],
+			"unwrapMode": 4,
+			"autoUnwrap": false,
+			"uv": [ 27.0, 14.5 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.6 ],
+			"faces": {
+				"north": { "texture": "#copper", "uv": [ 27.0, 20.5, 33.0, 26.5 ] },
+				"east": { "texture": "#copper", "uv": [ 45.5, 20.5, 51.5, 26.5 ] },
+				"south": { "texture": "#copper", "uv": [ 39.0, 20.5, 45.0, 26.5 ] },
+				"west": { "texture": "#copper", "uv": [ 33.0, 20.5, 39.0, 26.5 ] },
+				"up": { "texture": "#copper", "uv": [ 33.0, 14.5, 39.0, 20.5 ], "rotation": 90 },
+				"down": { "texture": "#copper", "uv": [ 33.0, 26.5, 39.0, 32.5 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "ArmorFace",
+					"from": [ -0.5, 0.0, 2.0 ],
+					"to": [ 0.0, 6.0, 4.2 ],
+					"autoUnwrap": false,
+					"uv": [ 44.0, 27.0 ],
+					"rotationOrigin": [ -0.5, 0.0, 2.0 ],
+					"faces": {
+						"north": { "texture": "#copper", "uv": [ 34.5, 20.5, 35.0, 26.5 ] },
+						"south": { "texture": "#copper", "uv": [ 37.0, 20.5, 37.5, 26.5 ] },
+						"west": { "texture": "#copper", "uv": [ 35.0, 20.5, 37.0, 26.5 ] },
+						"up": { "texture": "#copper", "uv": [ 39.0, 22.0, 39.5, 24.0 ] },
+						"down": { "texture": "#copper", "uv": [ 32.5, 24.5, 33.0, 26.5 ] }
+					}
+				},
+				{
+					"name": "ArmorHelmetop",
+					"from": [ 0.5, 6.0, 0.5 ],
+					"to": [ 5.6, 6.5, 5.8 ],
+					"autoUnwrap": false,
+					"uv": [ 39.5, 27.5 ],
+					"rotationOrigin": [ 0.5, 6.0, 0.5 ],
+					"faces": {
+						"north": { "texture": "#copper", "uv": [ 39.5, 20.5, 44.5, 21.0 ] },
+						"east": { "texture": "#copper", "uv": [ 33.5, 18.5, 38.5, 19.0 ] },
+						"south": { "texture": "#copper", "uv": [ 39.5, 24.5, 44.5, 25.0 ] },
+						"west": { "texture": "#copper", "uv": [ 33.5, 14.5, 38.5, 15.0 ] },
+						"up": { "texture": "#copper", "uv": [ 46.0, 21.0, 51.0, 26.0 ] }
+					}
+				}
+			]
+		}
+	]}
