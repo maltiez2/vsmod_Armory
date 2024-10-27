@@ -1,6 +1,6 @@
 ﻿{
   "code": "club",
-  "class": "Item",
+  "class": "CombatOverhaul:MeleeWeapon",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -19,7 +19,6 @@
   ],
   "textures": {"metal": {"base": "game:block/metal/plate/{material}"}},
   "shapeByType": {
-    "*-wood": {"base": "blunt/club-wood"},
     "*-copper": {"base": "blunt/club-copper"},
     "*-*bronze": {"base": "blunt/club-bronze"},
     "*-*iron": {"base": "blunt/club-iron"},
@@ -27,11 +26,62 @@
   },
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "ProficiencyStat": "clubsProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackAnimation": {"Main": ["armory:club-strike-1h-1", "armory:club-strike-1h-2"]},
+      "ReadyAnimation": "armory:club-ready-1h",
+      "IdleAnimation": "armory:club-idle-1h"
+    },
+    "TwoHandedStance": {
+      "CanAttack": true,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackAnimation": {"Main": ["armory:club-strike-2h-1", "armory:club-strike-2h-2"]},
+      "ReadyAnimation": "armory:club-ready-2h",
+      "IdleAnimation": "armory:club-idle-2h"
+    }
   },
   "durabilitybytype": {"*-copper": 512, "*-tinbronze": 512, "*-bismuthbronze": 512, "*-blackbronze": 512, "*-iron": 512, "*-steel": 1024},
   "creativeinventory": {"armory": ["*"]},
-  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 2.4, "y": -0.3, "z": 0}, "scale": 1.6},
+  "guiTransformByType": {
+    "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 2.8, "y": -0.25, "z": 0}, "scale": 1.75},
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 2.4, "y": -0.3, "z": 0}, "scale": 1.6}
+  },
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "tpHandTransform": {"translation": {"x": 0.63, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
 }

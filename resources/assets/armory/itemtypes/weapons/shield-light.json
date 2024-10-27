@@ -1,13 +1,141 @@
 ﻿{
   "code": "shield",
-  "class": "Item",
+  "class": "CombatOverhaul:MeleeWeapon",
   "storageFlags": 257,
   "variantgroups": [
     {"code": "type", "states": ["light"]},
     {"code": "subtype", "states": ["plain"]},
     {"code": "material", "states": ["crude", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel"]}
   ],
-  "attributes": {},
+  "attributes": {
+    "OffHandStanceByType": {
+      "*-crude": {
+        "CanAttack": false,
+        "CanParry": true,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": 0,
+        "BlockSpeedPenalty": -0.2,
+        "Parry": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+          "Directions": [45, 45, 45, 45],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 3, "SlashingAttack": 3, "PiercingAttack": 3}
+        },
+        "Block": {
+          "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
+          "Directions": [60, 60, 60, 60],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 2, "SlashingAttack": 2, "PiercingAttack": 2}
+        },
+        "BlockCooldownMs": 300,
+        "BlockAnimation": "combatoverhaul:shield-light-parry",
+        "ReadyAnimation": "combatoverhaul:shield-light-ready",
+        "IdleAnimation": "combatoverhaul:shield-light-ready",
+        "BlockTpAnimation": "block"
+      },
+      "*-copper": {
+        "CanAttack": false,
+        "CanParry": true,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": 0,
+        "BlockSpeedPenalty": -0.1,
+        "Parry": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+          "Directions": [45, 45, 45, 45],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 4, "SlashingAttack": 4, "PiercingAttack": 4}
+        },
+        "Block": {
+          "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
+          "Directions": [60, 60, 60, 60],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 3, "SlashingAttack": 3, "PiercingAttack": 3}
+        },
+        "BlockCooldownMs": 300,
+        "BlockAnimation": "combatoverhaul:shield-light-parry",
+        "ReadyAnimation": "combatoverhaul:shield-light-ready",
+        "IdleAnimation": "combatoverhaul:shield-light-ready",
+        "BlockTpAnimation": "block"
+      },
+      "*-*bronze": {
+        "CanAttack": false,
+        "CanParry": true,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": 0,
+        "BlockSpeedPenalty": -0.2,
+        "Parry": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+          "Directions": [45, 45, 45, 45],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5}
+        },
+        "Block": {
+          "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
+          "Directions": [60, 60, 60, 60],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 4, "SlashingAttack": 4, "PiercingAttack": 4}
+        },
+        "BlockCooldownMs": 300,
+        "BlockAnimation": "combatoverhaul:shield-light-parry",
+        "ReadyAnimation": "combatoverhaul:shield-light-ready",
+        "IdleAnimation": "combatoverhaul:shield-light-ready",
+        "BlockTpAnimation": "block"
+      },
+      "*-iron": {
+        "CanAttack": false,
+        "CanParry": true,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": 0,
+        "BlockSpeedPenalty": -0.2,
+        "Parry": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+          "Directions": [60, 60, 60, 60],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 6, "SlashingAttack": 6, "PiercingAttack": 6}
+        },
+        "Block": {
+          "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
+          "Directions": [60, 60, 60, 60],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5}
+        },
+        "BlockCooldownMs": 300,
+        "BlockAnimation": "combatoverhaul:shield-light-parry",
+        "ReadyAnimation": "combatoverhaul:shield-light-ready",
+        "IdleAnimation": "combatoverhaul:shield-light-ready",
+        "BlockTpAnimation": "block"
+      },
+      "*-steel": {
+        "CanAttack": false,
+        "CanParry": true,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": 0,
+        "BlockSpeedPenalty": 0,
+        "Parry": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+          "Directions": [90, 90, 90, 90],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
+        },
+        "Block": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand"],
+          "Directions": [45, 45, 45, 45],
+          "Sound": "game:sounds/held/shieldblock",
+          "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
+        },
+        "BlockCooldownMs": 300,
+        "BlockAnimation": "combatoverhaul:shield-light-parry",
+        "ReadyAnimation": "combatoverhaul:shield-light-ready",
+        "IdleAnimation": "combatoverhaul:shield-light-ready",
+        "BlockTpAnimation": "block"
+      }
+    }
+  },
   "shapeByType": {
     "*-crude": {"base": "shields/hide"},
     "*-copper": {"base": "shields/full-copper"},
@@ -18,7 +146,7 @@
     "*-steel": {"base": "shields/buckler"}
   },
   "textures": {"metal": {"base": "game:block/metal/plate/{material}"}},
-  "durabilitybytype": {"*-crude": 128, "*-copper": 512, "*-tinbronze": 512, "*-bismuthbronze": 512, "*-blackbronze": 512, "*-iron": 512, "*-steel": 2048},
+  "durabilitybytype": {"*-crude": 500, "*-copper": 1500, "*-tinbronze": 1000, "*-bismuthbronze": 1000, "*-blackbronze": 1000, "*-iron": 1000, "*-steel": 3000},
   "creativeinventory": {"armory": ["*"]},
   "guiTransformByType": {
     "*-crude": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 113, "y": -39, "z": -33}, "origin": {"x": 0.8, "y": -0.3, "z": 0.7}, "scale": 0.97},

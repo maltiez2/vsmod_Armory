@@ -1,0 +1,106 @@
+[
+  {
+		"ingredientPattern": "SRS,CCC,SCS",
+		"recipeGroup": 1,
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick" },
+			"R": { "type": "item", "code": "game:rope" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-crude"  }
+	},
+	{
+		"ingredientPattern": "SRS,CCC,SCS",
+		"recipeGroup": 1,
+		"ingredients": {
+			"C": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick" },
+			"R": { "type": "item", "code": "game:rope" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-crude"  }
+	},
+	{
+		"ingredientPattern": "SRS,CCC,SCS",
+		"recipeGroup": 1,
+		"ingredients": {
+			"C": { "type": "item", "code": "game:bamboostakes", "quantity": 2 },
+			"S": { "type": "item", "code": "game:stick" },
+			"R": { "type": "item", "code": "game:rope" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-crude"  }
+	},
+	{
+		"ingredientPattern": "BPB,BLB,BPB",
+		"recipeGroup": 1,
+		"ingredients": {
+			"P": { "type": "item", "code": "game:metalplate-copper", "quantity": 1 },
+			"B": { "type": "item", "code": "game:plank-*" , "quantity": 2},
+			"L": { "type": "item", "code": "game:leather-*" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-copper"  }
+	},
+	{
+		"ingredientPattern": "BPB,BAB,BBB",
+		"recipeGroup": 1,
+		"ingredients": {
+			"P": { "type": "item", "code": "game:metalnailsandstrips-tinbronze", "quantity": 1 },
+			"B": { "type": "item", "code": "game:plank-*" , "quantity": 2},
+			"A": { "type": "item", "code": "game:boss-tinbronze" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-tinbronze"  }
+	},
+	{
+		"ingredientPattern": "BPB,BAB,BBB",
+		"recipeGroup": 1,
+		"ingredients": {
+			"P": { "type": "item", "code": "game:metalnailsandstrips-bismuthbronze", "quantity": 1 },
+			"B": { "type": "item", "code": "game:plank-*" , "quantity": 2},
+			"A": { "type": "item", "code": "game:boss-bismuthbronze" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-bismuthbronze"  }
+	},
+	{
+		"ingredientPattern": "BPB,BAB,BBB",
+		"recipeGroup": 1,
+		"ingredients": {
+			"P": { "type": "item", "code": "game:metalnailsandstrips-blackbronze", "quantity": 1 },
+			"B": { "type": "item", "code": "game:plank-*" , "quantity": 2},
+			"A": { "type": "item", "code": "game:boss-blackbronze" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-blackbronze"  }
+	},
+	{
+		"ingredientPattern": "PHP,PBP,_P_",
+		"recipeGroup": 1,
+		"ingredients": {
+			"H": { "type": "item", "code": "game:leather-*", "quantity": 2 },
+			"B": { "type": "item", "code": "game:boss-iron" },
+			"P": { "type": "item", "code": "game:plank-*" }
+		},
+		"width": 3,
+		"height": 3,
+		"name": "sheild",
+		"output": { "type": "item", "code": "armory:shield-heavy-plain-iron"  }
+	}
+]
