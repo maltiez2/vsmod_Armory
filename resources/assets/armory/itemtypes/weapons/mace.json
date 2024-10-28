@@ -1,6 +1,6 @@
 ﻿{
   "code": "mace",
-  "class": "Item",
+  "class": "CombatOverhaul:MeleeWeapon",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -13,22 +13,62 @@
       }
     }
   ],
-  "variantgroups": [{"code": "type", "states": ["plain"]}, {"code": "material", "states": ["stone", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel"]}],
-  "texturesByType": {"*-stone": {}, "*": {"metal": {"base": "game:block/metal/plate/{material}"}}},
+  "variantgroups": [
+    {"code": "type", "states": ["plain"]},
+    {
+      "code": "material",
+      "states": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel"]
+    }
+  ],
+  "texturesByType": {
+    "@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"material": {"base": "game:block/stone/rock/{material}1"}},
+    "*-flint": {"material": {"base": "game:block/stone/flint"}},
+    "*": {"metal": {"base": "game:block/metal/plate/{material}"}}
+  },
   "shapeByType": {
-    "*-stone": {"base": "blunt/mace-stone"},
     "*-copper": {"base": "blunt/mace-copper"},
     "*-tinbronze": {"base": "blunt/mace-bronze"},
     "*-bismuthbronze": {"base": "blunt/mace-bronze"},
     "*-blackbronze": {"base": "blunt/mace-bronze"},
     "*-iron": {"base": "blunt/mace-iron"},
-    "*-steel": {"base": "blunt/warhammer-steel"}
+    "*-steel": {"base": "blunt/warhammer-steel"},
+    "*": {"base": "blunt/mace-stone"}
   },
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "ProficiencyStat": "macesProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}],
+          "*-*bronze": [
+            {"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}
+          ],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
+          "*-meteoriciron": [
+            {"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}
+          ],
+          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
+          "*": [{"Damage": {"DamageType": "BluntAttack", "Strength": 1, "Damage": 2.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.59, -0.1, 0.5, 1.3, -0.2, 0.5]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackAnimation": {"Main": ["armory:mace-strike-1h-1", "armory:mace-strike-1h-2"]},
+      "ReadyAnimation": "armory:mace-ready-1h",
+      "IdleAnimation": "armory:mace-idle-1h"
+    }
   },
-  "durabilitybytype": {"*-stone": 32, "*-copper": 64, "*-tinbronze": 256, "*-bismuthbronze": 256, "*-blackbronze": 256, "*-iron": 512, "*-steel": 1024},
+  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 300, "*-bismuthbronze": 300, "*-blackbronze": 300, "*-iron": 600, "*-steel": 1200, "*": 150},
   "creativeinventory": {"armory": ["*"]},
   "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scale": 2},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},

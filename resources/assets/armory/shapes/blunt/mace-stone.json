@@ -11,7 +11,7 @@
 	"textures": {
 		"reedrope": "game:block/cloth/reedrope",
 		"metal": "game:block/metal/plate/iron",
-		"granite1": "game:block/stone/rock/granite1",
+		"material": "game:block/stone/rock/granite1",
 		"handle": "game:block/wood/debarked/oak"
 	},
 	"elements": [
@@ -93,12 +93,12 @@
 							"to": [ 2.5, 2.0, 2.0 ],
 							"rotationOrigin": [ 1.0, -2.0, -2.0 ],
 							"faces": {
-								"north": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
-								"east": { "texture": "#granite1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
-								"south": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
-								"west": { "texture": "#granite1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
-								"up": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
-								"down": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.5, 4.0 ] }
+								"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
+								"east": { "texture": "#material", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
+								"west": { "texture": "#material", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 4.0 ] },
+								"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 4.0 ] }
 							}
 						},
 						{
@@ -135,12 +135,12 @@
 							"to": [ 2.2, 1.4, 2.5 ],
 							"rotationOrigin": [ 1.2, -1.3, -2.5 ],
 							"faces": {
-								"north": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 2.5 ] },
-								"east": { "texture": "#granite1", "uv": [ 0.0, 0.0, 5.0, 2.5 ] },
-								"south": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 2.5 ] },
-								"west": { "texture": "#granite1", "uv": [ 0.0, 0.0, 5.0, 2.5 ] },
-								"up": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
-								"down": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] }
+								"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.5 ] },
+								"east": { "texture": "#material", "uv": [ 0.0, 0.0, 5.0, 2.5 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 2.5 ] },
+								"west": { "texture": "#material", "uv": [ 0.0, 0.0, 5.0, 2.5 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
+								"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 5.0 ] }
 							}
 						},
 						{
@@ -149,12 +149,12 @@
 							"to": [ 2.2, 2.5, 1.5 ],
 							"rotationOrigin": [ 1.2, -2.5, -1.5 ],
 							"faces": {
-								"north": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
-								"east": { "texture": "#granite1", "uv": [ 0.0, 0.0, 3.0, 5.0 ] },
-								"south": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
-								"west": { "texture": "#granite1", "uv": [ 0.0, 0.0, 3.0, 5.0 ] },
-								"up": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
-								"down": { "texture": "#granite1", "uv": [ 0.0, 0.0, 1.0, 3.0 ] }
+								"north": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
+								"east": { "texture": "#material", "uv": [ 0.0, 0.0, 3.0, 5.0 ] },
+								"south": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 5.0 ] },
+								"west": { "texture": "#material", "uv": [ 0.0, 0.0, 3.0, 5.0 ] },
+								"up": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.0, 3.0 ] }
 							}
 						}
 					]
