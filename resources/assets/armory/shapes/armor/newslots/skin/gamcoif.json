@@ -1,0 +1,92 @@
+{
+	"editor": {
+		"backDropShape": "D:/Vintage Story/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"collapsedPaths": "Root/ArmorLowerArmL,Root/ArmorUpperTorso,Root/ArmorUpperLegR,Root/ArmorLowerArmR,Root/ArmorUpperArmR,Root/ArmorUpperArmL,Root/ArmorUpperLegL",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"wood - Copy": [64,64],
+		"steel": [64,64],
+		"tinbronze": [64,64],
+		"copper": [64,64],
+		"gold": [64,64],
+		"iron": [64,64],
+		"linen": [64,64],
+		"tailored-plain": [64,64],
+		"tailored-red": [64,64]
+	},
+	"textures": {
+		"material": "coarmor_0.0.1/assets/armory/textures/entity/humanoid/serapharmor/sewn/tailored-red"
+	},
+	"elements": [
+		{
+			"name": "GamHelmet",
+			"stepParentName": "Head",
+			"from": [ 0.15, -0.05, -0.48 ],
+			"to": [ 5.85, 5.1, 5.42 ],
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 36.0, 17.5 ],
+			"rotationOrigin": [ 0.1, 0.8, -0.6 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 42.0, 23.5, 48.0, 28.5 ], "autoUv": false },
+				"east": { "texture": "#material", "uv": [ 36.5, 23.5, 42.0, 28.5 ] },
+				"south": { "texture": "#material", "uv": [ 55.0, 23.5, 60.5, 28.5 ] },
+				"west": { "texture": "#material", "uv": [ 48.5, 23.5, 54.5, 28.5 ], "autoUv": false },
+				"up": { "texture": "#material", "uv": [ 42.0, 17.5, 48.5, 23.0 ], "rotation": 180, "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 0.0, 28.0, 5.5, 33.5 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "GamHelmetFace",
+					"from": [ -0.32, 3.55, 0.0 ],
+					"to": [ 0.0, 5.15, 5.9 ],
+					"autoUnwrap": false,
+					"uv": [ 39.5, 34.0 ],
+					"rotationOrigin": [ -0.5, 3.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 48.5, 23.5, 49.0, 25.0 ] },
+						"south": { "texture": "#material", "uv": [ 54.0, 23.5, 54.5, 25.0 ] },
+						"west": { "texture": "#material", "uv": [ 36.5, 23.5, 42.0, 25.0 ] },
+						"up": { "texture": "#material", "uv": [ 36.5, 23.5, 42.0, 24.0 ], "rotation": 90 },
+						"down": { "texture": "#material", "uv": [ 36.5, 23.5, 42.0, 24.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "Cube2",
+							"from": [ -0.01, -3.55, 0.0 ],
+							"to": [ 0.32, -3.05, 5.9 ],
+							"uv": [ 6.0, 34.5 ],
+							"rotationOrigin": [ 0.0, -3.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#material", "uv": [ 6.0, 34.5, 6.5, 35.0 ] },
+								"east": { "texture": "#material", "uv": [ 6.5, 34.5, 12.0, 35.0 ] },
+								"south": { "texture": "#material", "uv": [ 12.0, 34.5, 12.5, 35.0 ] },
+								"west": { "texture": "#material", "uv": [ 12.5, 34.5, 18.0, 35.0 ] },
+								"up": { "texture": "#material", "uv": [ 9.0, 29.0, 8.5, 34.5 ], "autoUv": false },
+								"down": { "texture": "#material", "uv": [ 9.0, 29.0, 8.5, 34.5 ], "autoUv": false }
+							}
+						}
+					]
+				},
+				{
+					"name": "ArmorNeck",
+					"from": [ 1.1992, -1.7201, 1.18 ],
+					"to": [ 4.7992, 0.0799, 4.78 ],
+					"unwrapMode": 4,
+					"uv": [ 0.0, 7.5 ],
+					"rotationOrigin": [ 1.1992, 0.2799, 1.18 ],
+					"rotationZ": 7.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 0.0, 7.5, 3.5, 9.0 ] },
+						"east": { "texture": "#material", "uv": [ 10.5, 7.5, 14.0, 9.0 ] },
+						"south": { "texture": "#material", "uv": [ 7.0, 7.5, 10.5, 9.0 ] },
+						"west": { "texture": "#material", "uv": [ 3.5, 7.5, 7.0, 9.0 ] }
+					}
+				}
+			]
+		}
+	]}

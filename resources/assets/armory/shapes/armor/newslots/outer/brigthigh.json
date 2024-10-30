@@ -1,0 +1,54 @@
+{
+	"editor": {
+		"backDropShape": "D:/Vintage Story/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"collapsedPaths": "Root/ArmorLowerArmL,Root/ArmorUpperTorso,Root/ArmorUpperLegR,Root/ArmorLowerArmR,Root/ArmorUpperArmR,Root/ArmorUpperArmL,Root/ArmorUpperLegL",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"wood - Copy": [64,64],
+		"steel": [64,64],
+		"tinbronze": [64,64],
+		"copper": [64,64],
+		"gold": [64,64],
+		"iron": [64,64]
+	},
+	"textures": {
+		"material": "coarmor_0.0.1/assets/armory/textures/entity/humanoid/serapharmor/brigandine/steel"
+	},
+	"elements": [
+		{
+			"name": "ArmorUpperLegR",
+			"stepParentName": "UpperFootR",
+			"from": [ -0.2, -0.5, -0.3 ],
+			"to": [ 4.4, 9.5, 3.5 ],
+			"uv": [ 16.0, 35.0 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.3 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 16.0, 38.5, 20.5, 48.5 ] },
+				"east": { "texture": "#material", "uv": [ 20.5, 38.5, 24.0, 48.5 ] },
+				"south": { "texture": "#material", "uv": [ 24.0, 38.5, 28.5, 48.5 ] },
+				"west": { "texture": "#material", "uv": [ 28.5, 38.5, 32.0, 48.5 ] },
+				"up": { "texture": "#material", "uv": [ 16.0, 35.0, 20.5, 38.5 ] },
+				"down": { "texture": "#material", "uv": [ 20.5, 35.0, 25.0, 38.5 ] }
+			}
+		},
+		{
+			"name": "ArmorUpperLegL",
+			"stepParentName": "UpperFootL",
+			"from": [ -0.2, -0.5, -0.3 ],
+			"to": [ 4.4, 9.5, 3.5 ],
+			"uv": [ 0.0, 35.0 ],
+			"rotationOrigin": [ -0.2, -0.5, -0.3 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 38.5, 4.5, 48.5 ] },
+				"east": { "texture": "#material", "uv": [ 4.5, 38.5, 8.0, 48.5 ] },
+				"south": { "texture": "#material", "uv": [ 8.0, 38.5, 12.5, 48.5 ] },
+				"west": { "texture": "#material", "uv": [ 12.5, 38.5, 16.0, 48.5 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 35.0, 4.5, 38.5 ] },
+				"down": { "texture": "#material", "uv": [ 4.5, 35.0, 9.0, 38.5 ] }
+			}
+		}
+	]}
