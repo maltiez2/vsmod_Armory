@@ -1,6 +1,6 @@
 ﻿{
   "code": "javelin",
-  "class": "Item",
+  "class": "CombatOverhaul:MeleeWeapon",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -19,7 +19,7 @@
           "AdditionalDurabilityCost": 0,
           "CollisionRadius": 0.05,
           "DamageStatsByType": {
-            "*-crude": {"DamageType": "PiercingAttack", "Damage": 3.5},
+            "*-obisidan": {"DamageType": "PiercingAttack", "Damage": 4},
             "*-flint": {"DamageType": "PiercingAttack", "Damage": 4},
             "*-copper": {"DamageType": "PiercingAttack", "Damage": 4.5},
             "*-tinbronze": {"DamageType": "PiercingAttack", "Damage": 5},
@@ -27,24 +27,136 @@
             "*-blackbronze": {"DamageType": "PiercingAttack", "Damage": 5},
             "*-iron": {"DamageType": "PiercingAttack", "Damage": 5.6},
             "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 5.6},
-            "*-steel": {"DamageType": "PiercingAttack", "Damage": 6}
+            "*-steel": {"DamageType": "PiercingAttack", "Damage": 6},
+            "*": {"DamageType": "PiercingAttack", "Damage": 3.5}
           },
           "SpeedThreshold": 0.3,
           "Knockback": 0.1,
-          "EntityCode": "combatoverhaul:javelin-{material}",
+          "EntityCode": "armory:javelin-{type}-{material}",
           "DurabilityDamage": 1,
           "DropChance": 1
         }
       }
     }
   ],
-  "variantgroups": [{"code": "type", "states": ["plain"]}, {"code": "material", "states": ["flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel"]}],
+  "variantgroups": [
+    {"code": "type", "states": ["plain"]},
+    {
+      "code": "material",
+      "states": [
+        "chert",
+        "granite",
+        "andesite",
+        "basalt",
+        "obsidian",
+        "peridotite",
+        "flint",
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    }
+  ],
   "tool": "spear",
-  "shape": {"base": "spears/javelin-{material}-{type}"},
-  "attributes": {
-    "groundStorageTransform": {"translation": {"x": 0.5, "y": 1, "z": 0.44}, "rotation": {"x": 10, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+  "shapeByType": {
+    "@.*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {"base": "armory:spears/javelin-flint-plain"},
+    "*": {"base": "armory:spears/javelin-{material}-plain"}
   },
-  "durabilitybytype": {"*-flint": 64, "*-copper": 128, "*-tinbronze": 256, "*-bismuthbronze": 256, "*-blackbronze": 256, "*-iron": 512, "*-steel": 1024},
+  "texturesByType": {"@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"head": {"base": "game:block/stone/rock/{material}1"}}},
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.5, "y": 1, "z": 0.44}, "rotation": {"x": 10, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "ProficiencyStat": "javelinsProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "CanThrow": true,
+      "SpeedPenalty": 0,
+      "AttackCooldownMs": 550,
+      "GripLengthFactor": 2,
+      "GripMinLength": 12,
+      "GripMaxLength": 0,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": false,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypes": [
+          {
+            "DamageByType": {
+              "*-flint": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 1.8},
+              "*-obsidian": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 2},
+              "*-copper": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 2},
+              "*-*bronze": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 2.5},
+              "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
+              "*-ornategold": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
+              "*-ornatesilver": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 4.5, "Damage": 3.2},
+              "*-steel": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 3.5},
+              "*": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 1.5}
+            },
+            "Knockback": 0.5,
+            "DurabilityDamage": 1,
+            "Collider": [0, 0, 0.5, 1.2, 0, 0.5]
+          }
+        ]
+      },
+      "HandleAttack": {
+        "StopOnTerrainHit": true,
+        "StopOnEntityHit": false,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Strength": 0, "Damage": 1}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, -2.5, 0, 0.5]}]
+      },
+      "HandleHitSound": "game:sounds/thud",
+      "AttackAnimation": {"Main": ["armory:javelin-attack-1", "armory:javelin-attack-2", "armory:javelin-attack-3"]},
+      "ReadyAnimation": "armory:javelin-ready",
+      "IdleAnimation": "armory:javelin-idle",
+      "AttackTpAnimation": "falx"
+    },
+    "ThrowAttack": {
+      "AimAnimation": "armory:javelin-aim",
+      "ThrowAnimation": "armory:javelin-throw",
+      "Aiming": {
+        "AimDifficulty": 1,
+        "CursorType": "Fixed",
+        "AccuracyOvertimeSec": 0,
+        "CursorTextureReady": "combatoverhaul:gui/aiming/arrow-full.png",
+        "CursorTextureNotReady": "combatoverhaul:gui/aiming/arrow-part.png",
+        "AllowSprint": true,
+        "MoveSpeedPenalty": 0.1,
+        "AimDrift": 60,
+        "AimTwitch": 4,
+        "AnimationFollowX": 5.5,
+        "AnimationFollowY": 5.5,
+        "VerticalLimit": 0.25,
+        "VerticalOffset": -0.05
+      },
+      "DamageStrengthByType": {
+        "*-flint": 2,
+        "*-obsidian": 3,
+        "*-copper": 3,
+        "*-*bronze": 3,
+        "*-iron": 4,
+        "*-ornategold": 4,
+        "*-ornatesilver": 4,
+        "*-meteoriciron": 4.5,
+        "*-steel": 5,
+        "*": 1
+      },
+      "Knockback": 1,
+      "DurabilityDamage": 1,
+      "Velocity": 0.7,
+      "Zeroing": 2
+    }
+  },
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
   "creativeinventory": {"armory": ["*"]},
   "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 1, "y": 0.1, "z": 0.3}, "scale": 2},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},

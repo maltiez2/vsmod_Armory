@@ -93,25 +93,38 @@
     "ItemAnimationStart": 0,
     "ItemAnimationEnd": 0
   },
-  "javelin-attack": {
+  "javelin-attack-1": {
     "Hold": true,
     "PlayerKeyFrames": [
+      {
+        "EasingTime": 100,
+        "EasingFunction": "Sin",
+        "DetachedAnchor": false,
+        "SwitchArms": false,
+        "PitchFollow": false,
+        "PitchDontFollow": false,
+        "FOVMultiplier": 1,
+        "BobbingAmplitude": 1,
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -10, 204], "LowerArmR": [0, 0, 0, -2, -15, -102], "UpperArmR": [2.5, 2, 0, 0, -17, -97]}
+      },
       {
         "EasingTime": 300,
         "EasingFunction": "Cubic",
         "DetachedAnchor": false,
         "SwitchArms": false,
         "PitchFollow": true,
+        "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 0.8,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, -8, 127], "LowerArmR": [0, 0, 0, -4, 0, -27], "UpperArmR": [1.6, 0.8, 0, 0, -10, -99]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -8, 127], "LowerArmR": [0, 0, 0, -4, 0, -27], "UpperArmR": [1.6, 0.8, 0, 0, -9, -99]}
       },
       {
-        "EasingTime": 700,
+        "EasingTime": 900,
         "EasingFunction": "Sin",
         "DetachedAnchor": false,
         "SwitchArms": false,
         "PitchFollow": false,
+        "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
         "Elements": {"ItemAnchor": [0, 0, 0, 0, -10, 204], "LowerArmR": [0, 0, 0, -2, -15, -102], "UpperArmR": [1.6, 0.8, 0, 0, -17, -97]}
@@ -120,7 +133,95 @@
     "ItemKeyFrames": [],
     "SoundFrames": [],
     "ParticlesFrames": [],
-    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.25}],
+    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.11111111}, {"Code": "stop", "DurationFraction": 0.33333334}, {"Code": "ready", "DurationFraction": 0.8333333}],
+    "ItemAnimationStart": 0,
+    "ItemAnimationEnd": 0
+  },
+  "javelin-attack-2": {
+    "Hold": true,
+    "PlayerKeyFrames": [
+      {
+        "EasingTime": 100,
+        "EasingFunction": "Sin",
+        "DetachedAnchor": false,
+        "SwitchArms": false,
+        "PitchFollow": false,
+        "PitchDontFollow": false,
+        "FOVMultiplier": 1,
+        "BobbingAmplitude": 1,
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -10, 204], "LowerArmR": [0, 0, 0, -2, -15, -102], "UpperArmR": [2.5, 2, 0, 0, -17, -97]}
+      },
+      {
+        "EasingTime": 300,
+        "EasingFunction": "Cubic",
+        "DetachedAnchor": false,
+        "SwitchArms": false,
+        "PitchFollow": true,
+        "PitchDontFollow": false,
+        "FOVMultiplier": 1,
+        "BobbingAmplitude": 0.8,
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -8, 128], "LowerArmR": [0, 0, 0, -3, 0, -24], "UpperArmR": [1.6, 0.8, 0, -47, -8, -99]}
+      },
+      {
+        "EasingTime": 900,
+        "EasingFunction": "Sin",
+        "DetachedAnchor": false,
+        "SwitchArms": false,
+        "PitchFollow": false,
+        "PitchDontFollow": false,
+        "FOVMultiplier": 1,
+        "BobbingAmplitude": 1,
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -10, 204], "LowerArmR": [0, 0, 0, -2, -15, -102], "UpperArmR": [1.6, 0.8, 0, 0, -17, -97]}
+      }
+    ],
+    "ItemKeyFrames": [],
+    "SoundFrames": [],
+    "ParticlesFrames": [],
+    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.11111111}, {"Code": "stop", "DurationFraction": 0.33333334}, {"Code": "ready", "DurationFraction": 0.8333333}],
+    "ItemAnimationStart": 0,
+    "ItemAnimationEnd": 0
+  },
+  "javelin-attack-3": {
+    "Hold": true,
+    "PlayerKeyFrames": [
+      {
+        "EasingTime": 100,
+        "EasingFunction": "Sin",
+        "DetachedAnchor": false,
+        "SwitchArms": false,
+        "PitchFollow": false,
+        "PitchDontFollow": false,
+        "FOVMultiplier": 1,
+        "BobbingAmplitude": 1,
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -10, 204], "LowerArmR": [0, 0, 0, -2, -15, -102], "UpperArmR": [2.5, 2, 0, 0, -17, -97]}
+      },
+      {
+        "EasingTime": 300,
+        "EasingFunction": "Cubic",
+        "DetachedAnchor": false,
+        "SwitchArms": false,
+        "PitchFollow": true,
+        "PitchDontFollow": false,
+        "FOVMultiplier": 1,
+        "BobbingAmplitude": 0.8,
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -8, 128], "LowerArmR": [0, 0, 0, -3, 0, -24], "UpperArmR": [1.6, 0.8, 0, 26, -10, -103]}
+      },
+      {
+        "EasingTime": 900,
+        "EasingFunction": "Sin",
+        "DetachedAnchor": false,
+        "SwitchArms": false,
+        "PitchFollow": false,
+        "PitchDontFollow": false,
+        "FOVMultiplier": 1,
+        "BobbingAmplitude": 1,
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, -10, 204], "LowerArmR": [0, 0, 0, -2, -15, -102], "UpperArmR": [1.6, 0.8, 0, 0, -17, -97]}
+      }
+    ],
+    "ItemKeyFrames": [],
+    "SoundFrames": [],
+    "ParticlesFrames": [],
+    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.11111111}, {"Code": "stop", "DurationFraction": 0.33333334}, {"Code": "ready", "DurationFraction": 0.8333333}],
     "ItemAnimationStart": 0,
     "ItemAnimationEnd": 0
   }
