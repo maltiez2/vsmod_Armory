@@ -25,6 +25,18 @@
   "item-mace-*-steel": "Warhammer",
   "item-mace-*-*": "Mace (Stone)",
 
+  "item-javelin-*-copper": "Javelin (Copper)",
+  "item-javelin-*-*bronze": "Javelin (Bronze)",
+  "item-javelin-*-iron": "Javelin (Iron)",
+  "item-javelin-*-meteoriciron": "Javelin (Meteoric iron)",
+  "item-javelin-*-steel": "Javelin (Steel)",
+  "item-javelin-*-*": "Javelin (Stone)",
+
+  "item-pike-*-*bronze": "Pike (Bronze)",
+  "item-pike-*-iron": "Pike (Iron)",
+  "item-pike-*-meteoriciron": "Pike (Meteoric iron)",
+  "item-pike-*-steel": "Pike (Steel)",
+
   "item-part-hammerhead-steel": "Steel battle hammer head",
   "item-part-macehead-copper": "Copper mace head",
   "item-part-macehead-tinbronze": "Tin bronze mace head",
@@ -32,5 +44,14 @@
   "item-part-macehead-bismuthbronze": "Bismuth bronze mace head",
   "item-part-macehead-iron": "Iron mace head",
   "item-part-macehead-meteoriciron": "Meteoric iron mace head",
-  "item-part-macehead-*": "Stone mace head"
+  "item-part-macehead-*": "Stone mace head",
+
+  "item-part-javelinhead-copper": "Copper javelin head",
+  "item-part-javelinhead-tinbronze": "Tin bronze javelin head",
+  "item-part-javelinhead-blackbronze": "Black bronze javelin head",
+  "item-part-javelinhead-bismuthbronze": "Bismuth bronze javelin head",
+  "item-part-javelinhead-iron": "Iron javelin head",
+  "item-part-javelinhead-meteoriciron": "Meteoric iron javelin head",
+  "item-part-javelinhead-steel": "Steel javelin head",
+  "item-part-javelinhead-*": "Stone javelin head"
 }

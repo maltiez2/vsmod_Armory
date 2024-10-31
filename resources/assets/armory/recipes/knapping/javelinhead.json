@@ -1,0 +1,26 @@
+﻿[
+  {
+    "ingredient": {"type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite"]},
+    "pattern": [["__#__", "_###_", "_###_", "_###_", "_###_", "_###_", "#####", "#####", "#####", "_###_"]],
+    "name": "javelin head",
+    "output": {"type": "item", "code": "armory:part-javelinhead-{rock}"}
+  },
+  {
+    "ingredient": {"type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite"]},
+    "pattern": [["__#___###_", "_###_#####", "_###_#####", "_###_#####", "_###__###_", "_###__###_", "#####_###_", "#####_###_", "#####_###_", "_###___#__"]],
+    "name": "javelin head",
+    "output": {"type": "item", "code": "armory:part-javelinhead-{rock}", "quantity": 2}
+  },
+  {
+    "ingredient": {"type": "item", "code": "game:flint"},
+    "pattern": [["__#__", "_###_", "_###_", "_###_", "_###_", "_###_", "#####", "#####", "#####", "_###_"]],
+    "name": "javelin head",
+    "output": {"type": "item", "code": "armory:part-javelinhead-flint"}
+  },
+  {
+    "ingredient": {"type": "item", "code": "game:flint"},
+    "pattern": [["__#___###_", "_###_#####", "_###_#####", "_###_#####", "_###__###_", "_###__###_", "#####_###_", "#####_###_", "#####_###_", "_###___#__"]],
+    "name": "javelin head",
+    "output": {"type": "item", "code": "armory:part-javelinhead-flint", "quantity": 2}
+  }
+]

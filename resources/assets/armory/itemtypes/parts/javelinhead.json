@@ -1,0 +1,57 @@
+﻿{
+  "code": "part",
+  "class": "Item",
+  "variantgroups": [
+    {"code": "type", "states": ["javelinhead"]},
+    {
+      "code": "material",
+      "states": [
+        "chert",
+        "granite",
+        "andesite",
+        "basalt",
+        "obsidian",
+        "peridotite",
+        "flint",
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    }
+  ],
+  "shapeByType": {
+    "*-copper": {"base": "spears/parts/javelin-{material}-plain.json"},
+    "*-*bronze": {"base": "spears/parts/javelin-{material}-plain.json"},
+    "*-*iron": {"base": "spears/parts/javelin-iron-plain.json"},
+    "*-steel": {"base": "spears/parts/javelin-{material}-plain.json"},
+    "*": {"base": "spears/parts/javelin-flint-plain.json"}
+  },
+  "texturesByType": {
+    "@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"head": {"base": "game:block/stone/rock/{material}1"}},
+    "*-flint": {"head": {"base": "game:block/stone/flint"}},
+    "*": {"head": {"base": "game:block/metal/plate/{material}"}}
+  },
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.5, "y": 0.03, "z": 0.7}, "rotation": {"x": -1, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {"layout": "Quadrants", "placeRemoveSound": "sounds/player/build", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1}}
+    }
+  ],
+  "creativeinventory": {"armory-parts": ["*"]},
+  "guiTransformByType": {
+    "*-copper": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -53, "y": -39, "z": -8}, "origin": {"x": -0.1, "y": 0.1, "z": -0.5}, "scale": 2.5},
+    "*-*bronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -53, "y": -39, "z": -8}, "origin": {"x": -0.1, "y": 0.1, "z": -0.4}, "scale": 2.5},
+    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -53, "y": -39, "z": -8}, "origin": {"x": -0.1, "y": 0.1, "z": -0.4}, "scale": 2.5},
+    "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -53, "y": -39, "z": -8}, "origin": {"x": -0.1, "y": 0.1, "z": -0.5}, "scale": 2.5},
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -53, "y": -39, "z": -8}, "origin": {"x": -0.2, "y": 0.25, "z": -0.4}, "scale": 3.41}
+  },
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
+  "tpHandTransform": {"translation": {"x": 0, "y": 0.1, "z": 0}, "rotation": {"x": 0, "y": -90, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+}

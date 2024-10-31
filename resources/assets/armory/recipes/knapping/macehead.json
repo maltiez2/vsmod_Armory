@@ -1,17 +1,14 @@
-{
-	"ingredient": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "flint", "peridotite"] },
-	"pattern": [[
-		"__________",
-		"__________",
-		"__######__",
-		"_########_",
-		"_###__###_",
-		"_###__###_",
-		"_########_",
-		"__######__",
-		"__________",
-		"__________"
-	]],
-	"name": "mace head",
-	"output": { "type": "item", "code": "armory:part-macehead-{rock}"  }
-}
+﻿[
+  {
+    "ingredient": {"type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "flint", "peridotite"]},
+    "pattern": [["__________", "__________", "__######__", "_########_", "_###__###_", "_###__###_", "_########_", "__######__", "__________", "__________"]],
+    "name": "mace head",
+    "output": {"type": "item", "code": "armory:part-macehead-{rock}"}
+  },
+  {
+    "ingredient": {"type": "item", "code": "game:flint"},
+    "pattern": [["__________", "__________", "__######__", "_########_", "_###__###_", "_###__###_", "_########_", "__######__", "__________", "__________"]],
+    "name": "mace head",
+    "output": {"type": "item", "code": "armory:part-macehead-flint"}
+  }
+]

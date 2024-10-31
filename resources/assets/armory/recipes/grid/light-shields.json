@@ -1,102 +1,78 @@
-[
+﻿[
   {
-		"ingredientPattern": "_S_,SPS,_S_",
-		"recipeGroup": 1,
-		"ingredients": {
-			"P": { "type": "item", "code": "game:hide-pelt-small", "quantity": 4 },
-			"S": { "type": "item", "code": "game:stick" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-crude"  }
-	},
-	{
-		"ingredientPattern": "_S_,SPS,_S_",
-		"recipeGroup": 1,
-		"ingredients": {
-			"P": { "type": "item", "code": "game:hide-pelt-medium", "quantity": 2 },
-			"S": { "type": "item", "code": "game:stick" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-crude"  }
-	},
-	{
-		"ingredientPattern": "_S_,SPS,_S_",
-		"recipeGroup": 1,
-		"ingredients": {
-			"P": { "type": "item", "code": "game:hide-pelt-large", "quantity": 1 },
-			"S": { "type": "item", "code": "game:stick" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-crude"  }
-	},
-	{
-		"ingredientPattern": "_S_,SPS,_S_",
-		"recipeGroup": 1,
-		"ingredients": {
-			"P": { "type": "item", "code": "game:hide-pelt-huge", "quantity": 1 },
-			"S": { "type": "item", "code": "game:stick" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-crude"  }
-	},
-	{
-		"ingredientPattern": "PHP,PBP,PPP",
-		"recipeGroup": 1,
-		"ingredients": {
-			"H": { "type": "item", "code": "game:hoop-tinbronze" },
-			"B": { "type": "item", "code": "game:boss-tinbronze" },
-			"P": { "type": "item", "code": "game:plank-*" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-tinbronze"  }
-	},
-	{
-		"ingredientPattern": "PHP,PBP,PPP",
-		"recipeGroup": 1,
-		"ingredients": {
-			"H": { "type": "item", "code": "game:hoop-bismuthbronze" },
-			"B": { "type": "item", "code": "game:boss-bismuthbronze" },
-			"P": { "type": "item", "code": "game:plank-*" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-bismuthbronze"  }
-	},
-	{
-		"ingredientPattern": "PHP,PBP,PPP",
-		"recipeGroup": 1,
-		"ingredients": {
-			"H": { "type": "item", "code": "game:hoop-blackbronze" },
-			"B": { "type": "item", "code": "game:boss-blackbronze" },
-			"P": { "type": "item", "code": "game:plank-*" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-blackbronze"  }
-	},
-	{
-		"ingredientPattern": "_H_,PBP,_P_",
-		"recipeGroup": 1,
-		"ingredients": {
-			"H": { "type": "item", "code": "game:leather-*" },
-			"B": { "type": "item", "code": "game:boss-iron" },
-			"P": { "type": "item", "code": "game:plank-*" }
-		},
-		"width": 3,
-		"height": 3,
-		"name": "sheild",
-		"output": { "type": "item", "code": "armory:shield-light-plain-iron"  }
-	}
+    "ingredientPattern": "_S_,SPS,_S_",
+    "recipeGroup": 1,
+    "ingredients": {"P": {"type": "item", "code": "game:hide-pelt-small", "quantity": 4}, "S": {"type": "item", "code": "game:stick"}},
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-crude"}
+  },
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "recipeGroup": 1,
+    "ingredients": {"P": {"type": "item", "code": "game:hide-pelt-medium", "quantity": 2}, "S": {"type": "item", "code": "game:stick"}},
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-crude"}
+  },
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "recipeGroup": 1,
+    "ingredients": {"P": {"type": "item", "code": "game:hide-pelt-large", "quantity": 1}, "S": {"type": "item", "code": "game:stick"}},
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-crude"}
+  },
+  {
+    "ingredientPattern": "_S_,SPS,_S_",
+    "recipeGroup": 1,
+    "ingredients": {"P": {"type": "item", "code": "game:hide-pelt-huge", "quantity": 1}, "S": {"type": "item", "code": "game:stick"}},
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-crude"}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {"H": {"type": "item", "code": "game:hoop-tinbronze"}, "B": {"type": "item", "code": "game:boss-tinbronze"}, "P": {"type": "item", "code": "game:plank-*"}},
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-tinbronze"}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:hoop-bismuthbronze"},
+      "B": {"type": "item", "code": "game:boss-bismuthbronze"},
+      "P": {"type": "item", "code": "game:plank-*"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-bismuthbronze"}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,PPP",
+    "recipeGroup": 1,
+    "ingredients": {"H": {"type": "item", "code": "game:hoop-blackbronze"}, "B": {"type": "item", "code": "game:boss-blackbronze"}, "P": {"type": "item", "code": "game:plank-*"}},
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-blackbronze"}
+  },
+  {
+    "ingredientPattern": "_H_,PBP,_P_",
+    "recipeGroup": 1,
+    "ingredients": {"H": {"type": "item", "code": "game:leather-*"}, "B": {"type": "item", "code": "game:boss-iron"}, "P": {"type": "item", "code": "game:plank-*"}},
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-light-plain-iron"}
+  }
 ]

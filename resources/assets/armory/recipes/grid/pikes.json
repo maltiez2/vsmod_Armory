@@ -1,0 +1,21 @@
+﻿[
+  {
+    "ingredientPattern": "KS,_L,_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:spearhead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      },
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "tool": true},
+      "L": {"type": "block", "code": "game:*log-*", "quantity": 1}
+    },
+    "width": 2,
+    "height": 3,
+    "name": "pike",
+    "output": {"type": "item", "code": "armory:pike-plain-{material}"}
+  }
+]

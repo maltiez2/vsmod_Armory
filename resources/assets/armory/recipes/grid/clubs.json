@@ -1,27 +1,33 @@
-[
+﻿[
   {
-		"ingredientPattern": "S,C",
-		"recipeGroup": 1,
-		"ingredients": {
-			"S": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron"] },
-			"C": { "type": "item", "code": "game:club-generic-wood", "quantity": 1 }
-		},
-		"width": 1,
-		"height": 2,
-		"name": "club",
-		"output": { "type": "item", "code": "armory:club-plain-{metal}"  }
-	},
-	{
-		"ingredientPattern": "KH,_L,_L",
-		"recipeGroup": 1,
-		"ingredients": {
-			"H": { "type": "item", "code": "armory:part-hammerhead-steel", "quantity": 1 },
-			"K": { "type": "item", "code": "game:knife-*", "quantity": 1, "tool": true },
-			"L": { "type": "block", "code": "game:debarkedlog-*", "quantity": 1 }
-		},
-		"width": 2,
-		"height": 3,
-		"name": "club",
-		"output": { "type": "item", "code": "armory:club-plain-steel"  }
-	}
+    "ingredientPattern": "S,C",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 1,
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron"]
+      },
+      "C": {"type": "item", "code": "game:club-generic-wood", "quantity": 1}
+    },
+    "width": 1,
+    "height": 2,
+    "name": "club",
+    "output": {"type": "item", "code": "armory:club-plain-{metal}"}
+  },
+  {
+    "ingredientPattern": "KH,_L,_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "armory:part-hammerhead-steel", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "tool": true},
+      "L": {"type": "block", "code": "game:*log-*", "quantity": 1}
+    },
+    "width": 2,
+    "height": 3,
+    "name": "club",
+    "output": {"type": "item", "code": "armory:club-plain-steel"}
+  }
 ]

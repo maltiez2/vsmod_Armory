@@ -1,56 +1,14 @@
-[
+﻿[
   {
-		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"] },
-		"name": "mace head",
-		"pattern": [
-			[
-				"#####",
-				"#####",
-				"##_##",
-				"#####",
-				"#####"
-			],
-			[
-				"#####",
-				"#___#",
-				"#___#",
-				"#___#",
-				"#####"
-			],
-			[
-				"#####",
-				"#___#",
-				"#___#",
-				"#___#",
-				"#####"
-			]
-		],
-		"output": { "type": "item", "code": "armory:part-macehead-{metal}" }  
-	},
-
-	{
-		"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron"] },
-		"name": "mace head",
-		"pattern": [
-			[
-				"__#_#__",
-				"__#_#__",
-				"#######",
-				"__#_#__",
-				"#######",
-				"__#_#__",
-				"__#_#__"
-			],
-			[
-				"__#_#__",
-				"__#_#__",
-				"#######",
-				"__#_#__",
-				"#######",
-				"__#_#__",
-				"__#_#__"
-			]
-		],
-		"output": { "type": "item", "code": "armory:part-macehead-{metal}" }  
-	}
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"]},
+    "name": "mace head",
+    "pattern": [["#####", "#####", "##_##", "#####", "#####"], ["#####", "#___#", "#___#", "#___#", "#####"], ["#####", "#___#", "#___#", "#___#", "#####"]],
+    "output": {"type": "item", "code": "armory:part-macehead-{metal}"}
+  },
+  {
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["iron", "meteoriciron"]},
+    "name": "mace head",
+    "pattern": [["__#_#__", "__#_#__", "#######", "__#_#__", "#######", "__#_#__", "__#_#__"], ["__#_#__", "__#_#__", "#######", "__#_#__", "#######", "__#_#__", "__#_#__"]],
+    "output": {"type": "item", "code": "armory:part-macehead-{metal}"}
+  }
 ]
