@@ -18,5 +18,19 @@
   "item-club-*-meteoriciron": "Club (Meteoric iron)",
   "item-club-*-steel": "Polehammer",
 
-  "item-part-hammerhead-steel": "Steel battle hammer head"
+  "item-mace-*-copper": "Mace (Copper)",
+  "item-mace-*-*bronze": "Mace (Bronze)",
+  "item-mace-*-iron": "Mace (Iron)",
+  "item-mace-*-meteoriciron": "Mace (Meteoric iron)",
+  "item-mace-*-steel": "Warhammer",
+  "item-mace-*-*": "Mace (Stone)",
+
+  "item-part-hammerhead-steel": "Steel battle hammer head",
+  "item-part-macehead-copper": "Copper mace head",
+  "item-part-macehead-tinbronze": "Tin bronze mace head",
+  "item-part-macehead-blackbronze": "Black bronze mace head",
+  "item-part-macehead-bismuthbronze": "Bismuth bronze mace head",
+  "item-part-macehead-iron": "Iron mace head",
+  "item-part-macehead-meteoriciron": "Meteoric iron mace head",
+  "item-part-macehead-*": "Stone mace head"
 }

@@ -17,7 +17,22 @@
     {"code": "type", "states": ["plain"]},
     {
       "code": "material",
-      "states": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "steel"]
+      "states": [
+        "chert",
+        "granite",
+        "andesite",
+        "basalt",
+        "obsidian",
+        "peridotite",
+        "flint",
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
     }
   ],
   "texturesByType": {
@@ -30,7 +45,7 @@
     "*-tinbronze": {"base": "blunt/mace-bronze"},
     "*-bismuthbronze": {"base": "blunt/mace-bronze"},
     "*-blackbronze": {"base": "blunt/mace-bronze"},
-    "*-iron": {"base": "blunt/mace-iron"},
+    "*-*iron": {"base": "blunt/mace-iron"},
     "*-steel": {"base": "blunt/warhammer-steel"},
     "*": {"base": "blunt/mace-stone"}
   },
@@ -71,7 +86,13 @@
   },
   "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
   "creativeinventory": {"armory": ["*"]},
-  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scale": 2},
+  "guiTransformByType": {
+    "*-copper": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scale": 2},
+    "*-*bronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scale": 2},
+    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scale": 2},
+    "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scale": 2},
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.4, "y": -0.3, "z": 0}, "scale": 2}
+  },
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "tpHandTransform": {"translation": {"x": 0.33, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
 }

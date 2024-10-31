@@ -1,0 +1,40 @@
+﻿{
+  "code": "part",
+  "class": "Item",
+  "variantgroups": [
+    {"code": "type", "states": ["macehead"]},
+    {
+      "code": "material",
+      "states": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron"]
+    }
+  ],
+  "shapeByType": {
+    "*-copper": {"base": "blunt/parts/mace-copper"},
+    "*-*bronze": {"base": "blunt/parts/mace-bronze"},
+    "*-*iron": {"base": "blunt/parts/mace-iron"},
+    "*": {"base": "blunt/parts/mace-stone"}
+  },
+  "texturesByType": {
+    "@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"material": {"base": "game:block/stone/rock/{material}1"}},
+    "*-flint": {"material": {"base": "game:block/stone/flint"}},
+    "*": {"metal": {"base": "game:block/metal/plate/{material}"}}
+  },
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {"layout": "Quadrants", "placeRemoveSound": "sounds/player/build", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1}}
+    }
+  ],
+  "creativeinventory": {"armory-parts": ["*"]},
+  "guiTransformByType": {
+    "*-copper": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -51, "y": 38, "z": -6}, "origin": {"x": 0.83, "y": 0.95, "z": 0}, "scale": 3.7},
+    "*-*bronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -51, "y": 38, "z": -6}, "origin": {"x": 0.83, "y": 0.95, "z": 0}, "scale": 3.7},
+    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -23, "y": 38, "z": -6}, "origin": {"x": 0.93, "y": 0.5, "z": 0}, "scale": 2.36},
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -51, "y": 38, "z": -6}, "origin": {"x": 0.78, "y": 0.8, "z": 0}, "scale": 3}
+  },
+  "tpHandTransform": {"translation": {"x": 0.2, "y": 0, "z": -0.45}, "rotation": {"x": 0, "y": 90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+  "groundTransform": {"translation": {"x": 0, "y": 0.04, "z": 0}, "rotation": {"x": -2, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 3}
+}

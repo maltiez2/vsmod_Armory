@@ -11,5 +11,17 @@
 		"height": 2,
 		"name": "club",
 		"output": { "type": "item", "code": "armory:mace-plain-steel"  }
+	},
+	{
+		"ingredientPattern": "H,S",
+		"recipeGroup": 1,
+		"ingredients": {
+			"H": { "type": "item", "code": "armory:part-macehead-*", "name": "material", "allowedVariants": ["chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron"] },
+			"S": { "type": "item", "code": "game:stick", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"name": "club",
+		"output": { "type": "item", "code": "armory:mace-plain-{material}"  }
 	}
 ]
