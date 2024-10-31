@@ -145,7 +145,7 @@
     "*-iron": {"base": "shields/round"},
     "*-steel": {"base": "shields/buckler"}
   },
-  "textures": {"metal": {"base": "game:block/metal/plate/{material}"}},
+  "texturesByType": {"*-crude": {}, "*": {"metal": {"base": "game:block/metal/plate/{material}"}}},
   "durabilitybytype": {"*-crude": 500, "*-copper": 1500, "*-tinbronze": 1000, "*-bismuthbronze": 1000, "*-blackbronze": 1000, "*-iron": 1000, "*-steel": 3000},
   "creativeinventory": {"armory": ["*"]},
   "guiTransformByType": {

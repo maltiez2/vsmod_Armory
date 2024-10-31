@@ -11,7 +11,7 @@
 	"textures": {
 		"red": "game:block/cloth/linen/red",
 		"plain": "game:block/leather/plain",
-		"bismuthbronze": "game:block/metal/plate/bismuthbronze",
+		"metal": "game:block/metal/plate/bismuthbronze",
 		"steel": "game:block/metal/plate/steel",
 		"larch": "game:block/wood/debarked/larch"
 	},
