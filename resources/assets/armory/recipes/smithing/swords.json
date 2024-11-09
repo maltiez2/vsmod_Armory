@@ -1,0 +1,47 @@
+[
+  {
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+    "name": "sword",
+    "pattern": [[
+      "__#######",
+      "#########",
+      "__#######"
+    ],
+    [
+      "_________",
+      "__#######",
+      "_________"
+    ]],
+    "output": {"type": "item", "code": "armory:part-shortsword-{metal}"}
+  },
+  {
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+    "name": "sword",
+    "pattern": [[
+      "__##########",
+      "############",
+      "__##########"
+    ],
+    [
+      "____________",
+      "__##########",
+      "____________"
+    ]],
+    "output": {"type": "item", "code": "armory:part-longsword-{metal}"}
+  },
+  {
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["steel"]},
+    "name": "sword",
+    "pattern": [[
+      "__############",
+      "##############",
+      "__############"
+    ],
+    [
+      "______________",
+      "__############",
+      "______________"
+    ]],
+    "output": {"type": "item", "code": "armory:part-greatsword-{metal}"}
+  }
+]

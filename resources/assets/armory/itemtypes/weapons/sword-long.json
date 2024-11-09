@@ -16,12 +16,12 @@
   "variantgroups": [
     {"code": "handling", "states": ["long"]},
     {"code": "subtype", "states": ["plain"]},
-    {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "steel"]}
+    {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
   ],
   "damagedby": ["attacking"],
   "tool": "sword",
   "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
-  "shapeByType": {"*-*bronze": {"base": "swords/sword-spatha-plain"}, "*-iron": {"base": "swords/sword-seax-plain"}, "*-steel": {"base": "swords/sword-long-plain"}},
+  "shapeByType": {"*-*bronze": {"base": "swords/sword-spatha-plain"}, "*-*iron": {"base": "swords/sword-seax-plain"}, "*-steel": {"base": "swords/sword-long-plain"}},
   "attributes": {
     "groundStorageTransformByType": {
       "*-iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
