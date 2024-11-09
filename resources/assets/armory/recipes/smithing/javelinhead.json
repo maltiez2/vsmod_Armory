@@ -6,7 +6,11 @@
       "name": "metal",
       "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
     },
-    "pattern": [["_###_#_#_###_", "######_######", "_###_#_#_###_"]],
+    "pattern": [[
+      "_###_#_#_###_",
+      "######_######",
+      "_###_#_#_###_"
+    ]],
     "output": {"type": "item", "code": "armory:part-javelinhead-{metal}", "quantity": 2}
   },
   {
@@ -16,7 +20,17 @@
       "name": "metal",
       "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
     },
-    "pattern": [["_###_#__", "######__", "_###_#__", "__#_###_", "__######", "__#_###_", "_###_#__", "######__", "_###_#__"]],
+    "pattern": [[
+      "_###_#__",
+      "######__",
+      "_###_#__",
+      "__#_###_",
+      "__######",
+      "__#_###_",
+      "_###_#__",
+      "######__",
+      "_###_#__"
+    ]],
     "output": {"type": "item", "code": "armory:part-javelinhead-{metal}", "quantity": 3}
   }
 ]

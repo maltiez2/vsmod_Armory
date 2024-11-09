@@ -1,6 +1,6 @@
 ﻿{
   "code": "sword",
-  "class": "Item",
+  "class": "CombatOverhaul:MeleeWeapon",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -29,7 +29,56 @@
   },
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "ProficiencyStat": "oneHandedSwordsProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": true,
+      "CanBlock": false,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-copper": [
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 2, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}
+          ],
+          "*-*bronze": [
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}
+          ],
+          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
+          "*-meteoriciron": [
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}
+          ],
+          "*-steel": [
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}
+          ]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackAnimationByType": {
+        "*-copper": {"Main": ["armory:sword-short-thrust-1", "armory:sword-short-thrust-2", "armory:sword-short-thrust-3"]},
+        "*-*bronze": {"Main": ["armory:sword-short-thrust-1", "armory:sword-short-thrust-2", "armory:sword-short-thrust-3"]},
+        "*-*iron": {"Main": ["armory:sword-short-slash-1", "armory:sword-short-slash-2"]},
+        "*-steel": {"Main": ["armory:sword-short-thrust-4", "armory:sword-short-thrust-5", "armory:sword-short-thrust-6"]}
+      },
+      "SpeedPenalty": 0,
+      "BlockSpeedPenalty": 0,
+      "Parry": {
+        "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+        "Directions": [90, 90, 90, 90],
+        "Sound": "game:sounds/held/shieldblock",
+        "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
+      },
+      "BlockCooldownMs": 300,
+      "BlockAnimation": "armory:sword-short-parry",
+      "ReadyAnimation": "armory:sword-short-ready",
+      "IdleAnimation": "armory:sword-short-idle",
+      "AttackTpAnimation": "falx"
+    }
   },
   "durabilitybytype": {"*-copper": 64, "*-tinbronze": 256, "*-bismuthbronze": 256, "*-blackbronze": 256, "*-iron": 512, "*-steel": 1024},
   "creativeinventory": {"armory": ["*"]},
