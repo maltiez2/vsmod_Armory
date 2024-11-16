@@ -43,6 +43,11 @@
   "item-sword-short-*-meteoriciron": "Short sword (Meteoric iron)",
   "item-sword-short-*-steel": "Short sword (Steel)",
 
+  "item-sword-long-*-*bronze": "Long sword (Bronze)",
+  "item-sword-long-*-iron": "Long sword (Iron)",
+  "item-sword-long-*-meteoriciron": "Long sword (Meteoric iron)",
+  "item-sword-long-*-steel": "Long sword (Steel)",
+
   "item-part-hammerhead-steel": "Steel battle hammer head",
   "item-part-macehead-copper": "Copper mace head",
   "item-part-macehead-tinbronze": "Tin bronze mace head",
@@ -67,5 +72,12 @@
   "item-part-shortsword-bismuthbronze": "Bismuth bronze short sword parts",
   "item-part-shortsword-iron": "Iron short sword parts",
   "item-part-shortsword-meteoriciron": "Meteoric iron short sword parts",
-  "item-part-shortsword-steel": "Steel short sword parts"
+  "item-part-shortsword-steel": "Steel short sword parts",
+
+  "item-part-longsword-tinbronze": "Tin bronze long sword parts",
+  "item-part-longsword-blackbronze": "Black bronze long sword parts",
+  "item-part-longsword-bismuthbronze": "Bismuth bronze long sword parts",
+  "item-part-longsword-iron": "Iron long sword parts",
+  "item-part-longsword-meteoriciron": "Meteoric iron long sword parts",
+  "item-part-longsword-steel": "Steel long sword parts"
 }

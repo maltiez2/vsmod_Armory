@@ -1,6 +1,6 @@
 ﻿{
   "code": "sword",
-  "class": "Item",
+  "class": "CombatOverhaul:MeleeWeapon",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -15,7 +15,7 @@
   ],
   "variantgroups": [
     {"code": "handling", "states": ["long"]},
-    {"code": "subtype", "states": ["plain"]},
+    {"code": "type", "states": ["plain"]},
     {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
   ],
   "damagedby": ["attacking"],
@@ -28,11 +28,115 @@
       "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*": {"translation": {"x": 0.5, "y": 0.28, "z": 0.83}, "rotation": {"x": 97, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
     },
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "ProficiencyStat": "twoHandedSwordsProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": true,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-*bronze": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 2.8, 0, 0.5]}],
+          "*-*iron": [
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.05, 0.5, 3, -0.05, 0.5]}
+          ],
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.1, 0, 0.5]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackAnimationByType": {
+        "*-*bronze": {"Main": ["armory:sword-long-slash-1h-1", "armory:sword-long-slash-1h-2"]},
+        "*-*iron": {"Main": ["armory:sword-long-slash-1h-1", "armory:sword-long-slash-1h-2"]},
+        "*-steel": {"Main": ["armory:sword-long-thrust-1h-1", "armory:sword-long-thrust-1h-2", "armory:sword-long-thrust-1h-3"]}
+      },
+      "SpeedPenalty": 0,
+      "ReadyAnimation": "armory:sword-long-ready-1h",
+      "IdleAnimation": "armory:sword-long-idle-1h",
+      "AttackTpAnimation": "falx"
+    },
+    "TwoHandedStance": {
+      "CanAttack": true,
+      "CanParry": true,
+      "CanBlock": false,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypesByType": {
+          "*-*bronze": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 2.8, 0, 0.5]}],
+          "*-*iron": [
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 5.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.05, 0.5, 3, -0.05, 0.5]}
+          ],
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 6.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.1, 0, 0.5]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackDirectionsType": "Square",
+      "AttackAnimationByType": {
+        "*-*bronze": {
+          "Top": ["armory:sword-long-slash-2h-top"],
+          "Left": ["armory:sword-long-slash-2h-left"],
+          "Right": ["armory:sword-long-slash-2h-right"],
+          "Bottom": ["armory:sword-long-thrust-2h-bottom"]
+        },
+        "*-*iron": {
+          "Top": ["armory:sword-long-slash-2h-top"],
+          "Left": ["armory:sword-long-slash-2h-left"],
+          "Right": ["armory:sword-long-slash-2h-right"],
+          "Bottom": ["armory:sword-long-thrust-2h-bottom"]
+        },
+        "*-steel": {
+          "Top": ["armory:sword-long-slash-2h-top"],
+          "Left": ["armory:sword-long-slash-2h-left"],
+          "Right": ["armory:sword-long-slash-2h-right"],
+          "Bottom": ["armory:sword-long-thrust-2h-bottom"]
+        }
+      },
+      "SpeedPenalty": 0,
+      "BlockSpeedPenalty": 0,
+      "Parry": {
+        "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+        "Directions": [90, 90, 90, 90],
+        "Sound": "game:sounds/held/shieldblock",
+        "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
+      },
+      "BlockCooldownMs": 300,
+      "BlockAnimation": "armory:sword-long-parry-2h",
+      "ReadyAnimation": "armory:sword-long-ready-2h",
+      "IdleAnimation": "armory:sword-long-idle-2h",
+      "AttackTpAnimation": "falx"
+    }
   },
   "durabilitybytype": {"*-tinbronze": 512, "*-bismuthbronze": 512, "*-blackbronze": 512, "*-iron": 1024, "*-steel": 2048},
   "creativeinventory": {"armory": ["*"]},
-  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.7, "y": -0.3, "z": 0}, "scale": 2},
+  "guiTransformByType": {
+    "*-*bronze": {
+      "translation": {"x": 0, "y": 0, "z": 0},
+      "rotation": {"x": 40, "y": 0, "z": -52},
+      "origin": {"x": 0.8, "y": -0.25, "z": 0},
+      "scaleXyz": {"x": -2, "y": 2, "z": 2}
+    },
+    "*-*iron": {
+      "translation": {"x": 0, "y": 0, "z": 0},
+      "rotation": {"x": 40, "y": 0, "z": -52},
+      "origin": {"x": 0.5, "y": -0.25, "z": 0},
+      "scaleXyz": {"x": -1.62, "y": 1.62, "z": 1.62}
+    },
+    "*-steel": {
+      "translation": {"x": 0, "y": 0, "z": 0},
+      "rotation": {"x": 40, "y": 0, "z": -52},
+      "origin": {"x": 0.7, "y": -0.25, "z": 0},
+      "scaleXyz": {"x": -1.77, "y": 1.77, "z": 1.77}
+    }
+  },
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "tpHandTransform": {"translation": {"x": 0.33, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
 }

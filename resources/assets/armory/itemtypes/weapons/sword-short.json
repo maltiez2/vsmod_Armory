@@ -76,7 +76,12 @@
   },
   "durabilitybytype": {"*-copper": 64, "*-tinbronze": 256, "*-bismuthbronze": 256, "*-blackbronze": 256, "*-iron": 512, "*-steel": 1024},
   "creativeinventory": {"armory": ["*"]},
-  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.7, "y": -0.3, "z": 0}, "scale": 2},
+  "guiTransformByType": {
+    "*-copper": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
+    "*-*bronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
+    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.9, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
+    "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.8, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}}
+  },
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "tpHandTransform": {"translation": {"x": 0.33, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
 }

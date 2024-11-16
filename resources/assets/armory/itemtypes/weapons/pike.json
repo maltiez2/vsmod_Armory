@@ -52,11 +52,11 @@
           {
             "DamageByType": {
               "*-*bronze": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 4},
-              "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4},
-              "*-ornategold": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4},
-              "*-ornatesilver": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4},
-              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 4.5, "Damage": 4.2},
-              "*-steel": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 4.5}
+              "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
+              "*-ornategold": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
+              "*-ornatesilver": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 4.5, "Damage": 5},
+              "*-steel": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 5.5}
             },
             "Knockback": 1,
             "DurabilityDamage": 1,
