@@ -1,6 +1,6 @@
 ﻿{
   "code": "sword",
-  "class": "Item",
+  "class": "CombatOverhaul:MeleeWeapon",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -18,13 +18,66 @@
   "tool": "sword",
   "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
   "shapeByType": {"*-steel": {"base": "swords/sword-great-{type}"}},
-  "attackRange": 3,
-  "attackpowerbytype": {"*-copper": 3, "*-tinbronze": 4, "*-bismuthbronze": 4, "*-blackbronze": 4, "*-iron": 4, "*-steel": 5},
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 1.84, "z": 0.88}, "rotation": {"x": -80, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "ProficiencyStat": "twoHandedSwordsProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": false,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "SpeedPenalty": 0,
+      "ReadyAnimation": "armory:sword-great-ready-1h",
+      "IdleAnimation": "armory:sword-great-idle-1h"
+    },
+    "TwoHandedStance": {
+      "CanAttack": true,
+      "CanParry": true,
+      "CanBlock": true,
+      "CanSprint": true,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 12,
+        "DamageTypesByType": {
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 7.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}]
+        }
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackDirectionsType": "Square",
+      "AttackAnimationByType": {
+        "*-steel": {
+          "Top": ["armory:sword-great-slash-2h-top"],
+          "Left": ["armory:sword-great-slash-2h-left"],
+          "Right": ["armory:sword-great-slash-2h-right"],
+          "Bottom": ["armory:sword-great-thrust-2h-bottom"]
+        }
+      },
+      "SpeedPenalty": 0,
+      "BlockSpeedPenalty": -0.05,
+      "Parry": {
+        "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand"],
+        "Directions": [90, 90, 90, 90],
+        "Sound": "game:sounds/held/shieldblock-metal-heavy",
+        "BlockTier": {"BluntAttack": 8, "SlashingAttack": 8, "PiercingAttack": 9}
+      },
+      "Block": {
+        "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
+        "Directions": [60, 60, 60, 60],
+        "Sound": "game:sounds/held/shieldblock-metal-light",
+        "BlockTier": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5}
+      },
+      "BlockCooldownMs": 300,
+      "BlockAnimation": "armory:sword-great-parry-2h",
+      "ReadyAnimation": "armory:sword-great-ready-2h",
+      "IdleAnimation": "armory:sword-great-idle-2h",
+      "AttackTpAnimation": "falx"
+    }
   },
-  "durabilitybytype": {"*-copper": 64, "*-tinbronze": 256, "*-bismuthbronze": 256, "*-blackbronze": 256, "*-iron": 512, "*-steel": 1024},
+  "durabilitybytype": {"*-steel": 1024},
   "creativeinventory": {"armory": ["*"]},
   "guiTransform": {
     "translation": {"x": 0, "y": 0, "z": 0},

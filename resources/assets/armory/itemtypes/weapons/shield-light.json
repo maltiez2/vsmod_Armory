@@ -19,13 +19,13 @@
         "Parry": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
           "Directions": [45, 45, 45, 45],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-heavy",
           "BlockTier": {"BluntAttack": 3, "SlashingAttack": 3, "PiercingAttack": 3}
         },
         "Block": {
           "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
           "Directions": [60, 60, 60, 60],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-light",
           "BlockTier": {"BluntAttack": 2, "SlashingAttack": 2, "PiercingAttack": 2}
         },
         "BlockCooldownMs": 300,
@@ -44,13 +44,13 @@
         "Parry": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
           "Directions": [45, 45, 45, 45],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-heavy",
           "BlockTier": {"BluntAttack": 4, "SlashingAttack": 4, "PiercingAttack": 4}
         },
         "Block": {
           "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
           "Directions": [60, 60, 60, 60],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-metal-light",
           "BlockTier": {"BluntAttack": 3, "SlashingAttack": 3, "PiercingAttack": 3}
         },
         "BlockCooldownMs": 300,
@@ -69,13 +69,13 @@
         "Parry": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
           "Directions": [45, 45, 45, 45],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-heavy",
           "BlockTier": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5}
         },
         "Block": {
           "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
           "Directions": [60, 60, 60, 60],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-light",
           "BlockTier": {"BluntAttack": 4, "SlashingAttack": 4, "PiercingAttack": 4}
         },
         "BlockCooldownMs": 300,
@@ -94,13 +94,13 @@
         "Parry": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
           "Directions": [60, 60, 60, 60],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-heavy",
           "BlockTier": {"BluntAttack": 6, "SlashingAttack": 6, "PiercingAttack": 6}
         },
         "Block": {
           "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg"],
           "Directions": [60, 60, 60, 60],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-light",
           "BlockTier": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5}
         },
         "BlockCooldownMs": 300,
@@ -119,13 +119,13 @@
         "Parry": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
           "Directions": [90, 90, 90, 90],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-wood-heavy",
           "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
         },
         "Block": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand"],
           "Directions": [45, 45, 45, 45],
-          "Sound": "game:sounds/held/shieldblock",
+          "Sound": "game:sounds/held/shieldblock-metal-light",
           "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
         },
         "BlockCooldownMs": 300,

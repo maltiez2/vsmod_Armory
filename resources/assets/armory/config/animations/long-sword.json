@@ -466,7 +466,7 @@
       {"Code": ["game:sounds/player/strike1", "game:sounds/player/strike2"], "DurationFraction": 0.1, "RandomizePitch": true, "Range": 16, "Volume": 0.5, "Synchronize": true}
     ],
     "ParticlesFrames": [],
-    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.2}, {"Code": "stop", "DurationFraction": 1}],
+    "CallbackFrames": [{"Code": "startParry", "DurationFraction": 0.2}, {"Code": "stopParry", "DurationFraction": 1}],
     "ItemAnimationStart": 0,
     "ItemAnimationEnd": 0
   },

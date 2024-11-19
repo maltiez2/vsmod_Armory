@@ -593,7 +593,7 @@
       }
     ],
     "ParticlesFrames": [],
-    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.33333334}, {"Code": "stop", "DurationFraction": 1}],
+    "CallbackFrames": [{"Code": "startParry", "DurationFraction": 0.33333334}, {"Code": "stopParry", "DurationFraction": 1}],
     "ItemAnimationStart": 0,
     "ItemAnimationEnd": 0
   }
