@@ -1,0 +1,168 @@
+﻿{
+  "code": "armor",
+  "class": "CombatOverhaul:WearableArmor",
+  "variantgroups": [
+    {"code": "bodypart", "states": ["torso", "arms", "hands", "legs", "feet"]},
+    {"code": "construction", "states": ["plate"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]}
+  ],
+  "skipVariants": [],
+  "shapeByType": {"armor-*": {"base": "armor/{construction}/{bodypart}"}},
+  "texturesByType": {"*": {"seraph": {"base": "game:block/transparent"}, "material": {"baseByType": {"*": "armor/{construction}/{material}"}}}},
+  "storageFlags": 128,
+  "attributes": {
+    "visibleDamageEffect": true,
+    "attachableToEntity": {
+      "texturePrefixCode": "armor-{bodypart}-{construction}-{material}",
+      "disableElementsByType": {"armor-torso-*": ["Waist", "hideupperarm", "hidelowerarm"], "armor-feet-*": ["hideshoeL", "hideshoeR"]},
+      "keepElementsByType": {"*": []}
+    },
+    "footStepSoundByType": {"armor-torso-plate-*": "game:wearable/plate*"}
+  },
+  "behaviors": [
+    {
+      "name": "CombatOverhaul:Armor",
+      "propertiesByType": {
+        "*-torso-*": {
+          "Layers": ["Outer"],
+          "Zones": ["Torso"],
+          "ResistsByType": {
+            "*-copper": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-*bronze": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-iron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-meteoriciron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-steel": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-gold": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-silver": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
+          },
+          "FlatReduction": {},
+          "PlayerStatsByType": {
+            "*-copper": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-*bronze": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-iron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-meteoriciron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-steel": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-gold": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-silver": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0}
+          }
+        },
+        "*-arms-*": {
+          "Layers": ["Outer"],
+          "Zones": ["Arms"],
+          "ResistsByType": {
+            "*-copper": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-*bronze": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-iron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-meteoriciron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-steel": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-gold": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-silver": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
+          },
+          "FlatReduction": {},
+          "PlayerStatsByType": {
+            "*-copper": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-*bronze": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-iron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-meteoriciron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-steel": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-gold": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-silver": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0}
+          }
+        },
+        "*-hands-*": {
+          "Layers": ["Outer"],
+          "Zones": ["Hands"],
+          "ResistsByType": {
+            "*-copper": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-*bronze": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-iron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-meteoriciron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-steel": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-gold": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-silver": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
+          },
+          "FlatReduction": {},
+          "PlayerStatsByType": {
+            "*-copper": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-*bronze": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-iron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-meteoriciron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-steel": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-gold": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-silver": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0}
+          }
+        },
+        "*-legs-*": {
+          "Layers": ["Outer"],
+          "Zones": ["Legs"],
+          "ResistsByType": {
+            "*-copper": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-*bronze": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-iron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-meteoriciron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-steel": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-gold": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-silver": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
+          },
+          "FlatReduction": {},
+          "PlayerStatsByType": {
+            "*-copper": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-*bronze": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-iron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-meteoriciron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-steel": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-gold": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-silver": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0}
+          }
+        },
+        "*-feet-*": {
+          "Layers": ["Outer"],
+          "Zones": ["Feet"],
+          "ResistsByType": {
+            "*-copper": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-*bronze": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-iron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-meteoriciron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-steel": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-gold": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
+            "*-silver": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
+          },
+          "FlatReduction": {},
+          "PlayerStatsByType": {
+            "*-copper": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-*bronze": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-iron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-meteoriciron": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-steel": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-gold": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
+            "*-silver": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0}
+          }
+        }
+      }
+    }
+  ],
+  "creativeinventory": {"armory-armor": ["*"]},
+  "renderAlphaTest": 0.25,
+  "durabilityByType": {},
+  "heldTpIdleAnimation": "holdunderarm",
+  "fpHandTransformByType": {
+    "armor-torso-*": {"translation": {"x": 0.4, "y": -1.2, "z": -0.5}, "rotation": {"x": 163, "y": -111, "z": -180}, "origin": {"x": 0.5, "y": 1.6, "z": 0.5}, "scale": 2.15},
+    "armor-legs-*": {"translation": {"x": 0.4, "y": -1.2, "z": -0.5}, "rotation": {"x": 163, "y": -111, "z": -180}, "origin": {"x": 0.5, "y": 1.6, "z": 0.5}, "scale": 2.15},
+    "*": {"translation": {"x": 0.4, "y": -1.2, "z": -0.5}, "rotation": {"x": 163, "y": -111, "z": -180}, "origin": {"x": 0.5, "y": 1.6, "z": 0.5}, "scale": 2.15}
+  },
+  "tpHandTransformByType": {
+    "armor-torso-*": {"translation": {"x": -1, "y": -1.9, "z": -0.5}, "rotation": {"x": 97, "y": -168, "z": 94}, "origin": {"x": 0.5, "y": 1.5, "z": 0.5}, "scale": 0.67},
+    "armor-legs-*": {"translation": {"x": -0.7, "y": -0.6, "z": -0.4}, "rotation": {"x": 95, "y": -20, "z": -91}, "origin": {"x": 0.5, "y": 0.7, "z": 0.5}, "scale": 0.74},
+    "*": {"translation": {"x": -1, "y": -1.9, "z": -0.5}, "rotation": {"x": 97, "y": -168, "z": 94}, "origin": {"x": 0.5, "y": 1.5, "z": 0.5}, "scale": 0.67}
+  },
+  "guiTransformByType": {
+    "armor-torso-*": {"translation": {"x": 3, "y": 0, "z": 0}, "rotation": {"x": -26, "y": -46, "z": -180}, "origin": {"x": 0.5, "y": 1.11, "z": 0.5}, "scale": 1.37},
+    "armor-legs-*": {"translation": {"x": 1, "y": 0, "z": 0}, "rotation": {"x": -26, "y": -46, "z": -180}, "origin": {"x": 0.5, "y": 0.6, "z": 0.5}, "scale": 1.25},
+    "*": {"translation": {"x": 1, "y": 0, "z": 0}, "rotation": {"x": -26, "y": -46, "z": -180}, "origin": {"x": 0.5, "y": 0.6, "z": 0.5}, "scale": 1.25}
+  },
+  "groundTransformByType": {
+    "armor-body-*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1},
+    "armor-legs-*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1},
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1}
+  }
+}

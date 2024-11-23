@@ -72,11 +72,6 @@
   <ItemGroup>
     <Reference Include="$(GameDirectory)/**/*.dll" Private="false" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="resources\assets\armory\itemtypes\NewFolder\**" />
-    <EmbeddedResource Remove="resources\assets\armory\itemtypes\NewFolder\**" />
-    <None Remove="resources\assets\armory\itemtypes\NewFolder\**" />
-  </ItemGroup>
 
   <!-- Forces rebuild -->
   <Target Name="ForceRebuild" BeforeTargets="BeforeBuild">

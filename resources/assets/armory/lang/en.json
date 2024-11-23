@@ -1,6 +1,7 @@
 {
   "game:tabname-armory": "Armory",
   "game:tabname-armory-parts": "Armory: parts",
+  "game:tabname-armory-armor": "Armory: armor",
 
   "item-shield-light-*-crude": "Light shield (Hide)",
   "item-shield-light-*-copper": "Light shield (Copper)",
