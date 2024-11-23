@@ -1,0 +1,189 @@
+﻿[
+  {
+    "ingredientPattern": "TAH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "armory:armor-torso-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "A": {
+        "type": "item",
+        "code": "armory:armor-arms-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "H": {
+        "type": "item",
+        "code": "armory:armor-hands-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": true,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "game:armor-body-plate-{material}"}
+  },
+  {
+    "ingredientPattern": "L,F",
+    "recipeGroup": 1,
+    "ingredients": {
+      "L": {
+        "type": "item",
+        "code": "armory:armor-legs-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "F": {
+        "type": "item",
+        "code": "armory:armor-feet-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "name": "plate armor",
+    "output": {"type": "item", "code": "game:armor-legs-plate-{material}"}
+  },
+  {
+    "ingredientPattern": "AP",
+    "recipeGroup": 2,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "armory:armor-torso-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "P": {
+        "type": "item",
+        "code": "metalplate-*",
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "A",
+    "averageDurability": false,
+    "name": "plate armor repair",
+    "output": {"type": "item", "code": "armory:armor-torso-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "AP",
+    "recipeGroup": 2,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "armory:armor-arms-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "P": {
+        "type": "item",
+        "code": "metalplate-*",
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "A",
+    "averageDurability": false,
+    "name": "plate armor repair",
+    "output": {"type": "item", "code": "armory:armor-arms-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "AP",
+    "recipeGroup": 2,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "armory:armor-hands-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "P": {
+        "type": "item",
+        "code": "metalplate-*",
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "A",
+    "averageDurability": false,
+    "name": "plate armor repair",
+    "output": {"type": "item", "code": "armory:armor-hands-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "AP",
+    "recipeGroup": 2,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "armory:armor-legs-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "P": {
+        "type": "item",
+        "code": "metalplate-*",
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "A",
+    "averageDurability": false,
+    "name": "plate armor repair",
+    "output": {"type": "item", "code": "armory:armor-legs-plate-{material}-vanilla"}
+  },
+  {
+    "ingredientPattern": "AP",
+    "recipeGroup": 2,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "armory:armor-feet-plate-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "P": {
+        "type": "item",
+        "code": "metalplate-*",
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "A",
+    "averageDurability": false,
+    "name": "plate armor repair",
+    "output": {"type": "item", "code": "armory:armor-feet-plate-{material}-vanilla"}
+  }
+]

@@ -47,9 +47,19 @@
       }
     }
   ],
+  "durabilityByType": {
+    "*-gold-*": 800,
+    "*-silver-*": 2000,
+    "*-copper-*": 1000,
+    "*-tinbronze-*": 2000,
+    "*-bismuthbronze-*": 1800,
+    "*-blackbronze-*": 2400,
+    "*-iron-*": 4400,
+    "*-meteoriciron-*": 5600,
+    "*-steel-*": 11000
+  },
   "creativeinventory": {"armory-armor": ["*"]},
   "renderAlphaTest": 0.25,
-  "durabilityByType": {},
   "heldTpIdleAnimation": "holdunderarm",
   "tpHandTransformByType": {
     "*-torso-*": {"translation": {"x": -1, "y": -1.9, "z": -0.5}, "rotation": {"x": 97, "y": -168, "z": 94}, "origin": {"x": 0.5, "y": 1.5, "z": 0.5}, "scale": 0.67},
