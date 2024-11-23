@@ -13,6 +13,7 @@
   "storageFlags": 128,
   "attributes": {
     "visibleDamageEffect": true,
+    "materialCountByType": {"*-torso-*": 8, "*-arms-*": 4, "*-hands-*": 4, "*-legs-*": 4, "*-feet-*": 4},
     "clothesCategoryByType": {"armor-torso-*": "armorbody", "armor-arms-*": "armorbody", "armor-hands-*": "armorbody", "armor-legs-*": "armorlegs", "armor-feet-*": "armorlegs"},
     "attachableToEntity": {
       "texturePrefixCode": "armor-{bodypart}-{construction}-{material}",
