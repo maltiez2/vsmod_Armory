@@ -8,46 +8,41 @@
     {"code": "subtype", "states": ["vanilla"]}
   ],
   "skipVariants": [],
-  "shapeByType": {"armor-*": {"base": "armor/{construction}/{bodypart}"}},
+  "shapeByType": {"*": {"base": "armor/{construction}/{bodypart}"}},
   "texturesByType": {"*": {"seraph": {"base": "game:block/transparent"}, "material": {"baseByType": {"*": "armor/{construction}/{material}"}}}},
   "storageFlags": 128,
   "attributes": {
     "visibleDamageEffect": true,
+    "clothesCategoryByType": {"armor-torso-*": "armorbody", "armor-arms-*": "armorbody", "armor-hands-*": "armorbody", "armor-legs-*": "armorlegs", "armor-feet-*": "armorlegs"},
     "attachableToEntity": {
       "texturePrefixCode": "armor-{bodypart}-{construction}-{material}",
-      "disableElementsByType": {"armor-torso-*": ["Waist", "hideupperarm", "hidelowerarm"], "armor-feet-*": ["hideshoeL", "hideshoeR"]},
+      "disableElementsByType": {"*-torso-*": ["Waist", "hideupperarm", "hidelowerarm"], "*-feet-*": ["hideshoeL", "hideshoeR"]},
       "keepElementsByType": {"*": []}
     },
-    "footStepSoundByType": {"armor-torso-plate-*": "game:wearable/plate*"}
+    "footStepSoundByType": {"*-torso-*": "game:wearable/plate*"}
   },
   "behaviors": [
     {
       "name": "CombatOverhaul:Armor",
       "properties": {
         "Layers": ["Outer"],
-        "ZonesByType": {
-          "*-torso-*": ["Torso"],
-          "*-arms-*": ["Arms"],
-          "*-hands-*": ["Hands"],
-          "*-legs-*": ["Legs"],
-          "*-feet-*": ["Feet"]
-        },
+        "ZonesByType": {"*-torso-*": ["Torso"], "*-arms-*": ["Arms"], "*-hands-*": ["Hands"], "*-legs-*": ["Legs"], "*-feet-*": ["Feet"]},
         "ResistsByType": {
-          "*-copper": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
-          "*-*bronze": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
-          "*-iron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
-          "*-meteoriciron": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
-          "*-steel": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
-          "*-gold": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
-          "*-silver": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
+          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 1},
+          "*-*bronze-*": {"PiercingAttack": 6, "SlashingAttack": 8, "BluntAttack": 2},
+          "*-iron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 3},
+          "*-meteoriciron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 3},
+          "*-steel-*": {"PiercingAttack": 12, "SlashingAttack": 12, "BluntAttack": 4},
+          "*-gold-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 4},
+          "*-silver-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 4}
         },
         "FlatReduction": {},
         "PlayerStatsByType": {
-          "*-torso-*": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
-          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
-          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
-          "*-legs-*": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0},
-          "*-feet-*": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": 0, "hungerrate": 0}
+          "*-torso-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02},
+          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.05, "healingeffectivness": -0.03, "hungerrate": 0.02},
+          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.05, "healingeffectivness": -0.03, "hungerrate": 0.02},
+          "*-legs-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02},
+          "*-feet-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02}
         }
       }
     }
@@ -82,11 +77,11 @@
       "scaleXyz": {"x": -1.78, "y": 1.78, "z": 1.78}
     },
     "*-feet-*": {
-		  "translation": { "x": 1, "y": 0, "z": 0 },
-		  "rotation": { "x": -26, "y": -46, "z": -180 },
-		  "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
-		  "scaleXyz": { "x": -1.88, "y": 1.88, "z": 1.88 }
-	  }
+      "translation": {"x": 1, "y": 0, "z": 0},
+      "rotation": {"x": -26, "y": -46, "z": -180},
+      "origin": {"x": 0.5, "y": 0.3, "z": 0.5},
+      "scaleXyz": {"x": -1.88, "y": 1.88, "z": 1.88}
+    }
   },
   "groundTransformByType": {
     "*-body-*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1},

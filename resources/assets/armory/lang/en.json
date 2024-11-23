@@ -3,6 +3,8 @@
   "game:tabname-armory-parts": "Armory: parts",
   "game:tabname-armory-armor": "Armory: armor",
 
+
+
   "item-shield-light-*-crude": "Light shield (Hide)",
   "item-shield-light-*-copper": "Light shield (Copper)",
   "item-shield-light-*-*bronze": "Light shield (Bronze)",
@@ -51,6 +53,8 @@
 
   "item-sword-great-*-steel": "Great sword (Steel)",
 
+
+
   "item-part-hammerhead-steel": "Steel battle hammer head",
   "item-part-macehead-copper": "Copper mace head",
   "item-part-macehead-tinbronze": "Tin bronze mace head",
@@ -84,6 +88,58 @@
   "item-part-longsword-meteoriciron": "Meteoric iron long sword parts",
   "item-part-longsword-steel": "Steel long sword parts",
   "item-part-greatsword-steel": "Steel great sword parts",
+
+
+
+  "item-armor-torso-plate-copper-vanilla": "Copper cuirass",
+  "item-armor-torso-plate-tinbronze-vanilla": "Tin bronze cuirass",
+  "item-armor-torso-plate-blackbronze-vanilla": "Black bronze cuirass",
+  "item-armor-torso-plate-bismuthbronze-vanilla": "Bismuth bronze cuirass",
+  "item-armor-torso-plate-iron-vanilla": "Iron cuirass",
+  "item-armor-torso-plate-meteoriciron-vanilla": "Meteoric iron cuirass",
+  "item-armor-torso-plate-steel-vanilla": "Steel cuirass",
+  "item-armor-torso-plate-gold-vanilla": "Gold cuirass",
+  "item-armor-torso-plate-silver-vanilla": "Silver cuirass",
+
+  "item-armor-arms-plate-copper-vanilla": "Copper pauldrons",
+  "item-armor-arms-plate-tinbronze-vanilla": "Tin bronze pauldrons",
+  "item-armor-arms-plate-blackbronze-vanilla": "Black bronze pauldrons",
+  "item-armor-arms-plate-bismuthbronze-vanilla": "Bismuth bronze pauldrons",
+  "item-armor-arms-plate-iron-vanilla": "Iron pauldrons",
+  "item-armor-arms-plate-meteoriciron-vanilla": "Meteoric iron pauldrons",
+  "item-armor-arms-plate-steel-vanilla": "Steel pauldrons",
+  "item-armor-arms-plate-gold-vanilla": "Gold pauldrons",
+  "item-armor-arms-plate-silver-vanilla": "Silver pauldrons",
+
+  "item-armor-hands-plate-copper-vanilla": "Copper vambraces",
+  "item-armor-hands-plate-tinbronze-vanilla": "Tin bronze vambraces",
+  "item-armor-hands-plate-blackbronze-vanilla": "Black bronze vambraces",
+  "item-armor-hands-plate-bismuthbronze-vanilla": "Bismuth bronze vambraces",
+  "item-armor-hands-plate-iron-vanilla": "Iron vambraces",
+  "item-armor-hands-plate-meteoriciron-vanilla": "Meteoric iron vambraces",
+  "item-armor-hands-plate-steel-vanilla": "Steel vambraces",
+  "item-armor-hands-plate-gold-vanilla": "Gold vambraces",
+  "item-armor-hands-plate-silver-vanilla": "Silver vambraces",
+
+  "item-armor-legs-plate-copper-vanilla": "Copper cuisses",
+  "item-armor-legs-plate-tinbronze-vanilla": "Tin bronze cuisses",
+  "item-armor-legs-plate-blackbronze-vanilla": "Black bronze cuisses",
+  "item-armor-legs-plate-bismuthbronze-vanilla": "Bismuth bronze cuisses",
+  "item-armor-legs-plate-iron-vanilla": "Iron cuisses",
+  "item-armor-legs-plate-meteoriciron-vanilla": "Meteoric iron cuisses",
+  "item-armor-legs-plate-steel-vanilla": "Steel cuisses",
+  "item-armor-legs-plate-gold-vanilla": "Gold cuisses",
+  "item-armor-legs-plate-silver-vanilla": "Silver cuisses",
+
+  "item-armor-feet-plate-copper-vanilla": "Copper greaves",
+  "item-armor-feet-plate-tinbronze-vanilla": "Tin bronze greaves",
+  "item-armor-feet-plate-blackbronze-vanilla": "Black bronze greaves",
+  "item-armor-feet-plate-bismuthbronze-vanilla": "Bismuth bronze greaves",
+  "item-armor-feet-plate-iron-vanilla": "Iron greaves",
+  "item-armor-feet-plate-meteoriciron-vanilla": "Meteoric iron greaves",
+  "item-armor-feet-plate-steel-vanilla": "Steel greaves",
+  "item-armor-feet-plate-gold-vanilla": "Gold greaves",
+  "item-armor-feet-plate-silver-vanilla": "Silver greaves",
 
   "item-creature-javelin-*": "javelin"
 }
