@@ -24,9 +24,13 @@
     "*-*iron": {"base": "blunt/club-iron"},
     "*-steel": {"base": "blunt/polehammer-steel"}
   },
+  "tool": "spear",
   "attributes": {
-    "groundStorageTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "groundStorageTransformByType": {
+      "*-steel": {"translation": {"x": 0.5, "y": 2.29, "z": 0.6}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*": {"translation": {"x": 0.5, "y": 2.09, "z": 0.6}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+    },
+    "toolrackTransform": {"translation": {"x": -1.2, "y": 0.6, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
     "ProficiencyStat": "clubsProficiency",
     "RenderingOffset": false,
     "OneHandedStance": {
@@ -40,11 +44,11 @@
         "CollideWithTerrain": true,
         "MaxReach": 9,
         "DamageTypesByType": {
-          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Strength": 1, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]}]
+          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 2.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]}]
         }
       },
       "AttackHitSound": "game:sounds/thud",
@@ -63,11 +67,11 @@
         "CollideWithTerrain": true,
         "MaxReach": 9,
         "DamageTypesByType": {
-          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 5.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 6.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]}]
+          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 5.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]}]
         }
       },
       "AttackHitSound": "game:sounds/thud",
@@ -76,7 +80,7 @@
       "IdleAnimation": "armory:club-idle-2h"
     }
   },
-  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125},
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
   "creativeinventory": {"armory": ["*"]},
   "guiTransformByType": {
     "*-steel": {

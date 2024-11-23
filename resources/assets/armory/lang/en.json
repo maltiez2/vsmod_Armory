@@ -82,5 +82,7 @@
   "item-part-longsword-iron": "Iron long sword parts",
   "item-part-longsword-meteoriciron": "Meteoric iron long sword parts",
   "item-part-longsword-steel": "Steel long sword parts",
-  "item-part-greatsword-steel": "Steel great sword parts"
+  "item-part-greatsword-steel": "Steel great sword parts",
+
+  "item-creature-javelin-*": "javelin"
 }

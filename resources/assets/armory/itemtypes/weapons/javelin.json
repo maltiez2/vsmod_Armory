@@ -69,6 +69,7 @@
   "texturesByType": {"@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"head": {"base": "game:block/stone/rock/{material}1"}}},
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 1, "z": 0.44}, "rotation": {"x": 10, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "toolrackTransform": {"translation": {"x": 0.3, "y": 0.05, "z": 0.6}, "rotation": {"x": 90, "y": 1, "z": 0}, "scale": 1.2},
     "ProficiencyStat": "javelinsProficiency",
     "RenderingOffset": false,
     "OneHandedStance": {
@@ -90,16 +91,16 @@
         "DamageTypes": [
           {
             "DamageByType": {
-              "*-flint": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 1.8},
-              "*-obsidian": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 2},
-              "*-copper": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 2},
+              "*-flint": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 1.5},
+              "*-obsidian": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 2},
+              "*-copper": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 2},
               "*-*bronze": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 2.5},
               "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
               "*-ornategold": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
               "*-ornatesilver": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
-              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 4.5, "Damage": 3.2},
-              "*-steel": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 3.5},
-              "*": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 1.5}
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 3.5},
+              "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 4},
+              "*": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 1}
             },
             "Knockback": 0.5,
             "DurabilityDamage": 1,

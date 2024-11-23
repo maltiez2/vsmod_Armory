@@ -27,9 +27,20 @@
     "*-*iron": {"base": "swords/sword-short-{type}"},
     "*-steel": {"base": "swords/sword-arming-{type}"}
   },
+  "tool": "sword",
   "attributes": {
-    "groundStorageTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "groundStorageTransformByType": {
+      "*-copper": {"translation": {"x": 0.5, "y": -0.05, "z": 0.25}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-*bronze": {"translation": {"x": 0.5, "y": -0.05, "z": 0.25}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-*iron": {"translation": {"x": 0.5, "y": 0, "z": 0.37}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+      "*-steel": {"translation": {"x": 0.5, "y": 0.1, "z": 0.35}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
+    },
+    "toolrackTransformByType": {
+      "*-copper": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}},
+      "*-*bronze": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}},
+      "*-*iron": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}},
+      "*-steel": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}}
+    },
     "ProficiencyStat": "oneHandedSwordsProficiency",
     "RenderingOffset": false,
     "OneHandedStance": {
@@ -43,9 +54,11 @@
         "CollideWithTerrain": true,
         "MaxReach": 9,
         "DamageTypesByType": {
-          "*-copper": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 2, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.1, 0, 0.5]}],
-          "*-*bronze": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.1, 0, 0.5]}],
-          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.6, -0.1, 0.5, 2.4, -0.1, 0.5]}],
+          "*-copper": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 2, "Damage": 2.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.1, 0, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.1, 0, 0.5]}],
+          "*-iron": [
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.6, -0.1, 0.5, 2.4, -0.1, 0.5]}
+          ],
           "*-meteoriciron": [
             {"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.6, -0.1, 0.5, 2.4, -0.1, 0.5]}
           ],
@@ -74,7 +87,7 @@
       "AttackTpAnimation": "falx"
     }
   },
-  "durabilitybytype": {"*-copper": 64, "*-tinbronze": 256, "*-bismuthbronze": 256, "*-blackbronze": 256, "*-iron": 512, "*-steel": 1024},
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
   "creativeinventory": {"armory": ["*"]},
   "guiTransformByType": {
     "*-copper": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},

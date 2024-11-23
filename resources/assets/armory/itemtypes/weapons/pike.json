@@ -1,7 +1,6 @@
 ﻿{
   "code": "pike",
   "class": "CombatOverhaul:MeleeWeapon",
-  "tool": "spear",
   "behaviors": [
     {
       "name": "GroundStorable",
@@ -55,8 +54,8 @@
               "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
               "*-ornategold": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
               "*-ornatesilver": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
-              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 4.5, "Damage": 5},
-              "*-steel": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 5.5}
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 5},
+              "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 5.5}
             },
             "Knockback": 1,
             "DurabilityDamage": 1,
@@ -79,7 +78,7 @@
       "AttackTpAnimation": "spearhit"
     }
   },
-  "durabilitybytype": {"*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125},
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
   "creativeinventory": {"armory": ["*"]},
   "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 1, "y": 0.1, "z": 0.3}, "scale": 2},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},

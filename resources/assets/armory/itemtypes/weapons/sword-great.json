@@ -19,8 +19,8 @@
   "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
   "shapeByType": {"*-steel": {"base": "swords/sword-great-{type}"}},
   "attributes": {
-    "groundStorageTransform": {"translation": {"x": 0.5, "y": 1.84, "z": 0.88}, "rotation": {"x": -80, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
-    "toolrackTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "groundStorageTransform": {"translation": {"x": 0.4, "y": 0.35, "z": 0.04}, "rotation": {"x": 18, "y": 19, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+    "toolrackTransform": {"translation": {"x": 1.2, "y": 0.1, "z": 0.5}, "rotation": {"x": 90, "y": 180, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "ProficiencyStat": "twoHandedSwordsProficiency",
     "RenderingOffset": false,
     "OneHandedStance": {
@@ -43,7 +43,7 @@
         "CollideWithTerrain": true,
         "MaxReach": 12,
         "DamageTypesByType": {
-          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 7.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}]
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 6.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}]
         }
       },
       "AttackHitSound": "game:sounds/thud",
@@ -77,7 +77,7 @@
       "AttackTpAnimation": "falx"
     }
   },
-  "durabilitybytype": {"*-steel": 1024},
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
   "creativeinventory": {"armory": ["*"]},
   "guiTransform": {
     "translation": {"x": 0, "y": 0, "z": 0},
