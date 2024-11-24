@@ -62,6 +62,56 @@
     "ingredients": {
       "A": {
         "type": "item",
+        "code": "armory:armor-head-plate-*-open",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "A",
+    "averageDurability": false,
+    "name": "plate armor repair",
+    "output": {"type": "item", "code": "armory:armor-head-plate-{material}-open"}
+  },
+  {
+    "ingredientPattern": "AP",
+    "recipeGroup": 2,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "armory:armor-head-plate-*-light",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-*",
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "copyAttributesFrom": "A",
+    "averageDurability": false,
+    "name": "plate armor repair",
+    "output": {"type": "item", "code": "armory:armor-head-plate-{material}-light"}
+  },
+  {
+    "ingredientPattern": "AP",
+    "recipeGroup": 2,
+    "ingredients": {
+      "A": {
+        "type": "item",
         "code": "armory:armor-torso-plate-*-vanilla",
         "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]

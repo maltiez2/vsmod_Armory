@@ -17,7 +17,7 @@
   "texturesByType": {
     "@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"material": {"base": "game:block/stone/rock/{material}1"}},
     "*-flint": {"material": {"base": "game:block/stone/flint"}},
-    "*": {"blade": {"base": "game:block/metal/plate/{material}"}}
+    "*": {"metal": {"base": "game:block/metal/plate/{material}"}}
   },
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}

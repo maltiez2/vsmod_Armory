@@ -141,5 +141,23 @@
   "item-armor-feet-plate-gold-vanilla": "Gold greaves",
   "item-armor-feet-plate-silver-vanilla": "Silver greaves",
 
+  "item-armor-head-plate-copper-open": "Copper open helmet",
+  "item-armor-head-plate-tinbronze-open": "Tin bronze open helmet",
+  "item-armor-head-plate-blackbronze-open": "Black bronze open helmet",
+  "item-armor-head-plate-bismuthbronze-open": "Bismuth bronze open helmet",
+  "item-armor-head-plate-iron-open": "Iron open helmet",
+  "item-armor-head-plate-meteoriciron-open": "Meteoric iron open helmet",
+  "item-armor-head-plate-steel-open": "Steel open helmet",
+  "item-armor-head-plate-gold-open": "Gold open helmet",
+  "item-armor-head-plate-silver-open": "Silver open helmet",
+
+  "item-armor-head-plate-copper-light": "Copper light helmet",
+  "item-armor-head-plate-tinbronze-light": "Tin bronze light helmet",
+  "item-armor-head-plate-blackbronze-light": "Black bronze light helmet",
+  "item-armor-head-plate-bismuthbronze-light": "Bismuth bronze light helmet",
+  "item-armor-head-plate-iron-light": "Iron light helmet",
+  "item-armor-head-plate-meteoriciron-light": "Meteoric iron light helmet",
+  "item-armor-head-plate-steel-light": "Steel light helmet",
+
   "item-creature-javelin-*": "javelin"
 }

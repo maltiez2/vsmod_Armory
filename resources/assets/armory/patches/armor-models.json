@@ -1,0 +1,22 @@
+﻿[
+  {"file": "game:itemtypes/wearable/seraph/armor", "op": "replace", "path": "/shapeByType/armor-head-chain-tinbronze", "value": {"base": "armory:armor/chain/headfaceneck-bronze"}},
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/shapeByType/armor-head-chain-blackbronze",
+    "value": {"base": "armory:armor/chain/headfaceneck-bronze"}
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/shapeByType/armor-head-chain-bismuthbronze",
+    "value": {"base": "armory:armor/chain/headfaceneck-bronze"}
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/shapeByType/armor-head-chain-meteoriciron",
+    "value": {"base": "armory:armor/chain/headfaceneck-meteoriciron"}
+  },
+  {"file": "game:itemtypes/wearable/seraph/armor", "op": "replace", "path": "/shapeByType/armor-head-chain-*", "value": {"base": "armory:armor/chain/headfaceneck-{material}"}}
+]
