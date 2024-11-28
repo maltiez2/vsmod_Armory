@@ -1,0 +1,64 @@
+﻿{
+  "code": "armor",
+  "class": "CombatOverhaul:WearableArmor",
+  "variantgroups": [
+    {"code": "bodypart", "states": ["head"]},
+    {"code": "construction", "states": ["chain"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]},
+    {"code": "subtype", "states": ["coif"]}
+  ],
+  "shapeByType": {"*": {"base": "armor/{construction}/headneck"}},
+  "texturesByType": {"*-coif": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/chain/{material}"}}},
+  "storageFlags": 128,
+  "attributes": {
+    "visibleDamageEffect": true,
+    "materialCount": 4,
+    "clothesCategory": "armorhead",
+    "attachableToEntity": {
+      "texturePrefixCode": "armor-{bodypart}-{construction}-{material}-{subtype}",
+      "disableElementsByType": {
+        "*-coif": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
+      },
+      "keepElementsByType": {"*": []}
+    }
+  },
+  "behaviors": [
+    {
+      "name": "CombatOverhaul:Armor",
+      "properties": {
+        "Layers": ["Middle"],
+        "ZonesByType": {"*-coif": ["Head", "Neck"]},
+        "ResistsByType": {
+          "*-copper-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0},
+          "*-*bronze-*": {"PiercingAttack": 1, "SlashingAttack": 5, "BluntAttack": 0},
+          "*-iron-*": {"PiercingAttack": 2, "SlashingAttack": 8, "BluntAttack": 0},
+          "*-meteoriciron-*": {"PiercingAttack": 2, "SlashingAttack": 8, "BluntAttack": 0},
+          "*-steel-*": {"PiercingAttack": 2, "SlashingAttack": 9, "BluntAttack": 0},
+          "*-gold-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0},
+          "*-silver-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0}
+        },
+        "FlatReduction": {},
+        "PlayerStatsByType": {"*-coif": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.02, "hungerrate": 0.02}}
+      }
+    }
+  ],
+  "durabilityByType": {
+    "*-gold-*": 800,
+    "*-silver-*": 2000,
+    "*-copper-*": 1000,
+    "*-tinbronze-*": 2000,
+    "*-bismuthbronze-*": 1800,
+    "*-blackbronze-*": 2400,
+    "*-iron-*": 4400,
+    "*-meteoriciron-*": 5600,
+    "*-steel-*": 11000
+  },
+  "creativeinventory": {"armory-armor": ["*"]},
+  "renderAlphaTest": 0.25,
+  "heldTpIdleAnimation": "holdunderarm",
+  "tpHandTransformByType": {
+    "*": {"translation": {"x": -0.82, "y": -2.2, "z": -0.5}, "rotation": {"x": 18, "y": 169, "z": 30}, "origin": {"x": 0.5, "y": 1.7, "z": 0.5}, "scale": 0.64}
+  },
+  "guiTransformByType": {"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -26, "y": -46, "z": -180}, "origin": {"x": 0.6, "y": 1.72, "z": 0.5}, "scale": 2}},
+  "groundTransformByType": {"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0.34, "y": 1.71, "z": 0.5}, "scale": 3.1}}
+}

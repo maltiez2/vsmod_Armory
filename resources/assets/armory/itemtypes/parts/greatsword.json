@@ -1,8 +1,8 @@
 ﻿{
   "code": "part",
   "class": "Item",
-  "variantgroups": [{"code": "type", "states": ["greatsword"]}, {"code": "material", "states": ["steel"]}],
-  "shapeByType": {"*-steel": {"base": "swords/parts/sword-great"}},
+  "variantgroups": [{"code": "type", "states": ["greatsword"]}, {"code": "material", "states": ["steel", "iron", "meteoriciron"]}],
+  "shapeByType": {"*-steel": {"base": "swords/parts/sword-great"}, "*-iron": {"base": "swords/parts/sword-greatiron"}, "*-meteoriciron": {"base": "swords/parts/sword-greatiron"}},
   "textures": {"metal": {"base": "game:block/metal/plate/{material}"}},
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
@@ -14,7 +14,7 @@
     }
   ],
   "creativeinventory": {"armory-parts": ["*"]},
-  "guiTransformByType": {"*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -51, "y": 44, "z": -6}, "origin": {"x": 0.8799, "y": 0.8, "z": 0}, "scale": 1.29}},
+  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -51, "y": 44, "z": -6}, "origin": {"x": 0.8799, "y": 0.8, "z": 0}, "scale": 1.29},
   "tpHandTransform": {"translation": {"x": 0.2, "y": 0, "z": -0.45}, "rotation": {"x": 0, "y": 90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
   "groundTransform": {"translation": {"x": 0, "y": 0.04, "z": 0}, "rotation": {"x": -2, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 3}
 }

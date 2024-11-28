@@ -1,0 +1,66 @@
+{
+	"editor": {
+		"backDropShape": "E:/Programs/VSModelCreator/seraph-faceless",
+		"collapsedPaths": "Root/ArmorLowerArmL,Root/GamCoatL,Root/ArmorCoatL,Root/GamCoatR,Root/ArmorUpperArmR,Root/ArmorUpperArmL,Root/ArmorCoatR",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"iron": [64,64],
+		"steel - Copy": [64,64],
+		"steel": [64,64],
+		"steel2": [64,64],
+		"steel3": [64,64],
+		"steel4": [64,64],
+		"steel5": [64,64],
+		"steel6": [64,64],
+		"steel7": [64,64],
+		"steel8": [64,64],
+		"steel9": [64,64],
+		"steel10": [64,64],
+		"steel11": [64,64],
+		"steel12": [64,64],
+		"tailored-red": [64,64],
+		"meteoriciron": [64,64]
+	},
+	"textures": {
+		"material": "entity/humanoid/serapharmor/chain/blackbronze"
+	},
+	"elements": [
+		{
+			"name": "ArmorLowerArmR",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.19, -0.12, -0.26 ],
+			"to": [ 2.69, 5.6, 2.22 ],
+			"autoUnwrap": false,
+			"uv": [ 36.0, 9.0 ],
+			"rotationOrigin": [ -0.2, -0.9, -0.4 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 42.5, 11.5, 45.0, 17.0 ], "rotation": 180 },
+				"east": { "texture": "#material", "uv": [ 36.0, 11.5, 38.0, 17.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#material", "uv": [ 40.0, 11.5, 42.5, 17.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#material", "uv": [ 38.0, 11.5, 40.0, 17.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#material", "uv": [ 38.5, 9.0, 41.0, 11.5 ], "autoUv": false },
+				"down": { "texture": "#material", "uv": [ 36.0, 9.0, 38.5, 11.5 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "ArmorLowerArmL",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.19, -0.22, -0.24 ],
+			"to": [ 2.69, 5.61, 2.24 ],
+			"autoUnwrap": false,
+			"uv": [ 26.0, 9.0 ],
+			"rotationOrigin": [ -0.2, -1.0, -0.3 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 26.0, 11.5, 28.5, 17.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"east": { "texture": "#material", "uv": [ 28.5, 11.5, 30.5, 17.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"south": { "texture": "#material", "uv": [ 30.5, 11.5, 33.0, 17.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"west": { "texture": "#material", "uv": [ 33.0, 11.5, 35.0, 17.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1], "windData": [0,0,0,0] },
+				"up": { "texture": "#material", "uv": [ 28.5, 9.0, 31.0, 11.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#material", "uv": [ 26.0, 9.0, 28.5, 11.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

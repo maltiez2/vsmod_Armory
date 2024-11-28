@@ -3,7 +3,7 @@
   "game:tabname-armory-parts": "Armory: parts",
   "game:tabname-armory-armor": "Armory: armor",
 
-
+  "item-quiver-waist-plain": "Javelins quiver",
 
   "item-shield-light-*-crude": "Light shield (Hide)",
   "item-shield-light-*-copper": "Light shield (Copper)",
@@ -158,6 +158,46 @@
   "item-armor-head-plate-iron-light": "Iron light helmet",
   "item-armor-head-plate-meteoriciron-light": "Meteoric iron light helmet",
   "item-armor-head-plate-steel-light": "Steel light helmet",
+
+  "item-armor-torso-chain-copper-vanilla": "Copper chain shirt",
+  "item-armor-torso-chain-tinbronze-vanilla": "Tin bronze chain shirt",
+  "item-armor-torso-chain-blackbronze-vanilla": "Black bronze chain shirt",
+  "item-armor-torso-chain-bismuthbronze-vanilla": "Bismuth bronze chain shirt",
+  "item-armor-torso-chain-iron-vanilla": "Iron chain shirt",
+  "item-armor-torso-chain-meteoriciron-vanilla": "Meteoric iron chain shirt",
+  "item-armor-torso-chain-steel-vanilla": "Steel chain shirt",
+  "item-armor-torso-chain-gold-vanilla": "Gold chain shirt",
+  "item-armor-torso-chain-silver-vanilla": "Silver chain shirt",
+
+  "item-armor-head-chain-copper-coif": "Copper chain coif",
+  "item-armor-head-chain-tinbronze-coif": "Tin bronze chain coif",
+  "item-armor-head-chain-blackbronze-coif": "Black bronze chain coif",
+  "item-armor-head-chain-bismuthbronze-coif": "Bismuth bronze chain coif",
+  "item-armor-head-chain-iron-coif": "Iron chain coif",
+  "item-armor-head-chain-meteoriciron-coif": "Meteoric iron chain coif",
+  "item-armor-head-chain-steel-coif": "Steel chain coif",
+  "item-armor-head-chain-gold-coif": "Gold chain coif",
+  "item-armor-head-chain-silver-coif": "Silver chain coif",
+
+  "item-armor-arms-chain-copper-vanilla": "Copper chain sleeves",
+  "item-armor-arms-chain-tinbronze-vanilla": "Tin bronze chain sleeves",
+  "item-armor-arms-chain-blackbronze-vanilla": "Black bronze chain sleeves",
+  "item-armor-arms-chain-bismuthbronze-vanilla": "Bismuth bronze chain sleeves",
+  "item-armor-arms-chain-iron-vanilla": "Iron chain sleeves",
+  "item-armor-arms-chain-meteoriciron-vanilla": "Meteoric iron chain sleeves",
+  "item-armor-arms-chain-steel-vanilla": "Steel chain sleeves",
+  "item-armor-arms-chain-gold-vanilla": "Gold chain sleeves",
+  "item-armor-arms-chain-silver-vanilla": "Silver chain sleeves",
+
+  "item-armor-hands-chain-copper-vanilla": "Copper chain mittens",
+  "item-armor-hands-chain-tinbronze-vanilla": "Tin bronze chain mittens",
+  "item-armor-hands-chain-blackbronze-vanilla": "Black bronze chain mittens",
+  "item-armor-hands-chain-bismuthbronze-vanilla": "Bismuth bronze chain mittens",
+  "item-armor-hands-chain-iron-vanilla": "Iron chain mittens",
+  "item-armor-hands-chain-meteoriciron-vanilla": "Meteoric iron chain mittens",
+  "item-armor-hands-chain-steel-vanilla": "Steel chain mittens",
+  "item-armor-hands-chain-gold-vanilla": "Gold chain mittens",
+  "item-armor-hands-chain-silver-vanilla": "Silver chain mittens",
 
   "item-creature-javelin-*": "javelin"
 }

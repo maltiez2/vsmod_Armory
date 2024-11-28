@@ -1,0 +1,69 @@
+{
+	"editor": {
+		"backDropShape": "E:/Programs/VSModelCreator/seraph-faceless",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+		"bismuthbronze": [64,64],
+		"linen": [64,64]
+	},
+	"textures": {
+		"material": "entity/humanoid/serapharmor/chain/bismuthbronze"
+	},
+	"elements": [
+		{
+			"name": "ArmorHelmet",
+			"stepParentName": "Head",
+			"from": [ 0.14, -0.7, -0.55 ],
+			"to": [ 5.86, 5.42, 5.55 ],
+			"unwrapMode": 1,
+			"autoUnwrap": false,
+			"uv": [ 36.0, 17.5 ],
+			"rotationOrigin": [ 0.1, -0.7, -0.6 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 18.0, 28.0, 23.5, 34.0 ] },
+				"east": { "texture": "#material", "uv": [ 12.0, 28.0, 18.0, 34.0 ] },
+				"south": { "texture": "#material", "uv": [ 29.5, 28.0, 35.0, 34.0 ] },
+				"west": { "texture": "#material", "uv": [ 23.5, 28.0, 29.5, 34.0 ] },
+				"up": { "texture": "#material", "uv": [ 3.0, 28.0, 8.5, 34.0 ], "rotation": 180 },
+				"down": { "texture": "#material", "uv": [ 42.0, 29.0, 47.5, 35.0 ] }
+			},
+			"children": [
+				{
+					"name": "ArmorHelmetFace",
+					"from": [ -0.32, 3.8, 0.0 ],
+					"to": [ 0.0, 6.12, 6.1 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 32.0, 36.0 ],
+					"rotationOrigin": [ -0.5, 3.8, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 24.0, 41.0, 24.5, 43.0 ] },
+						"south": { "texture": "#material", "uv": [ 30.5, 41.0, 31.0, 43.0 ] },
+						"west": { "texture": "#material", "uv": [ 24.5, 41.0, 30.5, 43.0 ] },
+						"up": { "texture": "#material", "uv": [ 23.0, 40.0, 23.5, 46.0 ], "rotation": 180 },
+						"down": { "texture": "#material", "uv": [ 23.5, 40.0, 24.0, 46.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "ArmorHelmetBody",
+			"stepParentName": "UpperTorso",
+			"from": [ -0.6, 3.6, -0.5 ],
+			"to": [ 5.6, 5.6, 6.7 ],
+			"uv": [ 0.0, 39.5 ],
+			"rotationOrigin": [ -0.6, 3.6, -0.5 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 0.0, 46.5, 6.0, 48.5 ] },
+				"east": { "texture": "#material", "uv": [ 6.0, 46.5, 13.0, 48.5 ] },
+				"south": { "texture": "#material", "uv": [ 13.0, 46.5, 19.0, 48.5 ] },
+				"west": { "texture": "#material", "uv": [ 19.0, 46.5, 26.0, 48.5 ] },
+				"up": { "texture": "#material", "uv": [ 0.0, 39.5, 6.0, 46.5 ] },
+				"down": { "texture": "#material", "uv": [ 6.0, 39.5, 12.0, 46.5 ] }
+			}
+		}
+	]}

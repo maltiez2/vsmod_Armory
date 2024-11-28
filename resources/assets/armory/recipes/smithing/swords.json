@@ -30,7 +30,7 @@
     "output": {"type": "item", "code": "armory:part-longsword-{metal}"}
   },
   {
-    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["steel"]},
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["steel", "iron", "meteoriciron"]},
     "name": "sword",
     "pattern": [[
       "__############",

@@ -32,7 +32,7 @@
         "CanParry": false,
         "CanBlock": true,
         "CanSprint": false,
-        "SpeedPenalty": -0.1,
+        "SpeedPenalty": -0.05,
         "BlockSpeedPenalty": -0.4,
         "Block": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
@@ -51,7 +51,7 @@
         "CanParry": false,
         "CanBlock": true,
         "CanSprint": false,
-        "SpeedPenalty": -0.15,
+        "SpeedPenalty": -0.1,
         "BlockSpeedPenalty": -0.5,
         "Block": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
@@ -70,7 +70,7 @@
         "CanParry": false,
         "CanBlock": true,
         "CanSprint": false,
-        "SpeedPenalty": -0.2,
+        "SpeedPenalty": -0.1,
         "BlockSpeedPenalty": -0.6,
         "Block": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
@@ -89,7 +89,7 @@
         "CanParry": false,
         "CanBlock": true,
         "CanSprint": true,
-        "SpeedPenalty": -0.2,
+        "SpeedPenalty": -0.05,
         "BlockSpeedPenalty": -0.4,
         "Block": {
           "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],

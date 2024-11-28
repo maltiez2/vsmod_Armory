@@ -56,7 +56,7 @@
     "ingredientPattern": "B,P",
     "recipeGroup": 1,
     "ingredients": {
-      "B": {"type": "item", "code": "armory:part-greatsword-*", "name": "material", "allowedVariants": ["steel"]},
+      "B": {"type": "item", "code": "armory:part-greatsword-*", "name": "material", "allowedVariants": ["steel", "iron", "meteoriciron"]},
       "P": {"type": "item", "code": "game:leather-*", "quantity": 1}
     },
     "width": 1,
