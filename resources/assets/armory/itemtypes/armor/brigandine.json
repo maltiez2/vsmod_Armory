@@ -3,8 +3,8 @@
   "class": "CombatOverhaul:WearableArmor",
   "variantgroups": [
     {"code": "bodypart", "states": ["torso", "arms", "hands", "legs", "feet"]},
-    {"code": "construction", "states": ["plate"]},
-    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]},
+    {"code": "construction", "states": ["brigandine"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
     {"code": "subtype", "states": ["vanilla"]}
   ],
   "skipVariants": [],
@@ -13,14 +13,14 @@
   "storageFlags": 128,
   "attributes": {
     "visibleDamageEffect": true,
-    "materialCountByType": {"*-torso-*": 8, "*-arms-*": 4, "*-hands-*": 4, "*-legs-*": 4, "*-feet-*": 4},
+    "materialCountByType": {"*-torso-*": 4, "*-arms-*": 2, "*-hands-*": 2, "*-legs-*": 2, "*-feet-*": 2},
     "clothesCategoryByType": {"armor-torso-*": "armorbody", "armor-arms-*": "armorbody", "armor-hands-*": "armorbody", "armor-legs-*": "armorlegs", "armor-feet-*": "armorlegs"},
     "attachableToEntity": {
       "texturePrefixCode": "armor-{bodypart}-{construction}-{material}",
       "disableElementsByType": {"*-torso-*": ["Waist", "hideupperarm", "hidelowerarm"], "*-feet-*": ["hideshoeL", "hideshoeR"]},
       "keepElementsByType": {"*": []}
     },
-    "footStepSoundByType": {"*-torso-*": "game:wearable/plate*"}
+    "footStepSoundByType": {"*-torso-*": "game:wearable/brigandine*"}
   },
   "behaviors": [
     {
@@ -29,19 +29,13 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-torso-*": ["Torso"], "*-arms-*": ["Arms"], "*-hands-*": ["Hands"], "*-legs-*": ["Legs"], "*-feet-*": ["Feet"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 1},
-          "*-*bronze-*": {"PiercingAttack": 6, "SlashingAttack": 8, "BluntAttack": 2},
-          "*-iron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 3},
-          "*-meteoriciron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 3},
-          "*-steel-*": {"PiercingAttack": 12, "SlashingAttack": 12, "BluntAttack": 4},
-          "*-gold-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 4},
-          "*-silver-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 4}
+          "*-copper-*": {"PiercingAttack": 3, "SlashingAttack": 6, "BluntAttack": 0},
+          "*-*bronze-*": {"PiercingAttack": 4, "SlashingAttack": 8, "BluntAttack": 1},
+          "*-iron-*": {"PiercingAttack": 8, "SlashingAttack": 10, "BluntAttack": 1},
+          "*-meteoriciron-*": {"PiercingAttack": 8, "SlashingAttack": 10, "BluntAttack": 1},
+          "*-steel-*": {"PiercingAttack": 9, "SlashingAttack": 12, "BluntAttack": 2}
         },
-        "FlatReductionByType": {
-          "*-*iron-*": {"PiercingAttack": 1, "SlashingAttack": 0, "BluntAttack": 0},
-          "*-steel-*": {"PiercingAttack": 1, "SlashingAttack": 1, "BluntAttack": 0},
-          "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
-        },
+        "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 1, "SlashingAttack": 0, "BluntAttack": 0}, "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}},
         "PlayerStatsByType": {
           "*-torso-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02},
           "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.05, "healingeffectivness": -0.03, "hungerrate": 0.02},
@@ -53,15 +47,13 @@
     }
   ],
   "durabilityByType": {
-    "*-gold-*": 800,
-    "*-silver-*": 2000,
-    "*-copper-*": 1000,
-    "*-tinbronze-*": 2000,
-    "*-bismuthbronze-*": 1800,
+    "*-copper-*": 1800,
+    "*-tinbronze-*": 2200,
+    "*-bismuthbronze-*": 2100,
     "*-blackbronze-*": 2400,
-    "*-iron-*": 4400,
-    "*-meteoriciron-*": 5600,
-    "*-steel-*": 11000
+    "*-iron-*": 2600,
+    "*-meteoriciron-*": 3000,
+    "*-steel-*": 5200
   },
   "creativeinventory": {"armory-armor": ["*"]},
   "renderAlphaTest": 0.25,

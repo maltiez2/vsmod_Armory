@@ -1,0 +1,48 @@
+{
+	"editor": {
+		"backDropShape": "E:/Programs/VSModelCreator/seraph-hairless",
+		"collapsedPaths": "Root/ArmorUpperTorso",
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "entity/humanoid/serapharmor/brigandine/iron"
+	},
+	"elements": [
+		{
+			"name": "ArmorLowerArmR",
+			"stepParentName": "LowerArmR",
+			"from": [ -0.2, 1.79, -0.26 ],
+			"to": [ 2.7, 8.19, 2.26 ],
+			"uv": [ 36.0, 9.0 ],
+			"rotationOrigin": [ -0.2, 1.8, -0.4 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 36.0, 11.5, 38.5, 17.5 ] },
+				"east": { "texture": "#material", "uv": [ 38.5, 11.5, 41.0, 17.5 ] },
+				"south": { "texture": "#material", "uv": [ 41.0, 11.5, 43.5, 17.5 ] },
+				"west": { "texture": "#material", "uv": [ 43.5, 11.5, 46.0, 17.5 ] },
+				"up": { "texture": "#material", "uv": [ 36.0, 9.0, 38.5, 11.5 ] },
+				"down": { "texture": "#material", "uv": [ 38.5, 9.0, 41.0, 11.5 ] }
+			}
+		},
+		{
+			"name": "ArmorLowerArmL",
+			"stepParentName": "LowerArmL",
+			"from": [ -0.2, 1.79, -0.26 ],
+			"to": [ 2.7, 8.19, 2.26 ],
+			"uv": [ 26.0, 9.0 ],
+			"rotationOrigin": [ -0.2, 1.8, -0.3 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 26.0, 11.5, 28.5, 17.5 ] },
+				"east": { "texture": "#material", "uv": [ 28.5, 11.5, 31.0, 17.5 ] },
+				"south": { "texture": "#material", "uv": [ 31.0, 11.5, 33.5, 17.5 ] },
+				"west": { "texture": "#material", "uv": [ 33.5, 11.5, 36.0, 17.5 ] },
+				"up": { "texture": "#material", "uv": [ 26.0, 9.0, 28.5, 11.5 ] },
+				"down": { "texture": "#material", "uv": [ 28.5, 9.0, 31.0, 11.5 ] }
+			}
+		}
+	]}

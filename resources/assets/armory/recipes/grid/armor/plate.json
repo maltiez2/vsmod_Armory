@@ -144,7 +144,7 @@
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
-        "name": "metal",
+        "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
@@ -169,7 +169,7 @@
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
-        "name": "metal",
+        "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
@@ -194,7 +194,7 @@
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
-        "name": "metal",
+        "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
@@ -219,7 +219,7 @@
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
-        "name": "metal",
+        "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },

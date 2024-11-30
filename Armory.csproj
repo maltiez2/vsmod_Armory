@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.0.18</ModVersion>
+    <ModVersion>0.0.21</ModVersion>
     <ModId>armory</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -71,6 +71,9 @@
   <!-- References to libraries that are being used in project -->
   <ItemGroup>
     <Reference Include="$(GameDirectory)/**/*.dll" Private="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources\assets\armory\shapes\armor\brigandine\" />
   </ItemGroup>
 
   <!-- Forces rebuild -->

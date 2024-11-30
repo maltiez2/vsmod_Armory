@@ -19,16 +19,14 @@
           "AdditionalDurabilityCost": 0,
           "CollisionRadius": 0.05,
           "DamageStatsByType": {
-            "*-obisidan": {"DamageType": "PiercingAttack", "Damage": 4},
-            "*-flint": {"DamageType": "PiercingAttack", "Damage": 4},
-            "*-copper": {"DamageType": "PiercingAttack", "Damage": 4.5},
-            "*-tinbronze": {"DamageType": "PiercingAttack", "Damage": 5},
-            "*-bismuthbronze": {"DamageType": "PiercingAttack", "Damage": 5},
-            "*-blackbronze": {"DamageType": "PiercingAttack", "Damage": 5},
-            "*-iron": {"DamageType": "PiercingAttack", "Damage": 5.6},
-            "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 5.6},
-            "*-steel": {"DamageType": "PiercingAttack", "Damage": 6},
-            "*": {"DamageType": "PiercingAttack", "Damage": 3.5}
+            "*-obisidan": {"DamageType": "PiercingAttack", "Damage": 7.5},
+            "*-flint": {"DamageType": "PiercingAttack", "Damage": 7},
+            "*-copper": {"DamageType": "PiercingAttack", "Damage": 8},
+            "*-*bronze": {"DamageType": "PiercingAttack", "Damage": 8.5},
+            "*-iron": {"DamageType": "PiercingAttack", "Damage": 9},
+            "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 9.5},
+            "*-steel": {"DamageType": "PiercingAttack", "Damage": 10},
+            "*": {"DamageType": "PiercingAttack", "Damage": 6}
           },
           "SpeedThreshold": 0.3,
           "Knockback": 0.1,
@@ -87,22 +85,21 @@
         "StopOnTerrainHit": false,
         "StopOnEntityHit": false,
         "CollideWithTerrain": true,
+        "HitOnlyOneEntity": true,
         "MaxReach": 9,
         "DamageTypes": [
           {
             "DamageByType": {
-              "*-flint": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 1.5},
+              "*-flint": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 2},
               "*-obsidian": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 2},
-              "*-copper": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 2},
-              "*-*bronze": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 2.5},
-              "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
-              "*-ornategold": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
-              "*-ornatesilver": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3},
-              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 3.5},
-              "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 4},
-              "*": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 1}
+              "*-copper": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 2.5},
+              "*-*bronze": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 3},
+              "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 3.5},
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 4},
+              "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 4.5},
+              "*": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 1.5}
             },
-            "Knockback": 0.5,
+            "Knockback": 0.8,
             "DurabilityDamage": 1,
             "Collider": [0, 0, 0.5, 1.2, 0, 0.5]
           }
@@ -139,25 +136,14 @@
         "VerticalLimit": 0.25,
         "VerticalOffset": -0.05
       },
-      "DamageStrengthByType": {
-        "*-flint": 2,
-        "*-obsidian": 3,
-        "*-copper": 3,
-        "*-*bronze": 3,
-        "*-iron": 4,
-        "*-ornategold": 4,
-        "*-ornatesilver": 4,
-        "*-meteoriciron": 4.5,
-        "*-steel": 5,
-        "*": 1
-      },
+      "DamageStrengthByType": {"*-flint": 1, "*-obsidian": 2, "*-copper": 2, "*-*bronze": 3, "*-iron": 4, "*-meteoriciron": 5, "*-steel": 6, "*": 1},
       "Knockback": 1,
       "DurabilityDamage": 1,
       "Velocity": 0.7,
       "Zeroing": 2
     }
   },
-  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
+  "durabilitybytype": {"*-copper": 160, "*-tinbronze": 280, "*-bismuthbronze": 280, "*-blackbronze": 280, "*-iron": 320, "*-meteoriciron": 320, "*-steel": 450, "*": 80},
   "creativeinventory": {"armory": ["*"]},
   "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 1, "y": 0.1, "z": 0.3}, "scale": 2},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},

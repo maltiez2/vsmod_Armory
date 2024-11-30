@@ -54,7 +54,6 @@
   "item-sword-great-*-steel": "Great sword (Steel)",
 
 
-
   "item-part-hammerhead-steel": "Steel battle hammer head",
   "item-part-macehead-copper": "Copper mace head",
   "item-part-macehead-tinbronze": "Tin bronze mace head",
@@ -88,7 +87,8 @@
   "item-part-longsword-meteoriciron": "Meteoric iron long sword parts",
   "item-part-longsword-steel": "Steel long sword parts",
   "item-part-greatsword-steel": "Steel great sword parts",
-
+  "item-part-greatsword-iron": "Iron great sword parts",
+  "item-part-greatsword-meteoriciron": "Meteoric iron great sword parts",
 
 
   "item-armor-torso-plate-copper-vanilla": "Copper cuirass",
@@ -198,6 +198,46 @@
   "item-armor-hands-chain-steel-vanilla": "Steel chain mittens",
   "item-armor-hands-chain-gold-vanilla": "Gold chain mittens",
   "item-armor-hands-chain-silver-vanilla": "Silver chain mittens",
+
+  "item-armor-torso-brigandine-copper-vanilla": "Copper brigandine",
+  "item-armor-torso-brigandine-tinbronze-vanilla": "Tin bronze brigandine",
+  "item-armor-torso-brigandine-blackbronze-vanilla": "Black bronze brigandine",
+  "item-armor-torso-brigandine-bismuthbronze-vanilla": "Bismuth bronze brigandine",
+  "item-armor-torso-brigandine-iron-vanilla": "Iron brigandine",
+  "item-armor-torso-brigandine-meteoriciron-vanilla": "Meteoric iron brigandine",
+  "item-armor-torso-brigandine-steel-vanilla": "Steel brigandine",
+
+  "item-armor-arms-brigandine-copper-vanilla": "Copper brigandine rerebraces",
+  "item-armor-arms-brigandine-tinbronze-vanilla": "Tin bronze brigandine rerebraces",
+  "item-armor-arms-brigandine-blackbronze-vanilla": "Black bronze brigandine rerebraces",
+  "item-armor-arms-brigandine-bismuthbronze-vanilla": "Bismuth bronze brigandine rerebraces",
+  "item-armor-arms-brigandine-iron-vanilla": "Iron brigandine rerebraces",
+  "item-armor-arms-brigandine-meteoriciron-vanilla": "Meteoric iron brigandine rerebraces",
+  "item-armor-arms-brigandine-steel-vanilla": "Steel brigandine rerebraces",
+
+  "item-armor-hands-brigandine-copper-vanilla": "Copper brigandine vambraces",
+  "item-armor-hands-brigandine-tinbronze-vanilla": "Tin bronze brigandine vambraces",
+  "item-armor-hands-brigandine-blackbronze-vanilla": "Black bronze brigandine vambraces",
+  "item-armor-hands-brigandine-bismuthbronze-vanilla": "Bismuth bronze brigandine vambraces",
+  "item-armor-hands-brigandine-iron-vanilla": "Iron brigandine vambraces",
+  "item-armor-hands-brigandine-meteoriciron-vanilla": "Meteoric iron brigandine vambraces",
+  "item-armor-hands-brigandine-steel-vanilla": "Steel brigandine vambraces",
+
+  "item-armor-legs-brigandine-copper-vanilla": "Copper brigandine cuisses",
+  "item-armor-legs-brigandine-tinbronze-vanilla": "Tin bronze brigandine cuisses",
+  "item-armor-legs-brigandine-blackbronze-vanilla": "Black bronze brigandine cuisses",
+  "item-armor-legs-brigandine-bismuthbronze-vanilla": "Bismuth bronze brigandine cuisses",
+  "item-armor-legs-brigandine-iron-vanilla": "Iron brigandine cuisses",
+  "item-armor-legs-brigandine-meteoriciron-vanilla": "Meteoric iron brigandine cuisses",
+  "item-armor-legs-brigandine-steel-vanilla": "Steel brigandine cuisses",
+
+  "item-armor-feet-brigandine-copper-vanilla": "Copper brigandine greaves",
+  "item-armor-feet-brigandine-tinbronze-vanilla": "Tin bronze brigandine greaves",
+  "item-armor-feet-brigandine-blackbronze-vanilla": "Black bronze brigandine greaves",
+  "item-armor-feet-brigandine-bismuthbronze-vanilla": "Bismuth bronze brigandine greaves",
+  "item-armor-feet-brigandine-iron-vanilla": "Iron brigandine greaves",
+  "item-armor-feet-brigandine-meteoriciron-vanilla": "Meteoric iron brigandine greaves",
+  "item-armor-feet-brigandine-steel-vanilla": "Steel brigandine greaves",
 
   "item-creature-javelin-*": "javelin"
 }

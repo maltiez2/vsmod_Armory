@@ -3,7 +3,7 @@
   "class": "Item",
   "variantgroups": [{"code": "type", "states": ["greatsword"]}, {"code": "material", "states": ["steel", "iron", "meteoriciron"]}],
   "shapeByType": {"*-steel": {"base": "swords/parts/sword-great"}, "*-iron": {"base": "swords/parts/sword-greatiron"}, "*-meteoriciron": {"base": "swords/parts/sword-greatiron"}},
-  "textures": {"metal": {"base": "game:block/metal/plate/{material}"}},
+  "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
   },

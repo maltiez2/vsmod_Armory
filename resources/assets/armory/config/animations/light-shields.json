@@ -3,24 +3,26 @@
     "Hold": true,
     "PlayerKeyFrames": [
       {
-        "EasingTime": 150,
-        "EasingFunction": "CosShifted",
+        "EasingTime": 100,
+        "EasingFunction": "Sin",
         "DetachedAnchor": false,
         "SwitchArms": false,
-        "PitchFollow": false,
+        "PitchFollow": true,
+        "PitchDontFollow": false,
         "FOVMultiplier": 1,
-        "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchorL": [0, 0, 0, 38, -9, 29], "LowerArmL": [0, 0, 0, 11, -30, 0], "UpperArmL": [0, 0, 0, 0, -6, -80], "UpperTorso": [0, 0, 0, 0, 0, 0]}
+        "BobbingAmplitude": 0.8,
+        "Elements": {"ItemAnchorL": [0, 0, 0, 38, -18, -17], "LowerArmL": [0, 0, 0, 11, -4, 0], "UpperArmL": [0, 0, 0, 0, 13, -67], "DetachedAnchor": [0, 0, 0, 0, 0, 0]}
       },
       {
         "EasingTime": 250,
         "EasingFunction": "Sin",
         "DetachedAnchor": false,
         "SwitchArms": false,
-        "PitchFollow": false,
+        "PitchFollow": true,
+        "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 0.8,
-        "Elements": {"ItemAnchorL": [0, 0, 0, 38, -18, -17], "LowerArmL": [0, 0, 0, 11, -4, 0], "UpperArmL": [0, 0, 0, 0, 7, -78], "UpperTorso": [0, 0, 0, 0, 0, 0]}
+        "Elements": {"ItemAnchorL": [0, 0, 0, 38, -18, -17], "LowerArmL": [0, 0, 0, 11, -4, 0], "UpperArmL": [0, 0, 0, 0, 13, -67]}
       }
     ],
     "ItemKeyFrames": [],
