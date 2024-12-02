@@ -6,37 +6,36 @@
 	},
 	"textureWidth": 64,
 	"textureHeight": 64,
-	"textureSizes": {
-	},
+	"textureSizes": {},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/scale/copper"
+		"material": "armory:armor/scale/material"
 	},
 	"elements": [
 		{
 			"name": "ArmorHelmet",
 			"stepParentName": "Head",
-			"from": [ 0.1, 2.8, -0.6 ],
+			"from": [ 0.1, 0.8, -0.6 ],
 			"to": [ 6.1, 5.7, 5.7 ],
 			"unwrapMode": 1,
 			"autoUnwrap": false,
 			"uv": [ 36.0, 17.5 ],
-			"rotationOrigin": [ 0.1, 2.8, -0.6 ],
+			"rotationOrigin": [ 0.1, 0.8, -0.6 ],
 			"faces": {
-				"north": { "texture": "#material", "uv": [ 42.0, 23.5, 48.0, 26.0 ] },
-				"east": { "texture": "#material", "uv": [ 36.0, 23.5, 42.0, 26.0 ] },
-				"south": { "texture": "#material", "uv": [ 55.0, 23.5, 61.0, 26.0 ] },
-				"west": { "texture": "#material", "uv": [ 48.5, 23.5, 54.5, 26.0 ] },
+				"north": { "texture": "#material", "uv": [ 42.0, 23.5, 48.0, 28.0 ] },
+				"east": { "texture": "#material", "uv": [ 36.0, 23.5, 42.0, 28.0 ] },
+				"south": { "texture": "#material", "uv": [ 55.0, 23.5, 61.0, 28.0 ] },
+				"west": { "texture": "#material", "uv": [ 48.5, 23.5, 54.5, 28.0 ] },
 				"up": { "texture": "#material", "uv": [ 42.0, 17.5, 48.0, 23.5 ], "rotation": 180 },
 				"down": { "texture": "#material", "uv": [ 42.0, 29.0, 48.0, 35.0 ] }
 			},
 			"children": [
 				{
 					"name": "ArmorHelmetFace",
-					"from": [ -0.7, 0.0, 0.0 ],
-					"to": [ 0.0, 2.9, 6.3 ],
+					"from": [ -0.7, 2.0, 0.0 ],
+					"to": [ 0.0, 4.9, 6.3 ],
 					"unwrapMode": 1,
 					"uv": [ 32.0, 35.5 ],
-					"rotationOrigin": [ -0.5, 0.0, 0.0 ],
+					"rotationOrigin": [ -0.5, 2.0, 0.0 ],
 					"faces": {
 						"north": { "texture": "#material", "uv": [ 32.0, 41.5, 32.5, 44.0 ] },
 						"south": { "texture": "#material", "uv": [ 38.5, 41.5, 39.0, 44.0 ] },

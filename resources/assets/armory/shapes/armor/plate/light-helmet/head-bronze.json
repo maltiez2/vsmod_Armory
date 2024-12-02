@@ -6,10 +6,9 @@
 	},
 	"textureWidth": 64,
 	"textureHeight": 64,
-	"textureSizes": {
-	},
+	"textureSizes": {},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/scale/bismuthbronze"
+		"material": "armory:armor/scale/tinbronze"
 	},
 	"elements": [
 		{
@@ -122,6 +121,21 @@
 							]
 						}
 					]
+				},
+				{
+					"name": "ArmorHelmetBottom",
+					"from": [ 1.0, -3.0, 0.0 ],
+					"to": [ 6.0, 0.0, 6.3 ],
+					"autoUnwrap": false,
+					"uv": [ 41.5, 39.0 ],
+					"rotationOrigin": [ 1.0, -3.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 42.0, 26.0, 47.0, 29.0 ] },
+						"east": { "texture": "#material", "uv": [ 36.0, 26.0, 42.0, 29.0 ] },
+						"south": { "texture": "#material", "uv": [ 56.0, 26.0, 61.0, 29.0 ] },
+						"west": { "texture": "#material", "uv": [ 48.5, 26.0, 54.5, 29.0 ] },
+						"down": { "texture": "#material", "uv": [ 42.0, 29.0, 47.0, 35.0 ] }
+					}
 				}
 			]
 		}

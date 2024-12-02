@@ -1,0 +1,75 @@
+﻿{
+  "code": "armor",
+  "class": "CombatOverhaul:WearableArmor",
+  "variantgroups": [
+    {"code": "bodypart", "states": ["torso", "armshands"]},
+    {"code": "construction", "states": ["scale"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+    {"code": "subtype", "states": ["vanilla"]}
+  ],
+  "skipVariants": [],
+  "shapeByType": {"*": {"base": "armor/{construction}/{bodypart}"}},
+  "texturesByType": {"*": {"seraph": {"base": "game:block/transparent"}, "material": {"baseByType": {"*": "armor/{construction}/{material}"}}}},
+  "storageFlags": 128,
+  "attributes": {
+    "visibleDamageEffect": true,
+    "materialCountByType": {"*-torso-*": 8, "*-armsarmshands-*": 8},
+    "clothesCategoryByType": {"armor-torso-*": "armorbody", "armor-armsarmshands-*": "armorbody"},
+    "attachableToEntity": {
+      "texturePrefixCode": "armor-{bodypart}-{construction}-{material}",
+      "disableElementsByType": {"*-torso-*": ["Waist", "hideupperarm", "hidelowerarm"]},
+      "keepElementsByType": {"*": []}
+    },
+    "footStepSoundByType": {"*-torso-*": "game:wearable/scale*"}
+  },
+  "behaviors": [
+    {
+      "name": "CombatOverhaul:Armor",
+      "properties": {
+        "Layers": ["Outer", "Middle"],
+        "ZonesByType": {"*-torso-*": ["Torso"], "*-armshands-*": ["Arms", "Hands"]},
+        "ResistsByType": {
+          "*-copper-*": {"PiercingAttack": 2, "SlashingAttack": 4, "BluntAttack": 0},
+          "*-*bronze-*": {"PiercingAttack": 3, "SlashingAttack": 6, "BluntAttack": 0},
+          "*-iron-*": {"PiercingAttack": 6, "SlashingAttack": 8, "BluntAttack": 0},
+          "*-meteoriciron-*": {"PiercingAttack": 6, "SlashingAttack": 8, "BluntAttack": 0},
+          "*-steel-*": {"PiercingAttack": 7, "SlashingAttack": 9, "BluntAttack": 0}
+        },
+        "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 1, "BluntAttack": 0}, "*": {}},
+        "PlayerStatsByType": {
+          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.05, "hungerrate": 0.03},
+          "*-armshands-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.05, "healingeffectivness": -0.05, "hungerrate": 0.03}
+        }
+      }
+    }
+  ],
+  "durabilityByType": {
+    "*-copper-*": 1000,
+    "*-tinbronze-*": 2000,
+    "*-bismuthbronze-*": 1800,
+    "*-blackbronze-*": 2400,
+    "*-iron-*": 4400,
+    "*-meteoriciron-*": 5600,
+    "*-steel-*": 11000
+  },
+  "creativeinventory": {"armory-armor": ["*"]},
+  "renderAlphaTest": 0.25,
+  "heldTpIdleAnimation": "holdunderarm",
+  "tpHandTransformByType": {
+    "*-torso-*": {"translation": {"x": -1, "y": -1.9, "z": -0.5}, "rotation": {"x": 97, "y": -168, "z": 94}, "origin": {"x": 0.5, "y": 1.5, "z": 0.5}, "scale": 0.67},
+    "*": {"translation": {"x": -1, "y": -1.9, "z": -0.5}, "rotation": {"x": 97, "y": -168, "z": 94}, "origin": {"x": 0.5, "y": 1.5, "z": 0.5}, "scale": 0.67}
+  },
+  "guiTransformByType": {
+    "*-torso-*": {"translation": {"x": 3, "y": 0, "z": 0}, "rotation": {"x": -26, "y": -46, "z": -180}, "origin": {"x": 0.5, "y": 1.11, "z": 0.5}, "scale": 1.37},
+    "*-armshands-*": {
+      "translation": {"x": 0, "y": 0, "z": 0},
+      "rotation": {"x": -26, "y": -46, "z": -180},
+      "origin": {"x": 0.5, "y": 1.2, "z": 0.5},
+      "scaleXyz": {"x": -1.48, "y": 1.48, "z": 1.48}
+    }
+  },
+  "groundTransformByType": {
+    "*-body-*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1},
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1}
+  }
+}

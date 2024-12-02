@@ -239,5 +239,25 @@
   "item-armor-feet-brigandine-meteoriciron-vanilla": "Meteoric iron brigandine greaves",
   "item-armor-feet-brigandine-steel-vanilla": "Steel brigandine greaves",
 
+  "item-armor-torso-scale-copper-vanilla": "Copper scale shirt",
+  "item-armor-torso-scale-tinbronze-vanilla": "Tin bronze scale shirt",
+  "item-armor-torso-scale-blackbronze-vanilla": "Black bronze scale shirt",
+  "item-armor-torso-scale-bismuthbronze-vanilla": "Bismuth bronze scale shirt",
+  "item-armor-torso-scale-iron-vanilla": "Iron scale shirt",
+  "item-armor-torso-scale-meteoriciron-vanilla": "Meteoric iron scale shirt",
+  "item-armor-torso-scale-steel-vanilla": "Steel scale shirt",
+  "item-armor-torso-scale-gold-vanilla": "Gold scale shirt",
+  "item-armor-torso-scale-silver-vanilla": "Silver scale shirt",
+
+  "item-armor-armshands-scale-copper-vanilla": "Copper scale sleeves",
+  "item-armor-armshands-scale-tinbronze-vanilla": "Tin bronze scale sleeves",
+  "item-armor-armshands-scale-blackbronze-vanilla": "Black bronze scale sleeves",
+  "item-armor-armshands-scale-bismuthbronze-vanilla": "Bismuth bronze scale sleeves",
+  "item-armor-armshands-scale-iron-vanilla": "Iron scale sleeves",
+  "item-armor-armshands-scale-meteoriciron-vanilla": "Meteoric iron scale sleeves",
+  "item-armor-armshands-scale-steel-vanilla": "Steel scale sleeves",
+  "item-armor-armshands-scale-gold-vanilla": "Gold scale sleeves",
+  "item-armor-armshands-scale-silver-vanilla": "Silver scale sleeves",
+
   "item-creature-javelin-*": "javelin"
 }

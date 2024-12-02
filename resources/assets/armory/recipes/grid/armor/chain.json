@@ -158,7 +158,7 @@
       "P": {
         "type": "item",
         "code": "game:metalchain-*",
-        "name": "metal",
+        "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
@@ -183,7 +183,7 @@
       "P": {
         "type": "item",
         "code": "game:metalchain-*",
-        "name": "metal",
+        "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
