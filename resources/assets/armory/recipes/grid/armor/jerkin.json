@@ -1,0 +1,11 @@
+﻿[
+  {
+    "ingredientPattern": "_L_,L_L",
+    "recipeGroup": 2,
+    "ingredients": {"L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2}},
+    "width": 3,
+    "height": 2,
+    "name": "jerkin armor",
+    "output": {"type": "item", "code": "armory:armor-head-jerkin-leather-vanilla"}
+  }
+]

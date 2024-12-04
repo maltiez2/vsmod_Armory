@@ -20,7 +20,7 @@
       "disableElementsByType": {"*-torso-*": ["Waist", "hideupperarm", "hidelowerarm"], "*-feet-*": ["hideshoeL", "hideshoeR"]},
       "keepElementsByType": {"*": []}
     },
-    "footStepSoundByType": {"*-torso-*": "game:wearable/plate*"}
+    "footStepSoundByType": {"*-torso-*": "game:wearable/chain*"}
   },
   "behaviors": [
     {

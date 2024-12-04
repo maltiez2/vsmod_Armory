@@ -185,7 +185,7 @@
     "ingredientPattern": "L_L,PLP,LLL",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
@@ -198,14 +198,14 @@
     "shapeless": true,
     "copyAttributesFrom": "A",
     "averageDurability": false,
-    "name": "brigandine armor repair",
+    "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-torso-brigandine-{material}-vanilla"}
   },
   {
     "ingredientPattern": "LPL,L_L",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
@@ -218,14 +218,14 @@
     "shapeless": true,
     "copyAttributesFrom": "A",
     "averageDurability": false,
-    "name": "brigandine armor repair",
+    "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-arms-brigandine-{material}-vanilla"}
   },
   {
     "ingredientPattern": "L_L,LPL",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
@@ -238,14 +238,14 @@
     "shapeless": true,
     "copyAttributesFrom": "A",
     "averageDurability": false,
-    "name": "brigandine armor repair",
+    "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-hands-brigandine-{material}-vanilla"}
   },
   {
     "ingredientPattern": "LPL,L_L,L_L",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
@@ -258,14 +258,14 @@
     "shapeless": true,
     "copyAttributesFrom": "A",
     "averageDurability": false,
-    "name": "brigandine armor repair",
+    "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-legs-brigandine-{material}-vanilla"}
   },
   {
     "ingredientPattern": "L_L,LPL,L_L",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+      "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
       "P": {
         "type": "item",
         "code": "game:metalplate-*",
@@ -278,7 +278,7 @@
     "shapeless": true,
     "copyAttributesFrom": "A",
     "averageDurability": false,
-    "name": "brigandine armor repair",
+    "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-feet-brigandine-{material}-vanilla"}
   }
 ]

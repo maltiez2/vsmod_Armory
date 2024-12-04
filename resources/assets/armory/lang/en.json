@@ -52,6 +52,10 @@
   "item-sword-long-*-steel": "Long sword (Steel)",
 
   "item-sword-great-*-steel": "Great sword (Steel)",
+  
+  "item-halberd-*-iron": "Halberd (Iron)",
+  "item-halberd-*-meteoriciron": "Halberd (Meteoric iron)",
+  "item-halberd-*-steel": "Halberd (Steel)",
 
 
   "item-part-hammerhead-steel": "Steel battle hammer head",
@@ -90,6 +94,9 @@
   "item-part-greatsword-iron": "Iron great sword parts",
   "item-part-greatsword-meteoriciron": "Meteoric iron great sword parts",
 
+  "item-part-halberd-steel": "Steel halberd parts",
+  "item-part-halberd-iron": "Iron halberd parts",
+  "item-part-halberd-meteoriciron": "Meteoric iron halberd parts",
 
   "item-armor-torso-plate-copper-vanilla": "Copper cuirass",
   "item-armor-torso-plate-tinbronze-vanilla": "Tin bronze cuirass",
@@ -258,6 +265,8 @@
   "item-armor-armshands-scale-steel-vanilla": "Steel scale sleeves",
   "item-armor-armshands-scale-gold-vanilla": "Gold scale sleeves",
   "item-armor-armshands-scale-silver-vanilla": "Silver scale sleeves",
+
+  "item-armor-head-jerkin-leather-vanilla": "Head leather jerkin",
 
   "item-creature-javelin-*": "javelin"
 }

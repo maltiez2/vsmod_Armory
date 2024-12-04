@@ -8,14 +8,14 @@
         "code": "armory:armor-torso-scale-*-vanilla",
         "quantity": 1,
         "name": "material",
-        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       },
       "A": {
         "type": "item",
         "code": "armory:armor-armshands-scale-*-vanilla",
         "quantity": 1,
         "name": "material",
-        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       }
     },
     "width": 2,
@@ -66,13 +66,13 @@
         "type": "item",
         "code": "armory:armor-torso-scale-*-vanilla",
         "name": "material",
-        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       },
       "P": {
         "type": "item",
         "code": "game:metalscale-*",
         "name": "material",
-        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       }
     },
     "width": 2,
@@ -91,13 +91,13 @@
         "type": "item",
         "code": "armory:armor-armshands-scale-*-vanilla",
         "name": "material",
-        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       },
       "P": {
         "type": "item",
         "code": "game:metalscale-*",
         "name": "material",
-        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       }
     },
     "width": 2,
