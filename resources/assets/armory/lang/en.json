@@ -59,6 +59,11 @@
   "item-halberd-*-meteoriciron": "Halberd (Meteoric iron)",
   "item-halberd-*-steel": "Halberd (Steel)",
 
+  "item-axe-long-*-*bronze": "Long axe (Bronze)",
+  "item-axe-long-*-iron": "Long axe (Iron)",
+  "item-axe-long-*-meteoriciron": "Long axe (Meteoric iron)",
+  "item-axe-long-*-steel": "Long axe (Steel)",
+
 
   "item-part-hammerhead-steel": "Steel battle hammer head",
   "item-part-macehead-copper": "Copper mace head",
@@ -92,6 +97,7 @@
   "item-part-longsword-iron": "Iron long sword parts",
   "item-part-longsword-meteoriciron": "Meteoric iron long sword parts",
   "item-part-longsword-steel": "Steel long sword parts",
+  
   "item-part-greatsword-steel": "Steel great sword parts",
   "item-part-greatsword-iron": "Iron great sword parts",
   "item-part-greatsword-meteoriciron": "Meteoric iron great sword parts",
@@ -99,6 +105,13 @@
   "item-part-halberd-steel": "Steel halberd parts",
   "item-part-halberd-iron": "Iron halberd parts",
   "item-part-halberd-meteoriciron": "Meteoric iron halberd parts",
+
+  "item-part-longaxehead-tinbronze": "Tin bronze long axe head",
+  "item-part-longaxehead-blackbronze": "Black bronze long axe head",
+  "item-part-longaxehead-bismuthbronze": "Bismuth bronze long axe head",
+  "item-part-longaxehead-iron": "Iron long axe head",
+  "item-part-longaxehead-meteoriciron": "Meteoric iron long axe head",
+  "item-part-longaxehead-steel": "Steel long axe head",
 
   "item-armor-torso-plate-copper-vanilla": "Copper cuirass",
   "item-armor-torso-plate-tinbronze-vanilla": "Tin bronze cuirass",
@@ -270,5 +283,8 @@
 
   "item-armor-head-jerkin-leather-vanilla": "Head leather jerkin",
 
-  "item-creature-javelin-*": "javelin"
+  "item-creature-javelin-*": "javelin",
+
+  "setting-melee_weapons_damage_multiplier": "Melee weapons damage multiplier",
+  "setting-javelins_range_damage_multiplier": "Javelins range damage multiplier"
 }

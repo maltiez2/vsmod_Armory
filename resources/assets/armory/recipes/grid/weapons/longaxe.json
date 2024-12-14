@@ -1,0 +1,20 @@
+﻿[
+  {
+    "ingredientPattern": "KH,_L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {
+        "type": "item",
+        "code": "armory:part-longaxehead-*",
+        "name": "material",
+        "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      },
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "tool": true},
+      "L": {"type": "block", "code": "game:debarkedlog-*", "quantity": 1}
+    },
+    "width": 2,
+    "height": 2,
+    "name": "axe",
+    "output": {"type": "item", "code": "armory:axe-long-plain-{material}"}
+  }
+]

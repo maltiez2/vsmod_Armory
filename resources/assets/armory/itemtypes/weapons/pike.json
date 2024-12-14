@@ -48,21 +48,18 @@
         "CollideWithTerrain": true,
         "HitOnlyOneEntity": true,
         "MaxReach": 15,
-        "DamageTypes": [
-          {
-            "DamageByType": {
-              "*-*bronze": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 4},
-              "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
-              "*-ornategold": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
-              "*-ornatesilver": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
-              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 5},
-              "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 5.5}
-            },
-            "Knockback": 1,
-            "DurabilityDamage": 1,
-            "Collider": [0, 0, 0.5, 1.2, 0, 0.5]
-          }
-        ]
+        "DamageTypesByType": {
+          "*-*bronze": [{"Damage": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 1.2, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 1.2, 0, 0.5]}],
+          "*-ornategold": [{"Damage": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 1.2, 0, 0.5]}],
+          "*-ornatesilver": [
+            {"Damage": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 1.2, 0, 0.5]}
+          ],
+          "*-meteoriciron": [
+            {"Damage": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 1.2, 0, 0.5]}
+          ],
+          "*-steel": [{"Damage": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 1.2, 0, 0.5]}]
+        }
       },
       "HandleAttack": {
         "StopOnTerrainHit": true,

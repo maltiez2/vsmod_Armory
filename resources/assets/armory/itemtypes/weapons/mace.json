@@ -79,15 +79,15 @@
         "MaxReach": 9,
         "DamageTypesByType": {
           "*-copper": [
-            {"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 2.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}
+            {"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}
           ],
-          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}],
-          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
           "*-meteoriciron": [
-            {"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}
+            {"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}
           ],
-          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
-          "*": [{"Damage": {"DamageType": "BluntAttack", "Strength": 1, "Damage": 2}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.59, -0.1, 0.5, 1.3, -0.2, 0.5]}]
+          "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
+          "*": [{"Damage": {"DamageType": "BluntAttack", "Strength": 1, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.59, -0.1, 0.5, 1.3, -0.2, 0.5]}]
         }
       },
       "AttackHitSound": "game:sounds/thud",

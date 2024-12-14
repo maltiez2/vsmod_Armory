@@ -1,9 +1,62 @@
 {
   "version": 1,
   "patches": {
-
+    "number": {
+      "armory:itemtypes/weapons/axe-long.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/club.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier",
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/halberd.json": {
+        "attributes/TwoHandedStance/DirectionalAttacks/@@*/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier",
+        "attributes/TwoHandedStance/DirectionalAttacks/@@*/DamageTypes/1/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/javelin.json": {
+        "attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier",
+        "behaviors/1/properties/stats/DamageStatsByType/@@*/Damage": "value * javelins_range_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/mace.json": {
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/pike.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/sword-great.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/sword-long.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier",
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/sword-short.json": {
+        "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+    }
   },
   "settings": [
-
+    {
+      "code": "melee_weapons_damage_multiplier",
+      "type": "float",
+      "ingui": "armory:setting-melee_weapons_damage_multiplier",
+      "default": 1.0,
+      "logarithmic": true,
+      "range": {
+        "min": 0.2,
+        "max": 5.0
+      }
+    },
+    {
+      "code": "javelins_range_damage_multiplier",
+      "type": "float",
+      "ingui": "armory:setting-javelins_range_damage_multiplier",
+      "default": 1.0,
+      "logarithmic": true,
+      "range": {
+        "min": 0.2,
+        "max": 5.0
+      }
+    }
   ]
 }

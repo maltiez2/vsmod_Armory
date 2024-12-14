@@ -1,0 +1,20 @@
+[
+  {
+    "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
+    "name": "mace head",
+    "pattern": [[
+      "_###_____",
+      "#########",
+      "#########",
+      "#####__##",
+      "_###___##"
+    ],[
+      "_________",
+      "#####____",
+      "#####____",
+      "#####____",
+      "_________"
+    ]],
+    "output": {"type": "item", "code": "armory:part-longaxehead-{metal}"}
+  }
+]
