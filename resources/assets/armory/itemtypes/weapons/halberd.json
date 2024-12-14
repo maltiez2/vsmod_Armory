@@ -43,7 +43,7 @@
       "GripMaxLength": 20,
       "DirectionalAttacks": {
         "Top": {
-          "StopOnTerrainHit": false,
+          "StopOnTerrainHit": true,
           "StopOnEntityHit": false,
           "CollideWithTerrain": true,
           "HitOnlyOneEntity": false,
@@ -72,7 +72,7 @@
           ]
         },
         "Left": {
-          "StopOnTerrainHit": false,
+          "StopOnTerrainHit": true,
           "StopOnEntityHit": false,
           "CollideWithTerrain": true,
           "HitOnlyOneEntity": false,
@@ -101,7 +101,7 @@
           ]
         },
         "Right": {
-          "StopOnTerrainHit": false,
+          "StopOnTerrainHit": true,
           "StopOnEntityHit": false,
           "CollideWithTerrain": true,
           "HitOnlyOneEntity": false,
@@ -130,7 +130,7 @@
           ]
         },
         "Bottom": {
-          "StopOnTerrainHit": false,
+          "StopOnTerrainHit": true,
           "StopOnEntityHit": false,
           "CollideWithTerrain": true,
           "HitOnlyOneEntity": true,

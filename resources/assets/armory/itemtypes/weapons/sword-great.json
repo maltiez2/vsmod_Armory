@@ -42,7 +42,7 @@
       "CanBlock": true,
       "CanSprint": true,
       "Attack": {
-        "StopOnTerrainHit": false,
+        "StopOnTerrainHit": true,
         "StopOnEntityHit": true,
         "CollideWithTerrain": true,
         "MaxReach": 12,

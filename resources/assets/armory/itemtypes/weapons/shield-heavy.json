@@ -134,11 +134,9 @@
     "*-iron": {"translation": {"x": -0.5, "y": 0.6, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": -100}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
   },
   "tpOffHandTransformByType": {
-    "*-crude": {"translation": {"x": 0.42, "y": -0.45, "z": -0.05}, "rotation": {"x": 99, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-copper": {"translation": {"x": -0.58, "y": -0.15, "z": -0.1}, "rotation": {"x": 92, "y": -90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-tinbronze": {"translation": {"x": 0.42, "y": -0.45, "z": -0.05}, "rotation": {"x": 95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-bismuthbronze": {"translation": {"x": 0.42, "y": -0.45, "z": -0.05}, "rotation": {"x": 95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-blackbronze": {"translation": {"x": 0.42, "y": -0.45, "z": -0.05}, "rotation": {"x": 95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-iron": {"translation": {"x": -0.58, "y": -0.45, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
+    "*-crude": {"translation": {"x": 0.48, "y": -0.39, "z": 0.01}, "rotation": {"x": 99, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "*-copper": {"translation": {"x": -0.52, "y": -0.09, "z": -0.02}, "rotation": {"x": 92, "y": -90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "*-*bronze": {"translation": {"x": 0.48, "y": -0.39, "z": 0.01}, "rotation": {"x": 95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "*-iron": {"translation": {"x": -0.52, "y": -0.39, "z": -0.06}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
   }
 }

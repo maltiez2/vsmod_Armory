@@ -82,7 +82,7 @@
       "GripMinLength": 12,
       "GripMaxLength": 0,
       "Attack": {
-        "StopOnTerrainHit": false,
+        "StopOnTerrainHit": true,
         "StopOnEntityHit": false,
         "CollideWithTerrain": true,
         "HitOnlyOneEntity": true,
