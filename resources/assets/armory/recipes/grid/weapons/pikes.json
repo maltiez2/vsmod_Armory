@@ -10,7 +10,7 @@
         "name": "material",
         "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       },
-      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "tool": true},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
       "L": {"type": "block", "code": "game:*log-*", "quantity": 1}
     },
     "width": 2,

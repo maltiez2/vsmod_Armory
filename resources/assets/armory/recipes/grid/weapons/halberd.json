@@ -4,7 +4,7 @@
     "recipeGroup": 1,
     "ingredients": {
       "S": {"type": "item", "code": "armory:part-halberd-*", "quantity": 1, "name": "material", "allowedVariants": ["iron", "meteoriciron", "steel"]},
-      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "tool": true},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
       "L": {"type": "block", "code": "game:*log-*", "quantity": 1}
     },
     "width": 2,

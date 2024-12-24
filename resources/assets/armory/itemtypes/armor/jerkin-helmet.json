@@ -34,7 +34,7 @@
       }
     }
   ],
-  "durabilityByType": {"*-leather-*": 500},
+  "durabilityByType": {"*-leather-*": 1800},
   "creativeinventory": {"armory-armor": ["*"]},
   "renderAlphaTest": 0.25,
   "heldTpIdleAnimation": "holdunderarm",

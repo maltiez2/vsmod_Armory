@@ -22,7 +22,7 @@
     "recipeGroup": 1,
     "ingredients": {
       "H": {"type": "item", "code": "armory:part-hammerhead-steel", "quantity": 1},
-      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "tool": true},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
       "L": {"type": "block", "code": "game:*log-*", "quantity": 1}
     },
     "width": 2,
