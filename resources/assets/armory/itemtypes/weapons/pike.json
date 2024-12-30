@@ -71,6 +71,7 @@
       "HandleHitSound": "game:sounds/thud",
       "AttackDirectionsType": "TopBottom",
       "AttackAnimation": {"Top": ["armory:pike-thrust-2h-top"], "Bottom": ["armory:pike-thrust-2h-bottom"]},
+      "TpAttackAnimation": {"Top": "combatoverhaul-spear-hit", "Bottom": "combatoverhaul-spear-hit"},
       "ReadyAnimation": "armory:pike-ready-2h",
       "IdleAnimation": "armory:pike-idle-1h",
       "AttackTpAnimation": "spearhit"

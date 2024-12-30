@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.0.30</ModVersion>
+    <ModVersion>0.0.33</ModVersion>
     <ModId>armory</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -15,6 +15,11 @@
   <ItemGroup>
     <ModInfoAuthors Include="Maltiez" />
     <ModInfoAuthors Include="Corat" />
+  </ItemGroup>
+
+  <!-- Translators -->
+  <ItemGroup>
+    <ModInfoTranslators Include="Gabriel Flame - Ukrainian" />
   </ItemGroup>
 
   <!-- Dependencies -->
@@ -94,6 +99,7 @@
 
   "description": "$(Description)",
   "authors": [ @(ModInfoAuthors->'"%(Identity)"', ', ') ],
+  "translation": [ @(ModInfoTranslators->'"%(Identity)"', ', ') ],
 
   "dependencies": {
     @(Dependencies->'"%(Identity)": "%(Version)"', ', ')

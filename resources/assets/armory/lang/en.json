@@ -288,5 +288,6 @@
   "setting-melee_weapons_damage_multiplier": "Melee weapons damage multiplier",
   "setting-javelins_range_damage_multiplier": "Javelins range damage multiplier",
   "setting-javelins_aiming_cursor_type": "Javelins cursor type",
-  "setting-javelins_aiming_difficulty": "Javelins aiming difficulty"
+  "setting-javelins_aiming_difficulty": "Javelins aiming difficulty",
+  "setting-javelins_thrown_durability_consumption": "Javelins durability consumption when thrown"
 }

@@ -31,7 +31,7 @@
           "SpeedThreshold": 0.3,
           "Knockback": 0.1,
           "EntityCode": "armory:javelin-{type}-{material}",
-          "DurabilityDamage": 1,
+          "DurabilityDamage": 5,
           "DropChance": 1
         }
       }
@@ -114,6 +114,7 @@
       },
       "HandleHitSound": "game:sounds/thud",
       "AttackAnimation": {"Main": ["armory:javelin-attack-1", "armory:javelin-attack-2", "armory:javelin-attack-3"]},
+      "TpAttackAnimation": {"Main": "combatoverhaul-spear-hit"},
       "ReadyAnimation": "armory:javelin-ready",
       "IdleAnimation": "armory:javelin-idle",
       "AttackTpAnimation": "falx"
@@ -137,8 +138,6 @@
         "VerticalOffset": -0.05
       },
       "DamageStrengthByType": {"*-flint": 1, "*-obsidian": 2, "*-copper": 2, "*-*bronze": 3, "*-iron": 4, "*-meteoriciron": 5, "*-steel": 6, "*": 1},
-      "Knockback": 1,
-      "DurabilityDamage": 1,
       "Velocity": 0.7,
       "Zeroing": 2
     }

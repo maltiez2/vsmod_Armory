@@ -16,7 +16,7 @@
       "armory:itemtypes/weapons/javelin.json": {
         "attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier",
         "behaviors/1/properties/stats/DamageStatsByType/@@*/Damage": "value * javelins_range_damage_multiplier",
-        "attributes/ThrowAttack/Aiming/AimDifficulty": "value * javelins_aiming_difficulty"
+        "attributes/ThrowAttack/Aiming/AimDifficulty": "value * javelins_aiming_difficulty",
       },
       "armory:itemtypes/weapons/mace.json": {
         "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
@@ -33,6 +33,11 @@
       },
       "armory:itemtypes/weapons/sword-short.json": {
         "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      }
+    },
+    "integer": {
+      "armory:itemtypes/weapons/javelin.json": {
+        "behaviors/1/properties/stats/DurabilityDamage": "javelins_thrown_durability_consumption"
       }
     },
     "string": {
@@ -67,7 +72,7 @@
     {
       "code": "javelins_aiming_cursor_type",
       "type": "string",
-      "ingui": "combatoverhaul:setting-javelins_aiming_cursor_type",
+      "ingui": "armory:setting-javelins_aiming_cursor_type",
       "clientSide": true,
       "default": "Fixed",
       "values": [
@@ -80,12 +85,22 @@
     {
       "code": "javelins_aiming_difficulty",
       "type": "float",
-      "ingui": "combatoverhaul:setting-javelins_aiming_difficulty",
+      "ingui": "armory:setting-javelins_aiming_difficulty",
       "default": 1.0,
       "range": {
         "min": 0.0,
         "max": 2.0
       }
     },
+    {
+      "code": "javelins_thrown_durability_consumption",
+      "type": "integer",
+      "ingui": "armory:setting-javelins_thrown_durability_consumption",
+      "default": 5,
+      "range": {
+        "min": 1,
+        "max": 20
+      }
+    }
   ]
 }

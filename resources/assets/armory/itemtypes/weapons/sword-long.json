@@ -62,6 +62,7 @@
         "*-*iron": {"Main": ["armory:sword-long-slash-1h-1", "armory:sword-long-slash-1h-2"]},
         "*-steel": {"Main": ["armory:sword-long-thrust-1h-1", "armory:sword-long-thrust-1h-2", "armory:sword-long-thrust-1h-3"]}
       },
+      "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
       "SpeedPenalty": 0,
       "ReadyAnimation": "armory:sword-long-ready-1h",
       "IdleAnimation": "armory:sword-long-idle-1h",
@@ -110,6 +111,7 @@
           "Bottom": ["armory:sword-long-thrust-2h-bottom"]
         }
       },
+      "TpAttackAnimation": {"Top": "combatoverhaul-falx-slash", "Left": "combatoverhaul-falx-slash", "Right": "combatoverhaul-falx-slash", "Bottom": "combatoverhaul-falx-slash"},
       "SpeedPenalty": 0,
       "BlockSpeedPenalty": 0,
       "Parry": {

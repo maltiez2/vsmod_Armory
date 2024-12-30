@@ -58,6 +58,7 @@
       "AttackHitSound": "game:sounds/thud",
       "AttackDirectionsType": "Triangle",
       "AttackAnimation": {"Top": ["armory:long-axe-strike-2h-top"], "BottomRight": ["armory:long-axe-strike-2h-right"], "BottomLeft": ["armory:long-axe-strike-2h-left"]},
+      "TpAttackAnimation": {"Top": "combatoverhaul-falx-slash", "BottomRight": "combatoverhaul-falx-slash", "BottomLeft": "combatoverhaul-falx-slash"},
       "ReadyAnimation": "armory:long-axe-ready-2h",
       "IdleAnimation": "armory:long-axe-idle-2h"
     }

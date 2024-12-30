@@ -53,6 +53,7 @@
       },
       "AttackHitSound": "game:sounds/thud",
       "AttackAnimation": {"Main": ["armory:club-strike-1h-1", "armory:club-strike-1h-2"]},
+      "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
       "ReadyAnimation": "armory:club-ready-1h",
       "IdleAnimation": "armory:club-idle-1h"
     },
@@ -76,6 +77,7 @@
       },
       "AttackHitSound": "game:sounds/thud",
       "AttackAnimation": {"Main": ["armory:club-strike-2h-1", "armory:club-strike-2h-2"]},
+      "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
       "ReadyAnimation": "armory:club-ready-2h",
       "IdleAnimation": "armory:club-idle-2h"
     }

@@ -52,18 +52,18 @@
   "tool": "spear",
   "attributes": {
     "groundStorageTransformByType": {
-      "*-copper": {"translation": {"x": 0.5, "y": 1.3, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-      "*-*bronze": {"translation": {"x": 0.5, "y": 1.3, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-copper": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-*bronze": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-*iron": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-steel": {"translation": {"x": 0.5, "y": 1.4, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-      "*": {"translation": {"x": 0.5, "y": 1.1, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+      "*": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
     },
     "toolrackTransformByType": {
       "*-copper": {"translation": {"x": -0.8, "y": 0.56, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
       "*-*bronze": {"translation": {"x": -0.8, "y": 0.56, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
       "*-*iron": {"translation": {"x": -0.6, "y": 0.56, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
       "*-steel": {"translation": {"x": -1.1, "y": 1.16, "z": 0.5}, "rotation": {"x": 90, "y": -1, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
-      "*": {"translation": {"x": -0.6, "y": 0.56, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2}
+      "*": {"translation": {"x": -0.8, "y": 0.56, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2}
     },
     "ProficiencyStat": "macesProficiency",
     "RenderingOffset": false,
@@ -79,19 +79,20 @@
         "MaxReach": 9,
         "DamageTypesByType": {
           "*-copper": [
-            {"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}
+            {"Damage": {"DamageType": "BluntAttack", "Strength": 2, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}
           ],
-          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, -0.1, 0.5, 1.5, -0.1, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Strength": 3, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
           "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
           "*-meteoriciron": [
             {"Damage": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}
           ],
           "*-steel": [{"Damage": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}],
-          "*": [{"Damage": {"DamageType": "BluntAttack", "Strength": 1, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.59, -0.1, 0.5, 1.3, -0.2, 0.5]}]
+          "*": [{"Damage": {"DamageType": "BluntAttack", "Strength": 1, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}]
         }
       },
       "AttackHitSound": "game:sounds/thud",
       "AttackAnimation": {"Main": ["armory:mace-strike-1h-1", "armory:mace-strike-1h-2"]},
+      "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
       "ReadyAnimation": "armory:mace-ready-1h",
       "IdleAnimation": "armory:mace-idle-1h",
       "AttackTpAnimation": "falx"
@@ -104,7 +105,7 @@
     "*-*bronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
     "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
     "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
-    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.4, "y": -0.3, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}}
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}}
   },
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "tpHandTransform": {"translation": {"x": 0.33, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}

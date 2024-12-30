@@ -322,7 +322,7 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 70], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0.9, -1.6, 0, 72.6, -7.1, -87.1]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 70], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [1.6, -1.6, 0, 72.6, -7.1, -87.1]}
       },
       {
         "EasingTime": 600,
@@ -333,7 +333,7 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 70], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0.9, -1.6, 0, 72.6, -7.1, -90.1]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 70], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [1.6, -1.6, 0, 72.6, -7.1, -90.1]}
       },
       {
         "EasingTime": 900,

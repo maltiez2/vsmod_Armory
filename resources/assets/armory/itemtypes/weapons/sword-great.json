@@ -64,6 +64,7 @@
           "Bottom": ["armory:sword-great-thrust-2h-bottom"]
         }
       },
+      "TpAttackAnimation": {"Top": "combatoverhaul-falx-slash", "Left": "combatoverhaul-falx-slash", "Right": "combatoverhaul-falx-slash", "Bottom": "combatoverhaul-falx-slash"},
       "SpeedPenalty": 0,
       "BlockSpeedPenalty": -0.05,
       "Parry": {
@@ -81,8 +82,7 @@
       "BlockCooldownMs": 300,
       "BlockAnimation": "armory:sword-great-parry-2h",
       "ReadyAnimation": "armory:sword-great-ready-2h",
-      "IdleAnimation": "armory:sword-great-idle-2h",
-      "AttackTpAnimation": "falx"
+      "IdleAnimation": "armory:sword-great-idle-2h"
     }
   },
   "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},

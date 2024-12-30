@@ -130,7 +130,7 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 67], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0, -1.6, 0, 11.6, -1.1, -75.1]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 67], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0.8, -1.6, 0, 11.6, -1.1, -75.1]}
       },
       {
         "EasingTime": 600,

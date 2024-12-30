@@ -138,9 +138,9 @@
           "DamageTypes": [
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 7}
+                "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 6.5},
+                "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 6.5},
+                "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 7}
               },
               "Knockback": 1,
               "DurabilityDamage": 1,
@@ -148,9 +148,9 @@
             },
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 7}
+                "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 6.5},
+                "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 6.5},
+                "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 7}
               },
               "Knockback": 1,
               "DurabilityDamage": 1,
@@ -174,6 +174,7 @@
         "Right": ["armory:halberd-slash-2h-right"],
         "Bottom": ["armory:halberd-thrust-2h-bottom"]
       },
+      "TpAttackAnimation": {"Top": "combatoverhaul-falx-slash", "Left": "combatoverhaul-falx-slash", "Right": "combatoverhaul-falx-slash", "Bottom": "combatoverhaul-spear-hit"},
       "ReadyAnimation": "armory:halberd-ready-2h",
       "IdleAnimation": "armory:halberd-idle-1h",
       "AttackTpAnimation": "spearhit"

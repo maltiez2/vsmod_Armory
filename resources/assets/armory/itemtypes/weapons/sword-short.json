@@ -72,6 +72,7 @@
         "*-*iron": {"Main": ["armory:sword-short-slash-1", "armory:sword-short-slash-2"]},
         "*-steel": {"Main": ["armory:sword-short-thrust-4", "armory:sword-short-thrust-5", "armory:sword-short-thrust-6"]}
       },
+      "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
       "SpeedPenalty": 0,
       "BlockSpeedPenalty": 0,
       "Parry": {
