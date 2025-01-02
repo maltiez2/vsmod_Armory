@@ -33,6 +33,9 @@
       },
       "armory:itemtypes/weapons/sword-short.json": {
         "attributes/OneHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
+      },
+      "armory:itemtypes/weapons/quarterstaff.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier"
       }
     },
     "integer": {

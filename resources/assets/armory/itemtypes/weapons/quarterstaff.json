@@ -1,0 +1,85 @@
+﻿{
+  "code": "quarterstaff",
+  "class": "CombatOverhaul:MeleeWeapon",
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 3,
+        "sprintKey": true,
+        "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+        "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+      }
+    }
+  ],
+  "variantgroups": [
+    {"code": "type", "states": ["plain"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
+  ],
+  "tool": "spear",
+  "shape": {"base": "armory:blunt/quarterstaff"},
+  "textures": {"head": {"base": "game:block/metal/plate/{material}"}},
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.5, "y": 2, "z": 0.41}, "rotation": {"x": 12, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "toolrackTransform": {"translation": {"x": 1.6, "y": 1.2, "z": 0.5}, "rotation": {"x": 90, "y": -2, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.3},
+    "ProficiencyStat": "quarterstaffProficiency",
+    "RenderingOffset": false,
+    "OneHandedStance": {
+      "CanAttack": false,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "CanThrow": false,
+      "ReadyAnimation": "armory:spear-ready-1h",
+      "IdleAnimation": "armory:spear-idle-1h"
+    },
+    "TwoHandedStance": {
+      "CanAttack": true,
+      "CanParry": false,
+      "CanBlock": false,
+      "CanSprint": true,
+      "CanThrow": true,
+      "SpeedPenalty": 0,
+      "BlockCooldownMs": 750,
+      "Attack": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": false,
+        "CollideWithTerrain": true,
+        "HitOnlyOneEntity": false,
+        "MaxReach": 15,
+        "DamageTypes": [
+          {
+            "DamageByType": {
+              "*-copper": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 4.5},
+              "*-*bronze": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 5},
+              "*-iron": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 5.5},
+              "*-meteoriciron": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 5.5},
+              "*-steel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 6}
+            },
+            "Knockback": 1,
+            "DurabilityDamage": 1,
+            "Collider": [-2.5, 0, 0.5, 0.8, 0, 0.5]
+          }
+        ]
+      },
+      "AttackHitSound": "game:sounds/thud",
+      "AttackDirectionsType": "Triangle",
+      "AttackAnimation": {
+        "Top": ["armory:quarterstaff-hit-2h-top"],
+        "BottomRight": ["armory:quarterstaff-hit-2h-bottomright"],
+        "BottomLeft": ["armory:quarterstaff-hit-2h-bottomleft"]
+      },
+      "TpAttackAnimation": {"Top": "combatoverhaul-spear-hit", "BottomRight": "combatoverhaul-spear-hit", "BottomLeft": "combatoverhaul-spear-hit"},
+      "ReadyAnimation": "armory:quarterstaff-ready-2h",
+      "IdleAnimation": "armory:quarterstaff-idle-2h"
+    }
+  },
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 1600, "*": 150},
+  "creativeinventory": {"armory": ["*"]},
+  "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 0.5, "y": 0.1, "z": 0.3}, "scale": 1.76},
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
+  "tpHandTransform": {"translation": {"x": -2.5, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+  "heldTpIdleAnimation": "combatoverhaul-spear-idle",
+  "heldRightReadyAnimation": "combatoverhaul-spear-idle"
+}

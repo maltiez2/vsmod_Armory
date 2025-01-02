@@ -64,6 +64,12 @@
   "item-axe-long-*-meteoriciron": "Long axe (Meteoric iron)",
   "item-axe-long-*-steel": "Long axe (Steel)",
 
+  "item-quarterstaff-*-copper": "Qearterstaff (Copper)",
+  "item-quarterstaff-*-*bronze": "Qearterstaff (Bronze)",
+  "item-quarterstaff-*-iron": "Qearterstaff (Iron)",
+  "item-quarterstaff-*-meteoriciron": "Qearterstaff (Meteoric iron)",
+  "item-quarterstaff-*-steel": "Qearterstaff (Steel)",
+
 
   "item-part-hammerhead-steel": "Steel battle hammer head",
   "item-part-macehead-copper": "Copper mace head",
