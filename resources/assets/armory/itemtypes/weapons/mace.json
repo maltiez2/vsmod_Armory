@@ -49,7 +49,7 @@
     "*-steel": {"base": "blunt/warhammer-steel"},
     "*": {"base": "blunt/mace-stone"}
   },
-  "tool": "spear",
+  "tool": "mace",
   "attributes": {
     "groundStorageTransformByType": {
       "*-copper": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},

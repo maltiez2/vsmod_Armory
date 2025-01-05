@@ -13,7 +13,7 @@
 		"bismuthbronze": [64,64]
 	},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/chain/silver"
+		"material": "game:entity/humanoid/serapharmor/chain/silver"
 	},
 	"elements": [
 		{

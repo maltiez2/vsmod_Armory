@@ -13,7 +13,7 @@
 		"bismuthbronze": [64,64]
 	},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/chain/meteoriciron"
+		"material": "game:entity/humanoid/serapharmor/chain/meteoriciron"
 	},
 	"elements": [
 		{

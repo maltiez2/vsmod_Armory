@@ -9,7 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/brigandine/iron"
+		"material": "game:entity/humanoid/serapharmor/brigandine/iron"
 	},
 	"elements": [
 		{

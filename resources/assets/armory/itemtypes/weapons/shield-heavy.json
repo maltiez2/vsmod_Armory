@@ -2,24 +2,86 @@
   "code": "shield",
   "class": "CombatOverhaul:MeleeWeapon",
   "storageFlags": 257,
+  "tool": "shield",
   "variantgroups": [
     {"code": "type", "states": ["heavy"]},
     {"code": "subtype", "states": ["plain"]},
     {"code": "material", "states": ["crude", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron"]}
   ],
-  "behaviors": [
-    {
-      "name": "GroundStorable",
-      "properties": {
-        "layout": "WallHalves",
-        "wallOffY": 2,
-        "sprintKey": true,
-        "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
-        "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+  "behaviorsByType": {
+    "@.*-(.*iron)": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+          "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "cloth1",
+              "Attribute": "cloth1",
+              "Default": "game:block/cloth/linen/plain",
+              "HandbookValues": [
+                "game:block/cloth/linen/plain",
+                "game:block/cloth/linen/white",
+                "game:block/cloth/linen/red",
+                "game:block/cloth/linen/black",
+                "game:block/cloth/linen/blue",
+                "game:block/cloth/linen/brown",
+                "game:block/cloth/linen/gray",
+                "game:block/cloth/linen/green",
+                "game:block/cloth/linen/orange",
+                "game:block/cloth/linen/pink",
+                "game:block/cloth/linen/purple",
+                "game:block/cloth/linen/yellow"
+              ]
+            },
+            {
+              "Code": "cloth2",
+              "Attribute": "cloth2",
+              "Default": "game:block/cloth/linen/plain",
+              "HandbookValues": [
+                "game:block/cloth/linen/plain",
+                "game:block/cloth/linen/white",
+                "game:block/cloth/linen/red",
+                "game:block/cloth/linen/black",
+                "game:block/cloth/linen/blue",
+                "game:block/cloth/linen/brown",
+                "game:block/cloth/linen/gray",
+                "game:block/cloth/linen/green",
+                "game:block/cloth/linen/orange",
+                "game:block/cloth/linen/pink",
+                "game:block/cloth/linen/purple",
+                "game:block/cloth/linen/yellow"
+              ]
+            }
+          ],
+          "CreativeTabs": ["general", "armory-colors"]
+        }
       }
-    }
-  ],
+    ],
+    "*": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+          "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+        }
+      }
+    ]
+  },
   "attributes": {
+    "handbook": {"groupBy": ["shield-heavy-plain-{material}"]},
     "groundStorageTransformByType": {
       "*-crude": {"translation": {"x": 0.2, "y": 1, "z": 0.95}, "rotation": {"x": 116, "y": -7, "z": -21}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-copper": {"translation": {"x": 0.2, "y": 0.85, "z": 1.02}, "rotation": {"x": 116, "y": -7, "z": -21}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
@@ -84,7 +146,7 @@
         "IdleAnimation": "combatoverhaul:shield-heavy-ready",
         "BlockTpAnimation": "block"
       },
-      "*-iron": {
+      "*-*iron": {
         "CanAttack": false,
         "CanParry": false,
         "CanBlock": true,
@@ -111,10 +173,10 @@
     "*-tinbronze": {"base": "shields/scutum"},
     "*-bismuthbronze": {"base": "shields/scutum"},
     "*-blackbronze": {"base": "shields/scutum"},
-    "*-iron": {"base": "shields/kite"}
+    "*-*iron": {"base": "shields/kite"}
   },
   "texturesByType": {"*-crude": {}, "*": {"metal": {"base": "game:block/metal/plate/{material}"}}},
-  "durabilitybytype": {"*-crude": 500, "*-copper": 1000, "*-tinbronze": 1500, "*-bismuthbronze": 1500, "*-blackbronze": 1500, "*-iron": 1000},
+  "durabilitybytype": {"*-crude": 500, "*-copper": 1000, "*-tinbronze": 1500, "*-bismuthbronze": 1500, "*-blackbronze": 1500, "*-*iron": 2000},
   "creativeinventory": {"armory": ["*"]},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "guiTransformByType": {
@@ -123,7 +185,7 @@
     "*-tinbronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 115, "y": -26, "z": -24}, "origin": {"x": 0.6, "y": -0.3, "z": 0.7}, "scale": 0.89},
     "*-bismuthbronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 115, "y": -26, "z": -24}, "origin": {"x": 0.6, "y": -0.3, "z": 0.7}, "scale": 0.89},
     "*-blackbronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 115, "y": -26, "z": -24}, "origin": {"x": 0.6, "y": -0.3, "z": 0.7}, "scale": 0.89},
-    "*-iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 108, "y": 137, "z": 33}, "origin": {"x": 0.35, "y": -0.1, "z": 0.7}, "scale": 1.1}
+    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 108, "y": 137, "z": 33}, "origin": {"x": 0.35, "y": -0.1, "z": 0.7}, "scale": 1.1}
   },
   "tpHandTransformByType": {
     "*-crude": {"translation": {"x": 0.5, "y": 0.6, "z": -0.15}, "rotation": {"x": -99, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
@@ -131,12 +193,12 @@
     "*-tinbronze": {"translation": {"x": 0.5, "y": 0.6, "z": -0.1}, "rotation": {"x": -95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-bismuthbronze": {"translation": {"x": 0.5, "y": 0.6, "z": -0.1}, "rotation": {"x": -95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-blackbronze": {"translation": {"x": 0.5, "y": 0.6, "z": -0.1}, "rotation": {"x": -95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-iron": {"translation": {"x": -0.5, "y": 0.6, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": -100}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
+    "*-*iron": {"translation": {"x": -0.5, "y": 0.6, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": -100}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
   },
   "tpOffHandTransformByType": {
     "*-crude": {"translation": {"x": 0.48, "y": -0.39, "z": 0.01}, "rotation": {"x": 99, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-copper": {"translation": {"x": -0.52, "y": -0.09, "z": -0.02}, "rotation": {"x": 92, "y": -90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-*bronze": {"translation": {"x": 0.48, "y": -0.39, "z": 0.01}, "rotation": {"x": 95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-iron": {"translation": {"x": -0.52, "y": -0.39, "z": -0.06}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
+    "*-*iron": {"translation": {"x": -0.52, "y": -0.39, "z": -0.06}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
   }
 }

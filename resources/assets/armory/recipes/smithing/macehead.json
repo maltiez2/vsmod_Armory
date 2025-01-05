@@ -3,26 +3,26 @@
     "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"]},
     "name": "mace head",
     "pattern": [[
-      "_###_",
-      "#####",
-      "##_##",
-      "#####",
-      "_###_"
+      "###",
+      "#_#",
+      "###"
     ],
     [
-      "_###_",
-      "#___#",
-      "#___#",
-      "#___#",
-      "_###_"
-    ], 
+      "###",
+      "#_#",
+      "###"
+    ],
     [
-      "_###_",
-      "#___#",
-      "#___#",
-      "#___#",
-      "_###_"
-    ]],
+      "###",
+      "#_#",
+      "###"
+    ],
+    [
+      "###",
+      "#_#",
+      "###"
+    ]
+    ],
     "output": {"type": "item", "code": "armory:part-macehead-{metal}"}
   },
   {

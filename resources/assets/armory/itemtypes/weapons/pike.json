@@ -15,6 +15,7 @@
   ],
   "variantgroups": [{"code": "type", "states": ["plain"]}, {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "meteoriciron", "iron", "steel"]}],
   "shape": {"base": "spears/pike-{material}-{type}"},
+  "tool": "pike",
   "attributes": {
     "heldItemPitchFollow": 1,
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 3.5, "z": 0.4}, "rotation": {"x": 12, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},

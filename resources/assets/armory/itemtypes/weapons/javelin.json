@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "tool": "spear",
+  "tool": "javelin",
   "shapeByType": {
     "@.*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {"base": "armory:spears/javelin-flint-plain"},
     "*": {"base": "armory:spears/javelin-{material}-plain"}

@@ -2,6 +2,7 @@
   "game:tabname-armory": "Armory",
   "game:tabname-armory-parts": "Armory: parts",
   "game:tabname-armory-armor": "Armory: armor",
+  "game:tabname-armory-colors": "Armory: colored",
 
   "item-quiver-waist-plain": "Javelins quiver",
 
@@ -13,7 +14,7 @@
   "item-shield-heavy-*-crude": "Heavy shield (Wicker)",
   "item-shield-heavy-*-copper": "Heavy shield (Copper)",
   "item-shield-heavy-*-*bronze": "Heavy shield (Bronze)",
-  "item-shield-heavy-*-iron": "Heavy shield (Iron)",
+  "item-shield-heavy-*-*iron": "Heavy shield (Iron)",
 
   "item-club-*-copper": "Club (Copper)",
   "item-club-*-*bronze": "Club (Bronze)",
@@ -64,11 +65,11 @@
   "item-axe-long-*-meteoriciron": "Long axe (Meteoric iron)",
   "item-axe-long-*-steel": "Long axe (Steel)",
 
-  "item-quarterstaff-*-copper": "Qearterstaff (Copper)",
-  "item-quarterstaff-*-*bronze": "Qearterstaff (Bronze)",
-  "item-quarterstaff-*-iron": "Qearterstaff (Iron)",
-  "item-quarterstaff-*-meteoriciron": "Qearterstaff (Meteoric iron)",
-  "item-quarterstaff-*-steel": "Qearterstaff (Steel)",
+  "item-quarterstaff-*-copper": "Quarterstaff (Copper)",
+  "item-quarterstaff-*-*bronze": "Quarterstaff (Bronze)",
+  "item-quarterstaff-*-iron": "Quarterstaff (Iron)",
+  "item-quarterstaff-*-meteoriciron": "Quarterstaff (Meteoric iron)",
+  "item-quarterstaff-*-steel": "Quarterstaff (Steel)",
 
 
   "item-part-hammerhead-steel": "Steel battle hammer head",

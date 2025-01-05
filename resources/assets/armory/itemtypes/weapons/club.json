@@ -24,7 +24,7 @@
     "*-*iron": {"base": "blunt/club-iron"},
     "*-steel": {"base": "blunt/polehammer-steel"}
   },
-  "tool": "spear",
+  "tool": "club",
   "attributes": {
     "groundStorageTransformByType": {
       "*-steel": {"translation": {"x": 0.5, "y": 2.29, "z": 0.6}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},

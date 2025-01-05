@@ -20,7 +20,7 @@
   ],
   "textures": {"head": {"base": "game:block/metal/plate/{material}"}},
   "shapeByType": {"*-*bronze": {"base": "axes/long-bronze"}, "*-*iron": {"base": "axes/long-iron"}, "*-steel": {"base": "axes/long-steel"}},
-  "tool": "spear",
+  "tool": "axe",
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 0.52, "z": 0.35}, "rotation": {"x": 17, "y": 0, "z": -84}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
     "toolrackTransform": {"translation": {"x": 0.05, "y": 0.6, "z": 1.05}, "rotation": {"x": 179, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}},

@@ -11,7 +11,7 @@
 		"linen": [64,64]
 	},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/chain/iron"
+		"material": "game:entity/humanoid/serapharmor/chain/iron"
 	},
 	"elements": [
 		{

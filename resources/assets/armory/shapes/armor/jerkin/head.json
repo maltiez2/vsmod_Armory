@@ -9,7 +9,7 @@
 	"textureHeight": 64,
 	"textureSizes": {},
 	"textures": {
-		"material": "armory:/armor/jerkin/leather"
+		"material": "armory:armor/jerkin/leather"
 	},
 	"elements": [
 		{

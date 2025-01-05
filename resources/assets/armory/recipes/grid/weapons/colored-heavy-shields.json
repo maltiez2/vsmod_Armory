@@ -1,0 +1,182 @@
+﻿[
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-plain"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/plain", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-black"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/black", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-blue"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/blue", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-brown"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/brown", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-gray"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/gray", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-green"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/green", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-orange"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/orange", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-pink"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/pink", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-purple"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/purple", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-red"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/red", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-white"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/white", "cloth2": "game:block/cloth/linen/{color}"}}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,CPL",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*"},
+      "C": {"type": "item", "code": "game:cloth-*", "name": "color"},
+      "L": {"type": "item", "code": "game:cloth-yellow"}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-iron", "attributes": {"cloth1": "game:block/cloth/linen/yellow", "cloth2": "game:block/cloth/linen/{color}"}}
+  }
+]

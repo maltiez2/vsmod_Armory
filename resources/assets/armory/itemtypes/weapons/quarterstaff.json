@@ -17,7 +17,7 @@
     {"code": "type", "states": ["plain"]},
     {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}
   ],
-  "tool": "spear",
+  "tool": "staff",
   "shape": {"base": "armory:blunt/quarterstaff"},
   "textures": {"head": {"base": "game:block/metal/plate/{material}"}},
   "attributes": {
