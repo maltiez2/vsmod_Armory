@@ -13,6 +13,6 @@
       "#######_______",
       "#######_______"
     ]],
-    "output": {"type": "item", "code": "armory:part-halberd-{metal}", "quantity": 3}
+    "output": {"type": "item", "code": "armory:part-halberd-{metal}", "quantity": 1}
   }
 ]

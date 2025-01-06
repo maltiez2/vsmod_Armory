@@ -1,18 +1,60 @@
 ﻿{
   "code": "mace",
   "class": "CombatOverhaul:MeleeWeapon",
-  "behaviors": [
-    {
-      "name": "GroundStorable",
-      "properties": {
-        "layout": "WallHalves",
-        "wallOffY": 2,
-        "sprintKey": true,
-        "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
-        "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+  "behaviorsByType": {
+    "@.*-(copper|.*bronze|.*iron|steel)": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+          "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "handle",
+              "Attribute": "handleTexture",
+              "Default": "game:block/wood/debarked/oak",
+              "HandbookValues": [
+                "game:block/wood/debarked/aged",
+                "game:block/wood/debarked/birch",
+                "game:block/wood/debarked/oak",
+                "game:block/wood/debarked/maple",
+                "game:block/wood/debarked/pine",
+                "game:block/wood/debarked/acacia",
+                "game:block/wood/debarked/kapok",
+                "game:block/wood/debarked/baldcypress",
+                "game:block/wood/debarked/larch",
+                "game:block/wood/debarked/redwood",
+                "game:block/wood/debarked/ebony",
+                "game:block/wood/debarked/walnut",
+                "game:block/wood/debarked/purpleheart"
+              ]
+            }
+          ],
+          "CreativeTabs": ["general", "armory-colors"]
+        }
       }
-    }
-  ],
+    ],
+    "*": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+          "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+        }
+      }
+    ]
+  },
   "variantgroups": [
     {"code": "type", "states": ["plain"]},
     {
@@ -51,6 +93,7 @@
   },
   "tool": "mace",
   "attributes": {
+    "handbook": {"groupBy": ["mace-plain-{material}"]},
     "groundStorageTransformByType": {
       "*-copper": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-*bronze": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},

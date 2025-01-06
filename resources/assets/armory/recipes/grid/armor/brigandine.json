@@ -195,9 +195,6 @@
     },
     "width": 3,
     "height": 3,
-    "shapeless": true,
-    "copyAttributesFrom": "A",
-    "averageDurability": false,
     "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-torso-brigandine-{material}-vanilla"}
   },
@@ -215,9 +212,6 @@
     },
     "width": 3,
     "height": 2,
-    "shapeless": true,
-    "copyAttributesFrom": "A",
-    "averageDurability": false,
     "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-arms-brigandine-{material}-vanilla"}
   },
@@ -235,9 +229,6 @@
     },
     "width": 3,
     "height": 2,
-    "shapeless": true,
-    "copyAttributesFrom": "A",
-    "averageDurability": false,
     "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-hands-brigandine-{material}-vanilla"}
   },
@@ -255,9 +246,6 @@
     },
     "width": 3,
     "height": 3,
-    "shapeless": true,
-    "copyAttributesFrom": "A",
-    "averageDurability": false,
     "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-legs-brigandine-{material}-vanilla"}
   },
@@ -275,9 +263,6 @@
     },
     "width": 3,
     "height": 3,
-    "shapeless": true,
-    "copyAttributesFrom": "A",
-    "averageDurability": false,
     "name": "brigandine armor",
     "output": {"type": "item", "code": "armory:armor-feet-brigandine-{material}-vanilla"}
   }

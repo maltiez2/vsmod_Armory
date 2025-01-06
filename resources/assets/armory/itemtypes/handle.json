@@ -1,0 +1,50 @@
+﻿{
+  "code": "handle",
+  "behaviors": [
+    {
+      "name": "CombatOverhaul:TexturesFromAttributes",
+      "properties": {
+        "Textures": [
+          {
+            "Code": "handle",
+            "Attribute": "handleTexture",
+            "Default": "game:block/wood/debarked/oak",
+            "HandbookValues": [
+              "game:block/wood/debarked/aged",
+              "game:block/wood/debarked/birch",
+              "game:block/wood/debarked/oak",
+              "game:block/wood/debarked/maple",
+              "game:block/wood/debarked/pine",
+              "game:block/wood/debarked/acacia",
+              "game:block/wood/debarked/kapok",
+              "game:block/wood/debarked/baldcypress",
+              "game:block/wood/debarked/larch",
+              "game:block/wood/debarked/redwood",
+              "game:block/wood/debarked/ebony",
+              "game:block/wood/debarked/walnut",
+              "game:block/wood/debarked/purpleheart"
+            ]
+          }
+        ],
+        "CreativeTabs": ["general", "armory-parts"]
+      }
+    }
+  ],
+  "variantgroups": [{"code": "length", "states": ["short", "medium", "long"]}],
+  "shape": {"base": "armory:handle-{length}"},
+  "maxstacksize": 16,
+  "textures": {},
+  "attributes": {},
+  "creativeinventory": {"armory-parts": ["*"]},
+  "guiTransformByType": {
+    "*-short": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 118, "y": 72, "z": -130}, "origin": {"x": 1, "y": 0.2, "z": 0.63}, "scale": 1.7},
+    "*-medium": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 118, "y": 72, "z": -130}, "origin": {"x": 1, "y": 0.4, "z": 0.73}, "scale": 1.7},
+    "*-long": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 118, "y": 72, "z": -130}, "origin": {"x": 1, "y": 0.5, "z": 0.83}, "scale": 1.7}
+  },
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
+  "tpHandTransformByType": {
+    "*-short": {"translation": {"x": 0, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "*-medium": {"translation": {"x": -0.7, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "*-long": {"translation": {"x": -0.7, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+  }
+}

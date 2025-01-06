@@ -1,14 +1,14 @@
 ﻿[
   {
-    "ingredientPattern": "KS,_L,_L",
+    "ingredientPattern": "S,H",
     "recipeGroup": 1,
     "ingredients": {
       "S": {"type": "item", "code": "armory:part-halberd-*", "quantity": 1, "name": "material", "allowedVariants": ["iron", "meteoriciron", "steel"]},
-      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
-      "L": {"type": "block", "code": "game:*log-*", "quantity": 1}
+      "H": {"type": "item", "code": "armory:handle-long"}
     },
-    "width": 2,
-    "height": 3,
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
     "name": "halberd",
     "output": {"type": "item", "code": "armory:halberd-plain-{material}"}
   }

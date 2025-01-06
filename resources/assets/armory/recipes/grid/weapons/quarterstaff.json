@@ -1,20 +1,20 @@
 ﻿[
   {
-    "ingredientPattern": "KS,_L,_S",
+    "ingredientPattern": "S,H",
     "recipeGroup": 1,
     "ingredients": {
       "S": {
         "type": "item",
         "code": "game:metalnailsandstrips-*",
-        "quantity": 1,
+        "quantity": 2,
         "name": "metal",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
       },
-      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
-      "L": {"type": "block", "code": "game:*log-*", "quantity": 1}
+      "H": {"type": "item", "code": "armory:handle-long"}
     },
-    "width": 2,
-    "height": 3,
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
     "name": "staff",
     "output": {"type": "item", "code": "armory:quarterstaff-plain-{metal}"}
   }
