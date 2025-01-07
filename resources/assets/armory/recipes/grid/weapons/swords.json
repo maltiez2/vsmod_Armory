@@ -27,6 +27,15 @@
     "output": {"type": "item", "code": "armory:sword-short-plain-steel", "attributes": {"handleTexture": "game:block/leather/{color}"}}
   },
   {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 1,
+    "ingredients": {"B": {"type": "item", "code": "armory:part-shortsword-steel"}, "P": {"type": "item", "code": "game:leather-normal-plain"}},
+    "width": 1,
+    "height": 2,
+    "name": "sword",
+    "output": {"type": "item", "code": "armory:sword-short-plain-steel"}
+  },
+  {
     "ingredientPattern": "S,H",
     "recipeGroup": 1,
     "ingredients": {
@@ -74,5 +83,41 @@
     "height": 2,
     "name": "sword",
     "output": {"type": "item", "code": "armory:sword-great-plain-steel", "attributes": {"handleTexture": "game:block/leather/{color}"}}
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 1,
+    "ingredients": {"B": {"type": "item", "code": "armory:part-longsword-steel"}, "P": {"type": "item", "code": "game:leather-normal-plain"}},
+    "width": 1,
+    "height": 2,
+    "name": "sword",
+    "output": {"type": "item", "code": "armory:sword-long-plain-steel"}
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 1,
+    "ingredients": {"B": {"type": "item", "code": "armory:part-greatsword-iron"}, "P": {"type": "item", "code": "game:leather-normal-plain"}},
+    "width": 1,
+    "height": 2,
+    "name": "sword",
+    "output": {"type": "item", "code": "armory:sword-great-plain-iron"}
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 1,
+    "ingredients": {"B": {"type": "item", "code": "armory:part-greatsword-meteoriciron"}, "P": {"type": "item", "code": "game:leather-normal-plain"}},
+    "width": 1,
+    "height": 2,
+    "name": "sword",
+    "output": {"type": "item", "code": "armory:sword-great-plain-meteoriciron"}
+  },
+  {
+    "ingredientPattern": "B,P",
+    "recipeGroup": 1,
+    "ingredients": {"B": {"type": "item", "code": "armory:part-greatsword-steel"}, "P": {"type": "item", "code": "game:leather-normal-plain"}},
+    "width": 1,
+    "height": 2,
+    "name": "sword",
+    "output": {"type": "item", "code": "armory:sword-great-plain-steel"}
   }
 ]
