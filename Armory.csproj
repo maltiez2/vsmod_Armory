@@ -22,6 +22,7 @@
     <ModInfoTranslators Include="Gabriel Flame - Ukrainian" />
     <ModInfoTranslators Include="Ouk - Czech" />
     <ModInfoTranslators Include="Nikolashka - Russian" />
+    <ModInfoTranslators Include="Pawelot - Polish" />
   </ItemGroup>
 
   <!-- Dependencies -->
