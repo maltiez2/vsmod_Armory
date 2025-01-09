@@ -39,23 +39,23 @@
         },
         "FlatReduction": {},
         "PlayerStatsByType": {
-          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02},
-          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.02, "healingeffectivness": -0.03, "hungerrate": 0.02},
-          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.02, "healingeffectivness": -0.03, "hungerrate": 0.02}
+          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.02, "hungerrate": 0.02},
+          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.03, "steadyAim": -0.02, "healingeffectivness": -0.02, "hungerrate": 0.02},
+          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.04, "steadyAim": -0.02, "healingeffectivness": -0.02, "hungerrate": 0.02}
         }
       }
     }
   ],
   "durabilityByType": {
     "*-gold-*": 800,
-    "*-silver-*": 2000,
-    "*-copper-*": 1000,
-    "*-tinbronze-*": 2000,
-    "*-bismuthbronze-*": 1800,
-    "*-blackbronze-*": 2400,
-    "*-iron-*": 4400,
-    "*-meteoriciron-*": 5600,
-    "*-steel-*": 11000
+    "*-silver-*": 1400,
+    "*-copper-*": 1200,
+    "*-tinbronze-*": 1400,
+    "*-bismuthbronze-*": 1300,
+    "*-blackbronze-*": 1500,
+    "*-iron-*": 1600,
+    "*-meteoriciron-*": 1800,
+    "*-steel-*": 4000
   },
   "creativeinventory": {"armory-armor": ["*"]},
   "renderAlphaTest": 0.25,

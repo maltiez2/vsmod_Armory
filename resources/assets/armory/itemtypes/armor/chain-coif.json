@@ -44,14 +44,14 @@
   ],
   "durabilityByType": {
     "*-gold-*": 800,
-    "*-silver-*": 2000,
-    "*-copper-*": 1000,
-    "*-tinbronze-*": 2000,
-    "*-bismuthbronze-*": 1800,
-    "*-blackbronze-*": 2400,
-    "*-iron-*": 4400,
-    "*-meteoriciron-*": 5600,
-    "*-steel-*": 11000
+    "*-silver-*": 1400,
+    "*-copper-*": 1200,
+    "*-tinbronze-*": 1400,
+    "*-bismuthbronze-*": 1300,
+    "*-blackbronze-*": 1500,
+    "*-iron-*": 1600,
+    "*-meteoriciron-*": 1800,
+    "*-steel-*": 4000
   },
   "creativeinventory": {"armory-armor": ["*"]},
   "renderAlphaTest": 0.25,

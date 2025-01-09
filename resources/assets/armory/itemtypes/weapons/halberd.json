@@ -182,7 +182,7 @@
                 "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 6.5},
                 "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 7}
               },
-              "Knockback": 1,
+              "Knockback": 2,
               "DurabilityDamage": 1,
               "Collider": [0, 0, 0.5, 0, 0, 0.5]
             }
