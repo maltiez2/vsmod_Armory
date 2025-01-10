@@ -34,15 +34,18 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-open": ["Head"], "*-light": ["Head", "Face"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 1},
-          "*-*bronze-*": {"PiercingAttack": 6, "SlashingAttack": 8, "BluntAttack": 2},
-          "*-iron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 3},
-          "*-meteoriciron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 3},
-          "*-steel-*": {"PiercingAttack": 12, "SlashingAttack": 12, "BluntAttack": 4},
+          "*-copper-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 2},
+          "*-*bronze-*": {"PiercingAttack": 8, "SlashingAttack": 8, "BluntAttack": 3},
+          "*-*iron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 4},
+          "*-steel-*": {"PiercingAttack": 12, "SlashingAttack": 12, "BluntAttack": 5},
           "*-gold-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 4},
           "*-silver-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 4}
         },
-        "FlatReduction": {},
+        "FlatReductionByType": {
+          "*-*iron-*": {"PiercingAttack": 1, "SlashingAttack": 0, "BluntAttack": 1},
+          "*-steel-*": {"PiercingAttack": 1, "SlashingAttack": 1, "BluntAttack": 1},
+          "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
+        },
         "PlayerStatsByType": {
           "*-open": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.01, "hungerrate": 0.01},
           "*-light": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.1, "healingeffectivness": -0.02, "hungerrate": 0.02}

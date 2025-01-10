@@ -29,11 +29,10 @@
         "Layers": ["Middle"],
         "ZonesByType": {"*-coif": ["Head", "Neck"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0},
-          "*-*bronze-*": {"PiercingAttack": 1, "SlashingAttack": 5, "BluntAttack": 0},
-          "*-iron-*": {"PiercingAttack": 2, "SlashingAttack": 8, "BluntAttack": 0},
-          "*-meteoriciron-*": {"PiercingAttack": 2, "SlashingAttack": 8, "BluntAttack": 0},
-          "*-steel-*": {"PiercingAttack": 2, "SlashingAttack": 9, "BluntAttack": 0},
+          "*-copper-*": {"PiercingAttack": 1, "SlashingAttack": 4, "BluntAttack": 0},
+          "*-*bronze-*": {"PiercingAttack": 1, "SlashingAttack": 6, "BluntAttack": 1},
+          "*-*iron-*": {"PiercingAttack": 2, "SlashingAttack": 8, "BluntAttack": 1},
+          "*-steel-*": {"PiercingAttack": 2, "SlashingAttack": 9, "BluntAttack": 2},
           "*-gold-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0},
           "*-silver-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0}
         },
