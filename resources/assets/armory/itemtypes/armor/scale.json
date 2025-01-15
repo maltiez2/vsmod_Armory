@@ -36,8 +36,8 @@
         },
         "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 1, "BluntAttack": 0}, "*": {}},
         "PlayerStatsByType": {
-          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.03},
-          "*-armshands-*": {"walkspeed": 0, "manipulationSpeed": -0.075, "steadyAim": -0.05, "healingeffectivness": -0.03, "hungerrate": 0.03}
+          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.02, "hungerrate": 0.02},
+          "*-armshands-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.05, "healingeffectivness": -0.01, "hungerrate": 0.02}
         }
       }
     }

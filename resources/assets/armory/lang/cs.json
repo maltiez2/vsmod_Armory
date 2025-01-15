@@ -2,8 +2,12 @@
   "game:tabname-armory": "Armory",
   "game:tabname-armory-parts": "Armory: díly",
   "game:tabname-armory-armor": "Armory: brnění",
+  "game:tabname-armory-colors": "Armory: colored",
 
   "item-quiver-waist-plain": "Toulec na oštěpy",
+  "item-handle-short": "Krátká rukojeť",
+  "item-handle-medium": "Krátká rukojeť",
+  "item-handle-long": "Krátká rukojeť",
 
   "item-shield-light-*-crude": "Lehký štít (Kůže)",
   "item-shield-light-*-copper": "Lehký štít (Měď)",
@@ -289,11 +293,11 @@
 
   "item-armor-head-jerkin-leather-vanilla": "Head leather jerkin",
 
-  "item-creature-javelin-*": "oštěp",
+  "item-creature-javelin-*": "Oštěp",
 
-  "setting-melee_weapons_damage_multiplier": "Násobitel poškození zbraní na blízko",
-  "setting-javelins_range_damage_multiplier": "Multiplikátor poškození dosahu oštěpů",
-  "setting-javelins_aiming_cursor_type": "Typ kurzoru oštěpů",
-  "setting-javelins_aiming_difficulty": "Obtížnost zaměřování oštěpů",
-  "setting-javelins_thrown_durability_consumption": "Spotřeba trvanlivosti oštěpů při hození"
+  "setting-melee_weapons_damage_multiplier": "Násobitel poskození zbraní na blízko",
+  "setting-javelins_range_damage_multiplier": "Multiplikátor poskození dosahu ostepu",
+  "setting-javelins_aiming_cursor_type": "Typ kurzoru ostepu",
+  "setting-javelins_aiming_difficulty": "Obtíznost zamerování ostepu",
+  "setting-javelins_thrown_durability_consumption": "Spotreba trvanlivosti ostepu pri hození"
 }

@@ -38,9 +38,9 @@
         },
         "FlatReduction": {},
         "PlayerStatsByType": {
-          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.02, "hungerrate": 0.02},
-          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.03, "steadyAim": -0.02, "healingeffectivness": -0.02, "hungerrate": 0.02},
-          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.04, "steadyAim": -0.02, "healingeffectivness": -0.02, "hungerrate": 0.02}
+          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.01, "hungerrate": 0.02},
+          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.02, "steadyAim": -0.02, "healingeffectivness": -0.01, "hungerrate": 0.02},
+          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.03, "steadyAim": -0.02, "healingeffectivness": -0.01, "hungerrate": 0.02}
         }
       }
     }
