@@ -1,0 +1,25 @@
+﻿{
+  "code": "part",
+  "class": "Item",
+  "variantgroups": [{"code": "type", "states": ["poleaxehead"]}, {"code": "material", "states": ["steel"]}],
+  "shape": {"base": "axes/parts/poleaxe-{material}"},
+  "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {"layout": "Quadrants", "placeRemoveSound": "sounds/player/build", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1}}
+    }
+  ],
+  "creativeinventory": {"armory-parts": ["*"]},
+  "guiTransform": {
+    "translation": {"x": 0, "y": 0, "z": 0},
+    "rotation": {"x": -39, "y": 55, "z": -6},
+    "origin": {"x": 0.8799, "y": 0.6, "z": 0.2},
+    "scaleXyz": {"x": -1.49, "y": 1.49, "z": 1.49}
+  },
+  "tpHandTransform": {"translation": {"x": 0.2, "y": 0, "z": -0.45}, "rotation": {"x": 0, "y": 90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
+  "groundTransform": {"translation": {"x": 0, "y": 0.04, "z": 0}, "rotation": {"x": -2, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 3}
+}

@@ -95,11 +95,11 @@
   "attributes": {
     "handbook": {"groupBy": ["mace-plain-{material}"]},
     "groundStorageTransformByType": {
-      "*-copper": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-      "*-*bronze": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-copper": {"translation": {"x": 0.5, "y": 1.3, "z": 0.65}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7},
+      "*-*bronze": {"translation": {"x": 0.5, "y": 1.3, "z": 0.65}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7},
       "*-*iron": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-steel": {"translation": {"x": 0.5, "y": 1.4, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-      "*": {"translation": {"x": 0.5, "y": 1.5, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+      "*": {"translation": {"x": 0.5, "y": 1.15, "z": 0.7}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
     },
     "toolrackTransformByType": {
       "*-copper": {"translation": {"x": -0.8, "y": 0.56, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},

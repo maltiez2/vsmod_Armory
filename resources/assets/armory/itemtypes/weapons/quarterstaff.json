@@ -60,13 +60,13 @@
       "CanBlock": false,
       "CanSprint": true,
       "CanThrow": false,
-      "ReadyAnimation": "armory:spear-ready-1h",
-      "IdleAnimation": "armory:spear-idle-1h"
+      "ReadyAnimation": "armory:quarterstaff-idle-1h",
+      "IdleAnimation": "armory:quarterstaff-idle-1h"
     },
     "TwoHandedStance": {
       "CanAttack": true,
-      "CanParry": false,
-      "CanBlock": false,
+      "CanParry": true,
+      "CanBlock": true,
       "CanSprint": true,
       "CanThrow": true,
       "SpeedPenalty": 0,
@@ -101,7 +101,20 @@
       },
       "TpAttackAnimation": {"Top": "combatoverhaul-spear-hit", "BottomRight": "combatoverhaul-spear-hit", "BottomLeft": "combatoverhaul-spear-hit"},
       "ReadyAnimation": "armory:quarterstaff-ready-2h",
-      "IdleAnimation": "armory:quarterstaff-idle-2h"
+      "IdleAnimation": "armory:quarterstaff-idle-2h",
+      "Parry": {
+        "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+        "Directions": [90, 90, 90, 90],
+        "Sound": "game:sounds/held/shieldblock-metal-heavy",
+        "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
+      },
+      "Block": {
+        "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftLeg", "RightLeg"],
+        "Directions": [75, 75, 75, 75],
+        "Sound": "game:sounds/held/shieldblock-metal-light",
+        "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
+      },
+      "BlockAnimation": "armory:quarterstaff-parry-2h"
     }
   },
   "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 1600, "*": 150},

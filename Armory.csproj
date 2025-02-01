@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.1.0</ModVersion>
+    <ModVersion>0.1.4</ModVersion>
     <ModId>armory</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="resources\assets\armory\shapes\armor\brigandine\" />
+    <Folder Include="resources\assets\armory\shapes\armor\lamellar\" />
     <Folder Include="resources\assets\armory\shapes\halberds\" />
   </ItemGroup>
 

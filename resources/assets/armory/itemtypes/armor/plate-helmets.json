@@ -5,13 +5,14 @@
     {"code": "bodypart", "states": ["head"]},
     {"code": "construction", "states": ["plate"]},
     {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]},
-    {"code": "subtype", "states": ["open", "light"]}
+    {"code": "subtype", "states": ["open", "light", "riveted"]}
   ],
   "skipVariants": ["*-gold-light", "*-silver-light"],
   "shapeByType": {"*-*bronze-*": {"base": "armor/{construction}/{subtype}-helmet/{bodypart}-bronze"}, "*": {"base": "armor/{construction}/{subtype}-helmet/{bodypart}-{material}"}},
   "texturesByType": {
     "*-open": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/chain/{material}"}},
-    "*-light": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/scale/{material}"}}
+    "*-light": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/scale/{material}"}},
+    "*-riveted": {"seraph": {"base": "game:block/transparent"}, "material": {"base": "armor/scale/{material}"}}
   },
   "storageFlags": 128,
   "attributes": {
@@ -22,7 +23,8 @@
       "texturePrefixCode": "armor-{bodypart}-{construction}-{material}-{subtype}",
       "disableElementsByType": {
         "*-open": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"],
-        "*-light": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
+        "*-light": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"],
+        "*-riveted": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
       },
       "keepElementsByType": {"*": []}
     }
@@ -32,8 +34,14 @@
       "name": "CombatOverhaul:Armor",
       "properties": {
         "Layers": ["Outer"],
-        "ZonesByType": {"*-open": ["Head"], "*-light": ["Head", "Face"]},
+        "ZonesByType": {"*-open": ["Head"], "*-light": ["Head", "Face"], "*-riveted": ["Head", "Face"]},
         "ResistsByType": {
+          "*-copper-riveted": {"PiercingAttack": 4, "SlashingAttack": 5, "BluntAttack": 1},
+          "*-*bronze-riveted": {"PiercingAttack": 6, "SlashingAttack": 7, "BluntAttack": 2},
+          "*-*iron-riveted": {"PiercingAttack": 8, "SlashingAttack": 9, "BluntAttack": 3},
+          "*-steel-riveted": {"PiercingAttack": 10, "SlashingAttack": 11, "BluntAttack": 4},
+          "*-gold-riveted": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 3},
+          "*-silver-riveted": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 3},
           "*-copper-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 2},
           "*-*bronze-*": {"PiercingAttack": 8, "SlashingAttack": 8, "BluntAttack": 3},
           "*-*iron-*": {"PiercingAttack": 10, "SlashingAttack": 10, "BluntAttack": 4},
@@ -48,7 +56,8 @@
         },
         "PlayerStatsByType": {
           "*-open": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.01, "hungerrate": 0.01},
-          "*-light": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.1, "healingeffectivness": -0.02, "hungerrate": 0.02}
+          "*-light": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.1, "healingeffectivness": -0.02, "hungerrate": 0.02},
+          "*-riveted": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.05, "healingeffectivness": -0.01, "hungerrate": 0.01}
         }
       }
     }

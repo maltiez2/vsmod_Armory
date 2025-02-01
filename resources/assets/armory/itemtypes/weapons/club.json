@@ -56,7 +56,7 @@
   "attributes": {
     "handbook": {"groupBy": ["club-plain-{material}"]},
     "groundStorageTransformByType": {
-      "*-steel": {"translation": {"x": 0.5, "y": 2.29, "z": 0.6}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-steel": {"translation": {"x": 0.5, "y": 1.99, "z": 0.65}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7},
       "*": {"translation": {"x": 0.5, "y": 2.09, "z": 0.6}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
     },
     "toolrackTransform": {"translation": {"x": -1.2, "y": 0.6, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
@@ -111,7 +111,7 @@
       "IdleAnimation": "armory:club-idle-2h"
     }
   },
-  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
+  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 350, "*-bismuthbronze": 450, "*-blackbronze": 550, "*-iron": 650, "*-meteoriciron": 750, "*-steel": 850, "*": 150},
   "creativeinventory": {"armory": ["*"]},
   "guiTransformByType": {
     "*-steel": {

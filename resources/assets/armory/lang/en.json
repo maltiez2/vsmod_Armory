@@ -74,6 +74,7 @@
   "item-quarterstaff-*-meteoriciron": "Quarterstaff (Meteoric iron)",
   "item-quarterstaff-*-steel": "Quarterstaff (Steel)",
 
+  "item-poleaxe-*-steel": "Poleaxe (Steel)",
 
   "item-part-hammerhead-steel": "Steel battle hammer head",
   "item-part-macehead-copper": "Copper mace head",
@@ -122,6 +123,8 @@
   "item-part-longaxehead-iron": "Iron long axe head",
   "item-part-longaxehead-meteoriciron": "Meteoric iron long axe head",
   "item-part-longaxehead-steel": "Steel long axe head",
+
+  "item-part-poleaxehead-steel": "Steel poleaxe head",
 
   "item-armor-torso-plate-copper-vanilla": "Copper cuirass",
   "item-armor-torso-plate-tinbronze-vanilla": "Tin bronze cuirass",
@@ -182,6 +185,16 @@
   "item-armor-head-plate-steel-open": "Steel open helmet",
   "item-armor-head-plate-gold-open": "Gold open helmet",
   "item-armor-head-plate-silver-open": "Silver open helmet",
+
+  "item-armor-head-plate-copper-riveted": "Copper riveted helmet",
+  "item-armor-head-plate-tinbronze-riveted": "Tin bronze riveted helmet",
+  "item-armor-head-plate-blackbronze-riveted": "Black bronze riveted helmet",
+  "item-armor-head-plate-bismuthbronze-riveted": "Bismuth bronze riveted helmet",
+  "item-armor-head-plate-iron-riveted": "Iron riveted helmet",
+  "item-armor-head-plate-meteoriciron-riveted": "Meteoric iron riveted helmet",
+  "item-armor-head-plate-steel-riveted": "Steel riveted helmet",
+  "item-armor-head-plate-gold-riveted": "Gold riveted helmet",
+  "item-armor-head-plate-silver-riveted": "Silver riveted helmet",
 
   "item-armor-head-plate-copper-light": "Copper light helmet",
   "item-armor-head-plate-tinbronze-light": "Tin bronze light helmet",

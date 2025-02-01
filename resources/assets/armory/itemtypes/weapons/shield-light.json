@@ -83,12 +83,13 @@
   "attributes": {
     "handbook": {"groupBy": ["shield-light-plain-{material}"]},
     "groundStorageTransformByType": {
-      "*-curde": {"translation": {"x": 0.1, "y": 1.2, "z": 0.9}, "rotation": {"x": 107, "y": 0, "z": -14}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-crude": {"translation": {"x": 0.2, "y": 0, "z": 0.35}, "rotation": {"x": 119, "y": -5, "z": -18}, "scale": 0.7},
       "*-copper": {"translation": {"x": 0.1, "y": 0.65, "z": 1.11}, "rotation": {"x": 115, "y": 0, "z": -25}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-*bronze": {"translation": {"x": 0.1, "y": 0.67, "z": 1.05}, "rotation": {"x": 113, "y": 0, "z": -17}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-*iron": {"translation": {"x": 0.1, "y": 0.83, "z": 0.98}, "rotation": {"x": 116, "y": 0, "z": -18}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-steel": {"translation": {"x": 0.1, "y": 0.6, "z": 1.08}, "rotation": {"x": 111, "y": 0, "z": -13}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
     },
+    "toolrackTransform": {"rotation": {"x": 0, "y": 90, "z": 180}, "origin": {"x": 0.5, "y": 0.25, "z": 0.5}},
     "OffHandStanceByType": {
       "*-crude": {
         "CanAttack": false,

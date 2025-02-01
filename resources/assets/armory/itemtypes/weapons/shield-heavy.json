@@ -88,6 +88,7 @@
       "*-*bronze": {"translation": {"x": 0.2, "y": 1, "z": 0.95}, "rotation": {"x": 116, "y": -7, "z": -21}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-*iron": {"translation": {"x": 0.9, "y": 0.2, "z": 0}, "rotation": {"x": 117, "y": 180, "z": 26}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
     },
+    "toolrackTransform": {"rotation": {"x": 0, "y": 90, "z": 180}, "origin": {"x": 0.5, "y": 0.25, "z": 0.5}},
     "OffHandStanceByType": {
       "*-crude": {
         "CanAttack": false,

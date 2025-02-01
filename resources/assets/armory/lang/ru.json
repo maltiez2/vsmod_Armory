@@ -2,8 +2,12 @@
   "game:tabname-armory": "Armory",
   "game:tabname-armory-parts": "Armory: parts",
   "game:tabname-armory-armor": "Armory: armor",
+  "game:tabname-armory-colors": "Armory: colored",
 
   "item-quiver-waist-plain": "Колчан для дротиков",
+  "item-handle-short": "Короткая рукоять",
+  "item-handle-medium": "Средняя рукоять",
+  "item-handle-long": "Длинная рукоять",
 
   "item-shield-light-*-crude": "Лёгкий щит (Кожа)",
   "item-shield-light-*-copper": "Лёгкий щит (Медь)",
@@ -40,20 +44,20 @@
   "item-pike-*-meteoriciron": "Пика (Метеоритное железо)",
   "item-pike-*-steel": "Пика (Сталь)",
 
-  "item-sword-short-*-copper": "Короткий меч (Медь)",
-  "item-sword-short-*-*bronze": "Короткий меч (Бронза)",
-  "item-sword-short-*-iron": "Короткий меч (Железо)",
-  "item-sword-short-*-meteoriciron": "Короткий меч (Метеоритное железо)",
-  "item-sword-short-*-steel": "Короткий меч (Сталь)",
+  "item-sword-short-*-copper": "Короткий мечь (Медь)",
+  "item-sword-short-*-*bronze": "Короткий мечь (Бронза)",
+  "item-sword-short-*-iron": "Короткий мечь (Железо)",
+  "item-sword-short-*-meteoriciron": "Короткий мечь (Метеоритное железо)",
+  "item-sword-short-*-steel": "Короткий мечь (Сталь)",
 
-  "item-sword-long-*-*bronze": "Длинный меч (Бронза)",
-  "item-sword-long-*-iron": "Длинный меч (Железо)",
-  "item-sword-long-*-meteoriciron": "Длинный меч (Метеоритное железо)",
-  "item-sword-long-*-steel": "Длинный меч (Сталь)",
+  "item-sword-long-*-*bronze": "Длинный мечь (Бронза)",
+  "item-sword-long-*-iron": "Длинный мечь (Железо)",
+  "item-sword-long-*-meteoriciron": "Длинный мечь (Метеоритное железо)",
+  "item-sword-long-*-steel": "Длинный мечь (Сталь)",
 
-  "item-sword-great-*-iron": "Большой меч (Железо)",
-  "item-sword-great-*-meteoriciron": "Большой меч (Метеоритное железо)",
-  "item-sword-great-*-steel": "Большой меч (Сталь)",
+  "item-sword-great-*-iron": "Большой мечь (Железо)",
+  "item-sword-great-*-meteoriciron": "Большой мечь (Метеоритное железо)",
+  "item-sword-great-*-steel": "Большой мечь (Сталь)",
   
   "item-halberd-*-iron": "Алебарда (Железо)",
   "item-halberd-*-meteoriciron": "Алебарда (Метеоритное железо)",
@@ -69,7 +73,8 @@
   "item-quarterstaff-*-iron": "Боевой посох (Железо)",
   "item-quarterstaff-*-meteoriciron": "Боевой посох (Метеоритное железо)",
   "item-quarterstaff-*-steel": "Боевой посох (Сталь)",
-
+  
+  "item-poleaxe-*-steel": "Полэкс (Сталь)",
 
   "item-part-hammerhead-steel": "Оголовье боевого молота из стали",
   "item-part-macehead-copper": "Оголовье булавы из меди",
@@ -118,6 +123,8 @@
   "item-part-longaxehead-iron": "Оголовье боевого топора из железа",
   "item-part-longaxehead-meteoriciron": "Оголовье боевого топора из метеоритного железа",
   "item-part-longaxehead-steel": "Оголовье боевого топора из стали",
+  
+  "item-part-poleaxehead-steel": "Оголовье полэкса из стали",
 
   "item-armor-torso-plate-copper-vanilla": "Медная кираса",
   "item-armor-torso-plate-tinbronze-vanilla": "Кираса из оловянной бронзы",
@@ -178,8 +185,18 @@
   "item-armor-head-plate-steel-open": "Стальной открытый шлем",
   "item-armor-head-plate-gold-open": "Золотой открытый шлем",
   "item-armor-head-plate-silver-open": "Серебряный открытый шлем",
+  
+  "item-armor-head-plate-copper-riveted": "Клёпаный шлем из меди",
+  "item-armor-head-plate-tinbronze-riveted": "Клёпаный шлем из оловянной бронзы",
+  "item-armor-head-plate-blackbronze-riveted": "Клёпаный шлем из черной бронзы",
+  "item-armor-head-plate-bismuthbronze-riveted": "Клёпаный шлем из висмутовой бронзы",
+  "item-armor-head-plate-iron-riveted": "Клёпаный шлем из железа",
+  "item-armor-head-plate-meteoriciron-riveted": "Клёпаный шлем из метеоритного железа",
+  "item-armor-head-plate-steel-riveted": "Клёпаный шлем из стали",
+  "item-armor-head-plate-gold-riveted": "Клёпаный шлем из золота",
+  "item-armor-head-plate-silver-riveted": "Клёпаный шлем из серебра",
 
-  "item-armor-head-plate-copper-light": "Медный лёгкий шлем",
+  "item-armor-head-plate-copper-light": "Медный Лёгкий шлем",
   "item-armor-head-plate-tinbronze-light": "Лёгкий шлем из оловянной бронзы",
   "item-armor-head-plate-blackbronze-light": "Лёгкий шлем из черной бронзы",
   "item-armor-head-plate-bismuthbronze-light": "Лёгкий шлем из висмутовой бронзы",
@@ -287,7 +304,7 @@
   "item-armor-armshands-scale-gold-vanilla": "Чешуйчатые нарукавники из золота",
   "item-armor-armshands-scale-silver-vanilla": "Чешуйчатые нарукавники из серебра",
 
-  "item-armor-head-jerkin-leather-vanilla": "Кожаный подшлемник",
+  "item-armor-head-jerkin-leather-vanilla": "Кожаный шлем",
 
   "item-creature-javelin-*": "дротик",
 

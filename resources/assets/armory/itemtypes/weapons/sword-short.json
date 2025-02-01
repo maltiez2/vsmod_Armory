@@ -100,8 +100,8 @@
   "attributes": {
     "handbook": {"groupBy": ["sword-short-{material}"]},
     "groundStorageTransformByType": {
-      "*-copper": {"translation": {"x": 0.5, "y": -0.05, "z": 0.25}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-      "*-*bronze": {"translation": {"x": 0.5, "y": -0.05, "z": 0.25}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+      "*-copper": {"translation": {"x": 0.5, "y": 0, "z": 0.34}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7},
+      "*-*bronze": {"translation": {"x": 0.5, "y": 0, "z": 0.42}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
       "*-*iron": {"translation": {"x": 0.5, "y": 0, "z": 0.37}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
       "*-steel": {"translation": {"x": 0.5, "y": 0.1, "z": 0.35}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
     },
