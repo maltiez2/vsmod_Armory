@@ -22,6 +22,7 @@
     "height": 1,
     "shapeless": true,
     "name": "scale armor",
+    "copyAttributesFrom": "T",
     "output": {"type": "item", "code": "game:armor-body-scale-{material}"}
   },
   {

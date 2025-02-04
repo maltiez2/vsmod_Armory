@@ -1,0 +1,29 @@
+﻿[
+  {
+    "ingredientPattern": "S,H",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:spearhead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]
+      },
+      "H": {"type": "item", "code": "armory:handle-medium"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:spear-generic-{material}"}
+  },
+  {
+    "ingredientPattern": "T,S",
+    "ingredients": {
+      "T": {"type": "item", "code": "game:spearhead-*", "name": "metal", "allowedVariants": ["granite", "andesite", "basalt", "obsidian", "peridotite", "chert", "flint"]},
+      "S": {"type": "item", "code": "game:stick"}
+    },
+    "width": 1,
+    "height": 2,
+    "output": {"type": "item", "code": "game:spear-generic-{metal}", "quantity": 1}
+  }
+]

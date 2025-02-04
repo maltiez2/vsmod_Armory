@@ -29,6 +29,7 @@
     "height": 1,
     "shapeless": true,
     "name": "chain armor",
+    "copyAttributesFrom": "T",
     "output": {"type": "item", "code": "game:armor-body-chain-{material}"}
   },
   {

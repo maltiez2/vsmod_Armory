@@ -29,6 +29,7 @@
     "height": 1,
     "shapeless": true,
     "name": "plate armor",
+    "copyAttributesFrom": "T",
     "output": {"type": "item", "code": "game:armor-body-plate-{material}"}
   },
   {
@@ -54,6 +55,7 @@
     "height": 2,
     "shapeless": true,
     "name": "plate armor",
+    "copyAttributesFrom": "L",
     "output": {"type": "item", "code": "game:armor-legs-plate-{material}"}
   },
   {

@@ -106,13 +106,13 @@
         "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
         "Directions": [90, 90, 90, 90],
         "Sound": "game:sounds/held/shieldblock-metal-heavy",
-        "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
+        "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
       },
       "Block": {
         "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftLeg", "RightLeg"],
-        "Directions": [75, 75, 75, 75],
+        "Directions": [60, 60, 60, 60],
         "Sound": "game:sounds/held/shieldblock-metal-light",
-        "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
+        "BlockTier": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5}
       },
       "BlockAnimation": "armory:quarterstaff-parry-2h"
     }

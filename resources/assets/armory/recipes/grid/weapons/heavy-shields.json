@@ -27,11 +27,11 @@
     "output": {"type": "item", "code": "armory:shield-heavy-plain-crude"}
   },
   {
-    "ingredientPattern": "BPB,BLB,BPB",
+    "ingredientPattern": "BPB,BLB,BBB",
     "recipeGroup": 1,
     "ingredients": {
       "P": {"type": "item", "code": "game:metalplate-copper", "quantity": 1},
-      "B": {"type": "item", "code": "game:plank-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:plank-*", "quantity": 1},
       "L": {"type": "item", "code": "game:leather-*"}
     },
     "width": 3,
@@ -81,7 +81,11 @@
   {
     "ingredientPattern": "PHP,PBP,_P_",
     "recipeGroup": 1,
-    "ingredients": {"H": {"type": "item", "code": "game:leather-*", "quantity": 2}, "B": {"type": "item", "code": "game:boss-iron"}, "P": {"type": "item", "code": "game:plank-*"}},
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:boss-iron"},
+      "P": {"type": "item", "code": "game:plank-*", "quantity": 2}
+    },
     "width": 3,
     "height": 3,
     "name": "sheild",
