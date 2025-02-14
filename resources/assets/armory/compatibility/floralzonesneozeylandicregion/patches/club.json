@@ -1,0 +1,13 @@
+[
+  {
+    "file": "armory:itemtypes/weapons/club",
+    "op": "addmerge",
+    "path": "/behaviors/1/properties/Textures/0/HandbookValues",
+    "value": [
+      "game:block/wood/debarked/podocarpustotara",
+      "game:block/wood/debarked/nothofagusmenziesii",
+      "game:block/wood/debarked/dacrydiumcupressinum",
+      "game:block/wood/debarked/araucariaheterophylla"
+    ]
+  }
+]

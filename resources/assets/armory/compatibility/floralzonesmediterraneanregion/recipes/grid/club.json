@@ -1,0 +1,21 @@
+[
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 2,
+        "name": "metal",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron"]
+      },
+      "B": {"type": "block", "code": "floralzonesmediterraneanregion:log-placed-*-ud", "name": "wood", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true}
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {"type": "item", "code": "armory:club-plain-{metal}", "attributes": {"handleTexture": "game:block/wood/debarked/{wood}"}}
+  }
+]

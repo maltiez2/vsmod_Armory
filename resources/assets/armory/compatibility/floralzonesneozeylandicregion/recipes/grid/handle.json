@@ -1,0 +1,68 @@
+[
+    {
+    "ingredientPattern": "KBA",
+    "ingredients": {
+      "B": {"type": "block", "code": "floralzonesneozeylandicregion:debarkedlog-*-ud", "name": "wood", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
+      "A": {"type": "item", "code": "game:axe-*", "quantity": 1, "isTool": true}
+    },
+    "width": 3,
+    "height": 1,
+    "output": {"type": "item", "code": "armory:handle-short", "quantity": 1, "attributes": {"handleTexture": "game:block/wood/debarked/{wood}"}}
+  },
+  {
+    "ingredientPattern": "KBA",
+    "ingredients": {
+      "B": {"type": "block", "code": "floralzonesneozeylandicregion:log-placed-*-ud", "name": "wood", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
+      "A": {"type": "item", "code": "game:axe-*", "quantity": 1, "isTool": true}
+    },
+    "width": 3,
+    "height": 1,
+    "output": {"type": "item", "code": "armory:handle-short", "quantity": 1, "attributes": {"handleTexture": "game:block/wood/debarked/{wood}"}}
+  },
+  {
+    "ingredientPattern": "KBA,_B_",
+    "ingredients": {
+      "B": {"type": "block", "code": "floralzonesneozeylandicregion:debarkedlog-*-ud", "name": "wood", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
+      "A": {"type": "item", "code": "game:axe-*", "quantity": 1, "isTool": true}
+    },
+    "width": 3,
+    "height": 2,
+    "output": {"type": "item", "code": "armory:handle-medium", "quantity": 1, "attributes": {"handleTexture": "game:block/wood/debarked/{wood}"}}
+  },
+  {
+    "ingredientPattern": "KBA,_B_",
+    "ingredients": {
+      "B": {"type": "block", "code": "floralzonesneozeylandicregion:log-placed-*-ud", "name": "wood", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
+      "A": {"type": "item", "code": "game:axe-*", "quantity": 1, "isTool": true}
+    },
+    "width": 3,
+    "height": 2,
+    "output": {"type": "item", "code": "armory:handle-medium", "quantity": 1, "attributes": {"handleTexture": "game:block/wood/debarked/{wood}"}}
+  },
+  {
+    "ingredientPattern": "KBA,_B_,_B_",
+    "ingredients": {
+      "B": {"type": "block", "code": "floralzonesneozeylandicregion:debarkedlog-*-ud", "name": "wood", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
+      "A": {"type": "item", "code": "game:axe-*", "quantity": 1, "isTool": true}
+    },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "armory:handle-long", "quantity": 1, "attributes": {"handleTexture": "game:block/wood/debarked/{wood}"}}
+  },
+  {
+    "ingredientPattern": "KBA,_B_,_B_",
+    "ingredients": {
+      "B": {"type": "block", "code": "floralzonesneozeylandicregion:log-placed-*-ud", "name": "wood", "quantity": 1},
+      "K": {"type": "item", "code": "game:knife-*", "quantity": 1, "isTool": true},
+      "A": {"type": "item", "code": "game:axe-*", "quantity": 1, "isTool": true}
+    },
+    "width": 3,
+    "height": 3,
+    "output": {"type": "item", "code": "armory:handle-long", "quantity": 1, "attributes": {"handleTexture": "game:block/wood/debarked/{wood}"}}
+  }
+]

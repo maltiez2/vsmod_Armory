@@ -1,0 +1,11 @@
+[
+  {
+    "file": "armory:itemtypes/handle",
+    "op": "addmerge",
+    "path": "/behaviors/0/properties/Textures/0/HandbookValues",
+    "value": [
+      "game:block/wood/debarked/eucalyptuscamaldulensis",
+      "game:block/wood/debarked/corymbiaaparrerinja"
+    ]
+  }
+]
