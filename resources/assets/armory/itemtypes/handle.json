@@ -35,7 +35,7 @@
   "maxstacksize": 16,
   "textures": {},
   "attributes": {},
-  "creativeinventory": {"armory-parts": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory-parts": ["*"]},
   "guiTransformByType": {
     "*-short": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 118, "y": 72, "z": -130}, "origin": {"x": 1, "y": 0.2, "z": 0.63}, "scale": 1.7},
     "*-medium": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 118, "y": 72, "z": -130}, "origin": {"x": 1, "y": 0.4, "z": 0.73}, "scale": 1.7},

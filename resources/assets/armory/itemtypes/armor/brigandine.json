@@ -29,18 +29,18 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-torso-*": ["Torso"], "*-arms-*": ["Arms"], "*-hands-*": ["Hands"], "*-legs-*": ["Legs"], "*-feet-*": ["Feet"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 1},
-          "*-*bronze-*": {"PiercingAttack": 6, "SlashingAttack": 8, "BluntAttack": 2},
-          "*-*iron-*": {"PiercingAttack": 8, "SlashingAttack": 10, "BluntAttack": 3},
-          "*-steel-*": {"PiercingAttack": 9, "SlashingAttack": 12, "BluntAttack": 4}
+          "*-copper-*": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 0},
+          "*-*bronze-*": {"PiercingAttack": 4, "SlashingAttack": 5, "BluntAttack": 1},
+          "*-*iron-*": {"PiercingAttack": 5, "SlashingAttack": 6, "BluntAttack": 2},
+          "*-steel-*": {"PiercingAttack": 6, "SlashingAttack": 7, "BluntAttack": 3}
         },
-        "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 1, "SlashingAttack": 0, "BluntAttack": 0}, "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}},
+        "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}, "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}},
         "PlayerStatsByType": {
-          "*-torso-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02},
-          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.05, "healingeffectivness": -0.03, "hungerrate": 0.02},
-          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.05, "healingeffectivness": -0.03, "hungerrate": 0.02},
-          "*-legs-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02},
-          "*-feet-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.02}
+          "*-torso-*": {"walkspeed": -0.04, "manipulationSpeed": -0.05, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.05},
+          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.1, "healingeffectivness": -0.03, "hungerrate": 0.05},
+          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.1, "healingeffectivness": -0.03, "hungerrate": 0.05},
+          "*-legs-*": {"walkspeed": -0.06, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.05},
+          "*-feet-*": {"walkspeed": -0.06, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.05}
         }
       }
     }
@@ -54,7 +54,7 @@
     "*-meteoriciron-*": 3000,
     "*-steel-*": 5200
   },
-  "creativeinventory": {"armory-armor": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory-armor": ["*"]},
   "renderAlphaTest": 0.25,
   "heldTpIdleAnimation": "holdunderarm",
   "tpHandTransformByType": {

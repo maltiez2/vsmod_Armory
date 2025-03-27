@@ -112,7 +112,7 @@
     }
   },
   "durabilitybytype": {"*-copper": 250, "*-tinbronze": 350, "*-bismuthbronze": 450, "*-blackbronze": 550, "*-iron": 650, "*-meteoriciron": 750, "*-steel": 850, "*": 150},
-  "creativeinventory": {"armory": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransformByType": {
     "*-steel": {
       "translation": {"x": 0, "y": 0, "z": 0},

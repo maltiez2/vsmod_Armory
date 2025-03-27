@@ -229,7 +229,7 @@
   },
   "texturesByType": {"*-crude": {}, "*": {"metal": {"base": "game:block/metal/plate/{material}"}}},
   "durabilitybytype": {"*-crude": 500, "*-copper": 1500, "*-tinbronze": 1000, "*-bismuthbronze": 1000, "*-blackbronze": 1000, "*-iron": 1500, "*-steel": 3000},
-  "creativeinventory": {"armory": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransformByType": {
     "*-crude": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 113, "y": -39, "z": -33}, "origin": {"x": 0.8, "y": -0.3, "z": 0.7}, "scale": 0.97},
     "*-copper": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 121, "y": 0, "z": -30}, "origin": {"x": 0.46, "y": 0, "z": 0.5}, "scale": 1.6},

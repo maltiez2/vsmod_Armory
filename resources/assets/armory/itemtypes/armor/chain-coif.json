@@ -29,15 +29,15 @@
         "Layers": ["Middle"],
         "ZonesByType": {"*-coif": ["Head", "Neck"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 1, "SlashingAttack": 4, "BluntAttack": 0},
-          "*-*bronze-*": {"PiercingAttack": 1, "SlashingAttack": 6, "BluntAttack": 1},
-          "*-*iron-*": {"PiercingAttack": 2, "SlashingAttack": 8, "BluntAttack": 1},
-          "*-steel-*": {"PiercingAttack": 2, "SlashingAttack": 9, "BluntAttack": 2},
-          "*-gold-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0},
-          "*-silver-*": {"PiercingAttack": 0, "SlashingAttack": 4, "BluntAttack": 0}
+          "*-copper-*": {"PiercingAttack": 0, "SlashingAttack": 2, "BluntAttack": 0},
+          "*-*bronze-*": {"PiercingAttack": 1, "SlashingAttack": 3, "BluntAttack": 0},
+          "*-*iron-*": {"PiercingAttack": 2, "SlashingAttack": 4, "BluntAttack": 0},
+          "*-steel-*": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 0},
+          "*-gold-*": {"PiercingAttack": 0, "SlashingAttack": 2, "BluntAttack": 0},
+          "*-silver-*": {"PiercingAttack": 0, "SlashingAttack": 2, "BluntAttack": 0}
         },
         "FlatReduction": {},
-        "PlayerStatsByType": {"*-coif": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.02, "hungerrate": 0.02}}
+        "PlayerStatsByType": {"*-coif": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.06, "hungerrate": 0.06}}
       }
     }
   ],
@@ -52,7 +52,7 @@
     "*-meteoriciron-*": 1800,
     "*-steel-*": 4000
   },
-  "creativeinventory": {"armory-armor": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory-armor": ["*"]},
   "renderAlphaTest": 0.25,
   "heldTpIdleAnimation": "holdunderarm",
   "tpHandTransformByType": {

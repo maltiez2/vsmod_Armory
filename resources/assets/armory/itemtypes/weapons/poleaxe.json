@@ -172,19 +172,21 @@
         "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
         "Directions": [90, 90, 90, 90],
         "Sound": "game:sounds/held/shieldblock-metal-heavy",
-        "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
+        "BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9},
+        "CanBlockProjectiles": false
       },
       "Block": {
         "Zones": ["Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftLeg", "RightLeg"],
         "Directions": [75, 75, 75, 75],
         "Sound": "game:sounds/held/shieldblock-metal-light",
-        "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
+        "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7},
+        "CanBlockProjectiles": false
       },
       "BlockAnimation": "armory:poleaxe-parry-2h"
     }
   },
   "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
-  "creativeinventory": {"armory": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 0.8, "y": 0.15, "z": 0.2}, "scale": 1.56},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "tpHandTransform": {"translation": {"x": -2.5, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7}

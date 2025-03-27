@@ -28,14 +28,14 @@
       "properties": {
         "Layers": ["Skin"],
         "ZonesByType": {"*-vanilla": ["Head", "Neck", "Face"]},
-        "ResistsByType": {"*-leather-*": {"PiercingAttack": 1, "SlashingAttack": 1, "BluntAttack": 4}},
+        "ResistsByType": {"*-leather-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 4}},
         "FlatReduction": {},
-        "PlayerStatsByType": {"*-vanilla": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.02, "healingeffectivness": -0.02, "hungerrate": 0.02}}
+        "PlayerStatsByType": {"*-vanilla": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.09, "hungerrate": 0.03}}
       }
     }
   ],
   "durabilityByType": {"*-leather-*": 1800},
-  "creativeinventory": {"armory-armor": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory-armor": ["*"]},
   "renderAlphaTest": 0.25,
   "heldTpIdleAnimation": "holdunderarm",
   "tpHandTransformByType": {

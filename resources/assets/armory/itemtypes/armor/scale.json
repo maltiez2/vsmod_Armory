@@ -29,15 +29,15 @@
         "Layers": ["Outer", "Middle"],
         "ZonesByType": {"*-torso-*": ["Torso"], "*-armshands-*": ["Arms", "Hands"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 1},
-          "*-*bronze-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 1},
-          "*-*iron-*": {"PiercingAttack": 6, "SlashingAttack": 8, "BluntAttack": 2},
-          "*-steel-*": {"PiercingAttack": 7, "SlashingAttack": 9, "BluntAttack": 3}
+          "*-copper-*": {"PiercingAttack": 1, "SlashingAttack": 3, "BluntAttack": 0},
+          "*-*bronze-*": {"PiercingAttack": 2, "SlashingAttack": 4, "BluntAttack": 1},
+          "*-*iron-*": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 2},
+          "*-steel-*": {"PiercingAttack": 4, "SlashingAttack": 6, "BluntAttack": 3}
         },
-        "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 1, "BluntAttack": 0}, "*": {}},
+        "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}, "*": {}},
         "PlayerStatsByType": {
-          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.02, "hungerrate": 0.02},
-          "*-armshands-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.05, "healingeffectivness": -0.01, "hungerrate": 0.02}
+          "*-torso-*": {"walkspeed": -0.02, "manipulationSpeed": -0.03, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.03},
+          "*-armshands-*": {"walkspeed": 0, "manipulationSpeed": -0.06, "steadyAim": -0.1, "healingeffectivness": -0.06, "hungerrate": 0.06}
         }
       }
     }
@@ -51,7 +51,7 @@
     "*-meteoriciron-*": 5600,
     "*-steel-*": 11000
   },
-  "creativeinventory": {"armory-armor": ["*"]},
+  "creativeinventory": {"general": ["*"], "armory-armor": ["*"]},
   "renderAlphaTest": 0.25,
   "heldTpIdleAnimation": "holdunderarm",
   "tpHandTransformByType": {

@@ -58,6 +58,11 @@
   "item-sword-great-*-iron": "Great sword (Iron)",
   "item-sword-great-*-meteoriciron": "Great sword (Meteoric iron)",
   "item-sword-great-*-steel": "Great sword (Steel)",
+
+  "item-sabre-*-*bronze": "Sabre (Bronze)",
+  "item-sabre-*-iron": "Sabre (Iron)",
+  "item-sabre-*-meteoriciron": "Sabre (Meteoric iron)",
+  "item-sabre-*-steel": "Sabre (Steel)",
   
   "item-halberd-*-iron": "Halberd (Iron)",
   "item-halberd-*-meteoriciron": "Halberd (Meteoric iron)",
