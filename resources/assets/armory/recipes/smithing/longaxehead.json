@@ -3,11 +3,11 @@
     "ingredient": {"type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]},
     "name": "mace head",
     "pattern": [[
-      "_###_____",
+      "_________",
       "#########",
       "#########",
       "#####__##",
-      "_###___##"
+      "_______##"
     ],[
       "_________",
       "#####____",

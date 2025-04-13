@@ -1,7 +1,7 @@
 ﻿[
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -16,7 +16,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -31,7 +31,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -46,7 +46,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -61,7 +61,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -76,7 +76,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -91,7 +91,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -106,7 +106,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -121,7 +121,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -136,7 +136,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -151,7 +151,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
@@ -166,7 +166,7 @@
   },
   {
     "ingredientPattern": "_H_,PBP,CPL",
-    "recipeGroup": 1,
+    "recipeGroup": 2,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 1},
       "B": {"type": "item", "code": "game:boss-iron"},
