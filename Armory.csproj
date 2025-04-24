@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.2.3</ModVersion>
+    <ModVersion>0.2.4</ModVersion>
     <ModId>armory</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -23,6 +23,7 @@
     <ModInfoTranslators Include="Ouk - Czech" />
     <ModInfoTranslators Include="Nikolashka - Russian" />
     <ModInfoTranslators Include="Pawelot - Polish" />
+    <ModInfoTranslators Include="Kyane - French" />
   </ItemGroup>
 
   <!-- Dependencies -->
