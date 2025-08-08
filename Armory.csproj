@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>0.2.4</ModVersion>
+    <ModVersion>1.0.1</ModVersion>
     <ModId>armory</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -82,8 +82,12 @@
     <Reference Include="$(GameDirectory)/**/*.dll" Private="false" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="resources\assets\armory\shapes\armor\lamellar\**" />
+    <EmbeddedResource Remove="resources\assets\armory\shapes\armor\lamellar\**" />
+    <None Remove="resources\assets\armory\shapes\armor\lamellar\**" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="resources\assets\armory\shapes\armor\brigandine\" />
-    <Folder Include="resources\assets\armory\shapes\armor\lamellar\" />
     <Folder Include="resources\assets\armory\shapes\halberds\" />
   </ItemGroup>
 
@@ -104,7 +108,6 @@
 
   "description": "$(Description)",
   "authors": [ @(ModInfoAuthors->'"%(Identity)"', ', ') ],
-  "translation": [ @(ModInfoTranslators->'"%(Identity)"', ', ') ],
 
   "dependencies": {
     @(Dependencies->'"%(Identity)": "%(Version)"', ', ')

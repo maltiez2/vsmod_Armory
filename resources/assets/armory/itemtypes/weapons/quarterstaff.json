@@ -1,6 +1,7 @@
 ﻿{
   "code": "quarterstaff",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "staff", "quarterstaff", "polearm", "twohanded"],
   "behaviors": [
     {
       "name": "GroundStorable",

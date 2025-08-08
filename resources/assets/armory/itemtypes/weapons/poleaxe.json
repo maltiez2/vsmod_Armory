@@ -1,6 +1,7 @@
 ﻿{
   "code": "poleaxe",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "poleaxe", "polearm", "twohanded"],
   "behaviors": [
     {
       "name": "GroundStorable",

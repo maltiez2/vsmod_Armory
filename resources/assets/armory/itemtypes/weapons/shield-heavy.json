@@ -1,6 +1,7 @@
 ﻿{
   "code": "shield",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["shield", "onehanded"],
   "storageFlags": 257,
   "tool": "shield",
   "variantgroups": [

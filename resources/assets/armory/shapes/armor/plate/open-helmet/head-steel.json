@@ -7,8 +7,6 @@
 	"textureWidth": 64,
 	"textureHeight": 64,
 	"textureSizes": {
-		"bismuthbronze": [64,64],
-		"linen": [64,64]
 	},
 	"textures": {
 		"material": "game:entity/humanoid/serapharmor/chain/steel"

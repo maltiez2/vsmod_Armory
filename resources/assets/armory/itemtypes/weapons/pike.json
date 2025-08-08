@@ -1,6 +1,7 @@
 ﻿{
   "code": "pike",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "pike", "polearm", "twohanded"],
   "behaviors": [
     {
       "name": "GroundStorable",

@@ -1,6 +1,7 @@
 ﻿{
   "code": "mace",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "mace", "onehanded"],
   "behaviorsByType": {
     "@.*-(copper|.*bronze|.*iron|steel)": [
       {

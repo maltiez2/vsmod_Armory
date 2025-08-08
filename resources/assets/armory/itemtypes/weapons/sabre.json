@@ -1,6 +1,7 @@
 ﻿{
   "code": "sabre",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "sword", "sabre", "onehanded"],
   "behaviorsByType": {
     "*-steel": [
       {

@@ -1,6 +1,7 @@
 ﻿{
   "code": "halberd",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "halberd", "polearm", "twohanded"],
   "behaviors": [
     {
       "name": "GroundStorable",

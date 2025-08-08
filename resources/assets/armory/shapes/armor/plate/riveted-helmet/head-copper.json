@@ -10,6 +10,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"material": "game:entity/humanoid/serapharmor/plate/iron"
 	},
 	"elements": [
 		{

@@ -32,8 +32,8 @@
       "*": {"base": "armory:spears/javelin-{material}-plain"}
     },
     "texturesByType": {"@.*-(chert|granite|andesite|basalt|obsidian|peridotite)": {"head": {"base": "game:block/stone/rock/{material}1"}}},
-    "behaviors": [{"code": "passivephysics", "groundDragFactor": 1, "airDragFactor": 1, "gravityFactor": 1}, {"code": "interpolateposition"}]
+    "behaviors": [{"code": "CombatOverhaul:ProjectilePhysics", "groundDragFactor": 1, "airDragFactor": 1, "gravityFactor": 1}, {"code": "interpolateposition"}]
   },
-  "server": {"behaviors": [{"code": "passivephysics", "groundDragFactor": 1, "airDragFactor": 2, "gravityFactor": 1}, {"code": "despawn", "minSeconds": 600}]},
+  "server": {"behaviors": [{"code": "CombatOverhaul:ProjectilePhysics", "groundDragFactor": 1, "airDragFactor": 2, "gravityFactor": 1}, {"code": "despawn", "minSeconds": 600}]},
   "sounds": {}
 }

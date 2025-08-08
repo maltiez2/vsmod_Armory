@@ -29,10 +29,10 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-torso-*": ["Torso"], "*-arms-*": ["Arms"], "*-hands-*": ["Hands"], "*-legs-*": ["Legs"], "*-feet-*": ["Feet"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 0},
-          "*-*bronze-*": {"PiercingAttack": 4, "SlashingAttack": 5, "BluntAttack": 1},
-          "*-*iron-*": {"PiercingAttack": 5, "SlashingAttack": 6, "BluntAttack": 2},
-          "*-steel-*": {"PiercingAttack": 6, "SlashingAttack": 7, "BluntAttack": 3}
+          "*-copper-*": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 2},
+          "*-*bronze-*": {"PiercingAttack": 4, "SlashingAttack": 5, "BluntAttack": 3},
+          "*-*iron-*": {"PiercingAttack": 5, "SlashingAttack": 6, "BluntAttack": 4},
+          "*-steel-*": {"PiercingAttack": 6, "SlashingAttack": 7, "BluntAttack": 5}
         },
         "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}, "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}},
         "PlayerStatsByType": {

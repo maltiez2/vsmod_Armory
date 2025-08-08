@@ -29,12 +29,12 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-torso-*": ["Torso"], "*-arms-*": ["Arms"], "*-hands-*": ["Hands"], "*-legs-*": ["Legs"], "*-feet-*": ["Feet"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1},
-          "*-*bronze-*": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 2},
-          "*-*iron-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 3},
-          "*-steel-*": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 4},
-          "*-gold-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1},
-          "*-silver-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1}
+          "*-gold-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 3},
+          "*-silver-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 3},
+          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 3},
+          "*-*bronze-*": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 4},
+          "*-*iron-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 5},
+          "*-steel-*": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 6}
         },
         "FlatReductionByType": {
           "*-*iron-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},

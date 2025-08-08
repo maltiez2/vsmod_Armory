@@ -1,6 +1,7 @@
 ﻿{
   "code": "javelin",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "weapon-ranged", "projectile", "javelin", "onehanded"],
   "behaviors": [
     {
       "name": "GroundStorable",

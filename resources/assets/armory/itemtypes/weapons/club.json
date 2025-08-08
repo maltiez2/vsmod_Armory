@@ -1,6 +1,7 @@
 ﻿{
   "code": "club",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "club", "twohanded", "onehanded"],
   "behaviors": [
     {
       "name": "GroundStorable",

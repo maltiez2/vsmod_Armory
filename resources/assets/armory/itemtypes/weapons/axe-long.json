@@ -1,6 +1,7 @@
 ﻿{
   "code": "axe",
   "class": "CombatOverhaul:MeleeWeapon",
+  "tags": ["weapon", "weapon-melee", "battle-axe", "twohanded"],
   "behaviors": [
     {
       "name": "GroundStorable",
