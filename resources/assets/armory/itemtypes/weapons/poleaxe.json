@@ -67,6 +67,7 @@
       "CanBlock": true,
       "CanSprint": true,
       "CanThrow": false,
+      "CanBash": true,
       "SpeedPenalty": 0,
       "BlockCooldownMs": 500,
       "GripLengthFactor": 4,
@@ -183,7 +184,22 @@
         "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7},
         "CanBlockProjectiles": false
       },
-      "BlockAnimation": "armory:poleaxe-parry-2h"
+      "BlockAnimation": "armory:poleaxe-parry-2h",
+      "BlockBash": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypes": [
+          {"DamageByType": {"*": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 3.5}}, "Knockback": 2, "DurabilityDamage": 1, "Collider": [-2.5, 0, 0.5, -0.29999995, 0, 0.5]}
+        ]
+      },
+      "BlockBashAnimation": {
+        "Top": ["armory:poleaxe-bash-2h-2"],
+        "Left": ["armory:poleaxe-bash-2h-1"],
+        "Right": ["armory:poleaxe-bash-2h-1"],
+        "Bottom": ["armory:poleaxe-bash-2h-2"]
+      }
     }
   },
   "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},

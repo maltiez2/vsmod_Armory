@@ -106,7 +106,7 @@
         }
       },
       "AttackHitSound": "game:sounds/thud",
-      "AttackAnimation": {"Main": ["armory:club-strike-2h-1", "armory:club-strike-2h-2"]},
+      "AttackAnimationByType": {"*-steel": {"Main": ["armory:club-strike-2h-3", "armory:club-strike-2h-4"]}, "*": {"Main": ["armory:club-strike-2h-1", "armory:club-strike-2h-2"]}},
       "TpAttackAnimation": {"Main": "combatoverhaul-falx-slash"},
       "ReadyAnimation": "armory:club-ready-2h",
       "IdleAnimation": "armory:club-idle-2h"
