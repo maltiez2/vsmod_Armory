@@ -76,13 +76,13 @@
         "MaxReach": 9,
         "DamageTypesByType": {
           "*-*bronze": [
-            {"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 6}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 7}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}
           ],
-          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 6.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 7.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}],
           "*-meteoriciron": [
-            {"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 6.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}
+            {"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 7.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}
           ],
-          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 7}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}]
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 8}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}]
         }
       },
       "HandleAttack": {
@@ -94,7 +94,7 @@
       },
       "AttackHitSound": "game:sounds/thud",
       "AttackDirectionsType": "None",
-      "AttackAnimation": {"Main": ["armory:long-axe-strike-2h-2", "armory:long-axe-strike-2h-3"]},
+      "AttackAnimation": {"Main": ["armory:long-axe-strike-2h-3", "armory:long-axe-strike-2h-2"]},
       "ReadyAnimation": "armory:long-axe-ready-2h",
       "IdleAnimation": "armory:long-axe-idle-2h"
     }
