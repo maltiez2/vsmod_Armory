@@ -91,14 +91,14 @@
         "DamageTypes": [
           {
             "DamageByType": {
-              "*-flint": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 3},
-              "*-obsidian": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 3},
-              "*-copper": {"DamageType": "PiercingAttack", "Strength": 2, "Damage": 3.5},
-              "*-*bronze": {"DamageType": "PiercingAttack", "Strength": 3, "Damage": 4},
-              "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 4.5},
-              "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 4.5},
-              "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 5},
-              "*": {"DamageType": "PiercingAttack", "Strength": 1, "Damage": 2.5}
+              "*-flint": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 3},
+              "*-obsidian": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 3},
+              "*-copper": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 3.5},
+              "*-*bronze": {"DamageType": "PiercingAttack", "Tier": 3, "Damage": 4},
+              "*-iron": {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 4.5},
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 4.5},
+              "*-steel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 5},
+              "*": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 2.5}
             },
             "Knockback": 0.8,
             "DurabilityDamage": 1,
@@ -111,7 +111,7 @@
         "StopOnEntityHit": false,
         "CollideWithTerrain": true,
         "MaxReach": 9,
-        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Strength": 0, "Damage": 1}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, -2.5, 0, 0.5]}]
+        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Tier": 0, "Damage": 1}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, -2.5, 0, 0.5]}]
       },
       "HandleHitSound": "game:sounds/thud",
       "AttackAnimation": {"Main": ["armory:javelin-attack-1", "armory:javelin-attack-2", "armory:javelin-attack-3"]},
@@ -138,7 +138,7 @@
         "VerticalLimit": 0.25,
         "VerticalOffset": -0.05
       },
-      "DamageStrengthByType": {"*-flint": 1, "*-obsidian": 2, "*-copper": 2, "*-*bronze": 3, "*-iron": 4, "*-meteoriciron": 5, "*-steel": 6, "*": 1},
+      "DamageTierByType": {"*-flint": 1, "*-obsidian": 2, "*-copper": 2, "*-*bronze": 3, "*-iron": 4, "*-meteoriciron": 5, "*-steel": 6, "*": 1},
       "Velocity": 0.7,
       "Zeroing": 2
     }

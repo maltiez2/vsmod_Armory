@@ -83,9 +83,9 @@
           "DamageTypes": [
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "BluntAttack", "Strength": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "BluntAttack", "Strength": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "BluntAttack", "Strength": 6, "Damage": 7}
+                "*-iron": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 6.5, "ArmorPiercingTier": 0},
+                "*-meteoriciron": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 6.5, "ArmorPiercingTier": 1},
+                "*-steel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 7, "ArmorPiercingTier": 2}
               },
               "Knockback": 0,
               "DurabilityDamage": 1,
@@ -102,9 +102,9 @@
           "DamageTypes": [
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 7}
+                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
+                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
+                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
               },
               "Knockback": 0.5,
               "DurabilityDamage": 1,
@@ -121,9 +121,9 @@
           "DamageTypes": [
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "SlashingAttack", "Strength": 6, "Damage": 7}
+                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
+                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
+                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
               },
               "Knockback": 0.5,
               "DurabilityDamage": 1,
@@ -140,9 +140,9 @@
           "DamageTypes": [
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "PiercingAttack", "Strength": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "PiercingAttack", "Strength": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "PiercingAttack", "Strength": 6, "Damage": 7}
+                "*-iron": {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 6.5, "ArmorPiercingTier": 0},
+                "*-meteoriciron": {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 6.5, "ArmorPiercingTier": 1},
+                "*-steel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 7, "ArmorPiercingTier": 2}
               },
               "Knockback": 1,
               "DurabilityDamage": 1,
@@ -156,7 +156,7 @@
         "StopOnEntityHit": false,
         "CollideWithTerrain": true,
         "MaxReach": 9,
-        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Strength": 0, "Damage": 0}, "Knockback": 0, "DurabilityDamage": 0, "Collider": [-2.4, 0.1, 0.5, -0.2, 0.1, 0.5]}]
+        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Tier": 0, "Damage": 0}, "Knockback": 0, "DurabilityDamage": 0, "Collider": [-2.4, 0.1, 0.5, -0.2, 0.1, 0.5]}]
       },
       "HandleHitSound": "game:sounds/thud",
       "AttackDirectionsType": "Square",

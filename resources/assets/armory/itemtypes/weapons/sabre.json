@@ -114,16 +114,12 @@
         "CollideWithTerrain": true,
         "MaxReach": 9,
         "DamageTypesByType": {
-          "*-*bronze": [
-            {"Damage": {"DamageType": "SlashingAttack", "Strength": 2, "Damage": 5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 2.7, 0.3, 0.5]}
-          ],
-          "*-iron": [
-            {"Damage": {"DamageType": "SlashingAttack", "Strength": 3, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 2.9, 0.3, 0.5]}
-          ],
+          "*-*bronze": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 2, "Damage": 5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 2.7, 0.3, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 2.9, 0.3, 0.5]}],
           "*-meteoriciron": [
-            {"Damage": {"DamageType": "SlashingAttack", "Strength": 4, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 2.9, 0.3, 0.5]}
+            {"Damage": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 2.9, 0.3, 0.5]}
           ],
-          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Strength": 5, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 3.1, 0.2, 0.5]}]
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 3.1, 0.2, 0.5]}]
         }
       },
       "AttackHitSound": "game:sounds/thud",
@@ -157,5 +153,5 @@
     "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.8, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}}
   },
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
-  "tpHandTransform": {"translation": {"x": 0.33, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
+  "tpHandTransform": {"translation": {"x": 0.3, "y": 0.05, "z": 0.5}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.58}
 }
