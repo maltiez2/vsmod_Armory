@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>1.2.3</ModVersion>
+    <ModVersion>1.3.1</ModVersion>
     <ModId>armory</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -28,8 +28,8 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="combatoverhaul" Version="0.9.3" />
-    <Dependencies Include="overhaullib" Version="1.9.1" />
+    <Dependencies Include="combatoverhaul" Version="0.10.0" />
+    <Dependencies Include="overhaullib" Version="1.12.0" />
   </ItemGroup>
 
   <!-- Project settings -->

@@ -29,18 +29,18 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-torso-*": ["Torso"], "*-arms-*": ["Arms"], "*-hands-*": ["Hands"], "*-legs-*": ["Legs"], "*-feet-*": ["Feet"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 2},
-          "*-*bronze-*": {"PiercingAttack": 4, "SlashingAttack": 5, "BluntAttack": 3},
-          "*-*iron-*": {"PiercingAttack": 5, "SlashingAttack": 6, "BluntAttack": 4},
-          "*-steel-*": {"PiercingAttack": 6, "SlashingAttack": 7, "BluntAttack": 5}
+          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 4},
+          "*-*bronze-*": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 5},
+          "*-*iron-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 6},
+          "*-steel-*": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7}
         },
         "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}, "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}},
         "PlayerStatsByType": {
-          "*-torso-*": {"walkspeed": -0.04, "manipulationSpeed": -0.05, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.05},
-          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.1, "healingeffectivness": -0.03, "hungerrate": 0.05},
-          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.1, "healingeffectivness": -0.03, "hungerrate": 0.05},
-          "*-legs-*": {"walkspeed": -0.06, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.05},
-          "*-feet-*": {"walkspeed": -0.06, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.05}
+          "*-torso-*": {"walkspeed": -0.05, "manipulationSpeed": 0, "steadyAim": -0.06, "healingeffectivness": -0.03, "hungerrate": 0.04},
+          "*-arms-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.12, "healingeffectivness": -0.03, "hungerrate": 0.04},
+          "*-hands-*": {"walkspeed": 0, "manipulationSpeed": -0.1, "steadyAim": -0.12, "healingeffectivness": -0.03, "hungerrate": 0.04},
+          "*-legs-*": {"walkspeed": -0.1, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.04},
+          "*-feet-*": {"walkspeed": -0.1, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.04}
         }
       }
     }

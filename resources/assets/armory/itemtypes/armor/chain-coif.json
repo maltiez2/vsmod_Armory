@@ -31,8 +31,8 @@
         "ResistsByType": {
           "*-copper-*": {"PiercingAttack": 0, "SlashingAttack": 2, "BluntAttack": 0},
           "*-*bronze-*": {"PiercingAttack": 1, "SlashingAttack": 3, "BluntAttack": 0},
-          "*-*iron-*": {"PiercingAttack": 2, "SlashingAttack": 4, "BluntAttack": 1},
-          "*-steel-*": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 2},
+          "*-*iron-*": {"PiercingAttack": 2, "SlashingAttack": 4, "BluntAttack": 0},
+          "*-steel-*": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 0},
           "*-gold-*": {"PiercingAttack": 0, "SlashingAttack": 2, "BluntAttack": 0},
           "*-silver-*": {"PiercingAttack": 0, "SlashingAttack": 2, "BluntAttack": 0}
         },

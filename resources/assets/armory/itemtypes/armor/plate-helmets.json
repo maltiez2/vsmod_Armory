@@ -36,18 +36,18 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-open": ["Head"], "*-light": ["Head", "Face"], "*-riveted": ["Head", "Face"]},
         "ResistsByType": {
-          "*-copper-riveted": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 2},
-          "*-*bronze-riveted": {"PiercingAttack": 4, "SlashingAttack": 5, "BluntAttack": 3},
-          "*-*iron-riveted": {"PiercingAttack": 5, "SlashingAttack": 6, "BluntAttack": 4},
-          "*-steel-riveted": {"PiercingAttack": 6, "SlashingAttack": 7, "BluntAttack": 5},
-          "*-gold-riveted": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 2},
-          "*-silver-riveted": {"PiercingAttack": 3, "SlashingAttack": 4, "BluntAttack": 2},
-          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 3},
-          "*-*bronze-*": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 4},
-          "*-*iron-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 5},
-          "*-steel-*": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 6},
-          "*-gold-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 3},
-          "*-silver-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 3}
+          "*-gold-riveted": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1},
+          "*-silver-riveted": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1},
+          "*-copper-riveted": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1},
+          "*-*bronze-riveted": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 3},
+          "*-*iron-riveted": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 5},
+          "*-steel-riveted": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7},
+          "*-gold-*": {"PiercingAttack": 6, "SlashingAttack": 4, "BluntAttack": 2},
+          "*-silver-*": {"PiercingAttack": 6, "SlashingAttack": 4, "BluntAttack": 2},
+          "*-copper-*": {"PiercingAttack": 6, "SlashingAttack": 4, "BluntAttack": 2},
+          "*-*bronze-*": {"PiercingAttack": 7, "SlashingAttack": 5, "BluntAttack": 4},
+          "*-*iron-*": {"PiercingAttack": 8, "SlashingAttack": 6, "BluntAttack": 6},
+          "*-steel-*": {"PiercingAttack": 9, "SlashingAttack": 7, "BluntAttack": 8}
         },
         "FlatReductionByType": {
           "*-*iron-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0},
@@ -55,9 +55,9 @@
           "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}
         },
         "PlayerStatsByType": {
-          "*-open": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.03, "hungerrate": 0.05},
-          "*-light": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.1, "healingeffectivness": -0.06, "hungerrate": 0.1},
-          "*-riveted": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.1, "healingeffectivness": -0.06, "hungerrate": 0.1}
+          "*-open": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.02, "healingeffectivness": -0.03, "hungerrate": 0.04},
+          "*-light": {"walkspeed": 0, "manipulationSpeed": -0.03, "steadyAim": -0.06, "healingeffectivness": -0.06, "hungerrate": 0.08},
+          "*-riveted": {"walkspeed": 0, "manipulationSpeed": -0.03, "steadyAim": -0.06, "healingeffectivness": -0.06, "hungerrate": 0.08}
         }
       }
     }
