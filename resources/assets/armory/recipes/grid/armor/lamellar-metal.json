@@ -1,0 +1,128 @@
+﻿[
+  {
+    "ingredientPattern": "_P_,XXX,XXX",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-small", "quantity": 4}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "_P_,XXX,XXX",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-medium", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "_P_,XXX,XXX",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-large", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "_P_,XXX,XXX",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-huge", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "XPX,X_X,_X_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-small", "quantity": 4}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "XPX,X_X,_X_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-medium", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "XPX,X_X,_X_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-large", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "XPX,X_X,_X_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "X": {"type": "item", "code": "game:metallamellae-*", "quantity": 1, "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]},
+      "P": {"type": "item", "code": "game:hide-pelt-huge", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "metal lamellar body armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "B,X",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {"type": "item", "code": "armory:armor-torso-lamellar-*-vanilla", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"]},
+      "X": {"type": "item", "code": "game:metallamellae-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]}
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "metal lamellar body armor repair",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-{metal}-vanilla"}
+  },
+  {
+    "ingredientPattern": "B,X",
+    "recipeGroup": 2,
+    "ingredients": {
+      "B": {"type": "item", "code": "armory:armor-armshands-lamellar-*-vanilla", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze"]},
+      "X": {"type": "item", "code": "game:metallamellae-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "blackbronze", "bismuthbronze"]}
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "copyAttributesFrom": "B",
+    "averageDurability": false,
+    "name": "metal lamellar body armor repair",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-{metal}-vanilla"}
+  }
+]

@@ -1,0 +1,64 @@
+﻿{
+  "code": "armor",
+  "class": "CombatOverhaul:WearableArmor",
+  "variantgroups": [
+    {"code": "bodypart", "states": ["torso", "armshands"]},
+    {"code": "construction", "states": ["lamellar"]},
+    {"code": "material", "states": ["wood", "copper", "tinbronze", "bismuthbronze", "blackbronze"]},
+    {"code": "subtype", "states": ["vanilla"]}
+  ],
+  "skipVariants": [],
+  "shapeByType": {"*": {"base": "armor/{construction}/{bodypart}"}},
+  "texturesByType": {"*": {"seraph": {"base": "game:block/transparent"}, "material": {"baseByType": {"*": "armor/{construction}/{material}"}}}},
+  "storageFlags": 128,
+  "attributes": {
+    "visibleDamageEffect": true,
+    "materialCountByType": {"*-torso-*": 8, "*-armshands-*": 8},
+    "clothesCategoryByType": {"*-torso-*": "armorbody", "*-armshands-*": "armorbody"},
+    "attachableToEntity": {
+      "texturePrefixCode": "armor-{bodypart}-{construction}-{material}",
+      "disableElementsByType": {"*-torso-*": ["Waist", "hideupperarm", "hidelowerarm"]},
+      "keepElementsByType": {"*": []}
+    },
+    "footStepSoundByType": {"*-torso-*": "game:wearable/lamellar*"}
+  },
+  "behaviors": [
+    {
+      "name": "CombatOverhaul:Armor",
+      "properties": {
+        "Layers": ["Outer", "Middle", "Skin"],
+        "ZonesByType": {"*-torso-*": ["Torso"], "*-armshands-*": ["Arms", "Hands"]},
+        "ResistsByType": {
+          "*-wood-*": {"PiercingAttack": 2, "SlashingAttack": 2, "BluntAttack": 2},
+          "*-copper-*": {"PiercingAttack": 3, "SlashingAttack": 3, "BluntAttack": 3},
+          "*-*bronze-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 4}
+        },
+        "PlayerStatsByType": {
+          "*-torso-*": {"walkspeed": -0.06, "manipulationSpeed": -0.03, "steadyAim": -0.04, "healingeffectivness": -0.03, "hungerrate": 0.03},
+          "*-armshands-*": {"walkspeed": 0, "manipulationSpeed": -0.12, "steadyAim": -0.16, "healingeffectivness": -0.06, "hungerrate": 0.06}
+        }
+      }
+    }
+  ],
+  "durabilityByType": {"*-wood-*": 400, "*-copper-*": 1800, "*-tinbronze-*": 2200, "*-bismuthbronze-*": 2100, "*-blackbronze-*": 2400},
+  "creativeinventory": {"general": ["*"], "armory-armor": ["*"]},
+  "renderAlphaTest": 0.25,
+  "heldTpIdleAnimation": "holdunderarm",
+  "tpHandTransformByType": {
+    "*-torso-*": {"translation": {"x": -1, "y": -1.9, "z": -0.5}, "rotation": {"x": 97, "y": -168, "z": 94}, "origin": {"x": 0.5, "y": 1.5, "z": 0.5}, "scale": 0.67},
+    "*": {"translation": {"x": -1, "y": -1.9, "z": -0.5}, "rotation": {"x": 97, "y": -168, "z": 94}, "origin": {"x": 0.5, "y": 1.5, "z": 0.5}, "scale": 0.67}
+  },
+  "guiTransformByType": {
+    "*-torso-*": {"translation": {"x": 3, "y": 0, "z": 0}, "rotation": {"x": -26, "y": -46, "z": -180}, "origin": {"x": 0.5, "y": 1.11, "z": 0.5}, "scale": 1.37},
+    "*-armshands-*": {
+      "translation": {"x": 0, "y": 0, "z": 0},
+      "rotation": {"x": -26, "y": -46, "z": -180},
+      "origin": {"x": 0.5, "y": 1.2, "z": 0.5},
+      "scaleXyz": {"x": -1.48, "y": 1.48, "z": 1.48}
+    }
+  },
+  "groundTransformByType": {
+    "*-body-*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1},
+    "*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 90}, "origin": {"x": 0.34, "y": 1.12, "z": 0.5}, "scale": 3.1}
+  }
+}

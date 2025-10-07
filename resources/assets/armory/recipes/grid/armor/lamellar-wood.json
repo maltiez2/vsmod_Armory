@@ -1,0 +1,130 @@
+﻿[
+  {
+    "ingredientPattern": "_P_,FGF,FFF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-small", "quantity": 2},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "_P_,FGF,FFF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-medium", "quantity": 1},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "_P_,FGF,FFF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-large", "quantity": 1},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "_P_,FGF,FFF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-huge", "quantity": 1},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "FPF,FGF,_F_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-small", "quantity": 2},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "FPF,FGF,_F_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-medium", "quantity": 1},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "FPF,FGF,_F_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-large", "quantity": 1},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "FPF,FGF,_F_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "F": {"type": "item", "code": "game:firewood", "quantity": 1},
+      "P": {"type": "item", "code": "game:hide-pelt-huge", "quantity": 1},
+      "G": {"type": "item", "code": "game:resin", "quantity": 1}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "wood lamellar armor",
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "G,F",
+    "recipeGroup": 2,
+    "ingredients": {"F": {"type": "item", "code": "game:firewood"}, "G": {"type": "item", "code": "armory:armor-armshands-lamellar-wood-vanilla"}},
+    "width": 1,
+    "height": 2,
+    "name": "wood lamellar armor repair",
+    "copyAttributesFrom": "G",
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {"type": "item", "code": "armory:armor-armshands-lamellar-wood-vanilla"}
+  },
+  {
+    "ingredientPattern": "P,F",
+    "recipeGroup": 2,
+    "ingredients": {"F": {"type": "item", "code": "game:firewood"}, "P": {"type": "item", "code": "armory:armor-torso-lamellar-wood-vanilla"}},
+    "width": 1,
+    "height": 2,
+    "name": "wood lamellar pants repair",
+    "copyAttributesFrom": "P",
+    "shapeless": true,
+    "averageDurability": false,
+    "output": {"type": "item", "code": "armory:armor-torso-lamellar-wood-vanilla"}
+  }
+]

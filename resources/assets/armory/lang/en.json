@@ -315,6 +315,18 @@
   "item-armor-armshands-scale-gold-vanilla": "Gold scale sleeves",
   "item-armor-armshands-scale-silver-vanilla": "Silver scale sleeves",
 
+  "item-armor-torso-lamellar-wood-vanilla": "Copper lamellar shirt",
+  "item-armor-torso-lamellar-copper-vanilla": "Copper lamellar shirt",
+  "item-armor-torso-lamellar-tinbronze-vanilla": "Tin bronze lamellar shirt",
+  "item-armor-torso-lamellar-blackbronze-vanilla": "Black bronze lamellar shirt",
+  "item-armor-torso-lamellar-bismuthbronze-vanilla": "Bismuth bronze lamellar shirt",
+
+  "item-armor-armshands-lamellar-wood-vanilla": "Copper lamellar sleeves",
+  "item-armor-armshands-lamellar-copper-vanilla": "Copper lamellar sleeves",
+  "item-armor-armshands-lamellar-tinbronze-vanilla": "Tin bronze lamellar sleeves",
+  "item-armor-armshands-lamellar-blackbronze-vanilla": "Black bronze lamellar sleeves",
+  "item-armor-armshands-lamellar-bismuthbronze-vanilla": "Bismuth bronze lamellar sleeves",
+
   "item-armor-head-jerkin-leather-vanilla": "Head leather jerkin",
 
   "item-creature-javelin-*": "javelin",

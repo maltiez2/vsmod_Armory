@@ -1,0 +1,28 @@
+﻿[
+  {
+    "ingredientPattern": "TA",
+    "recipeGroup": 3,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "armory:armor-torso-lamellar-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["wood", "copper", "tinbronze", "bismuthbronze", "blackbronze"]
+      },
+      "A": {
+        "type": "item",
+        "code": "armory:armor-armshands-lamellar-*-vanilla",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": ["wood", "copper", "tinbronze", "bismuthbronze", "blackbronze"]
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "lamellar armor",
+    "copyAttributesFrom": "T",
+    "output": {"type": "item", "code": "game:armor-body-lamellar-{material}"}
+  }
+]
