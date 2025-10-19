@@ -7,9 +7,9 @@
 	},
 	"textureWidth": 64,
 	"textureHeight": 64,
-	"textureSizes": {},
+	"textureSizes": {
+	},
 	"textures": {
-		"material": "armory:armor/jerkin/leather"
 	},
 	"elements": [
 		{
@@ -32,17 +32,17 @@
 				{
 					"name": "GamHelmetstrap",
 					"from": [ 0.5, -0.98, 0.25 ],
-					"to": [ 2.0, 0.0, 5.75 ],
+					"to": [ 2.0, 0.02, 5.75 ],
 					"unwrapMode": 5,
 					"uv": [ 56.5, 39.5 ],
 					"rotationOrigin": [ 0.5, -1.0, 0.3 ],
 					"faces": {
-						"north": { "texture": "#material", "uv": [ 57.0, 39.5, 58.5, 40.0 ], "rotation": 180 },
-						"east": { "texture": "#material", "uv": [ 58.5, 40.0, 59.0, 45.5 ], "rotation": 90 },
-						"south": { "texture": "#material", "uv": [ 57.0, 45.5, 58.5, 46.0 ] },
-						"west": { "texture": "#material", "uv": [ 56.5, 40.0, 57.0, 45.5 ], "rotation": 270 },
-						"up": { "texture": "#material", "uv": [ 57.0, 40.0, 58.5, 45.5 ] },
-						"down": { "texture": "#material", "uv": [ 59.0, 40.0, 60.5, 45.5 ] }
+						"north": { "texture": "#material", "uv": [ 57.5, 39.5, 59.0, 40.5 ], "rotation": 180 },
+						"east": { "texture": "#material", "uv": [ 59.0, 40.5, 60.0, 46.0 ], "rotation": 90 },
+						"south": { "texture": "#material", "uv": [ 57.5, 46.0, 59.0, 47.0 ] },
+						"west": { "texture": "#material", "uv": [ 56.5, 40.5, 57.5, 46.0 ], "rotation": 270 },
+						"up": { "texture": "#material", "uv": [ 57.5, 40.5, 59.0, 46.0 ] },
+						"down": { "texture": "#material", "uv": [ 60.0, 40.5, 61.5, 46.0 ] }
 					}
 				},
 				{

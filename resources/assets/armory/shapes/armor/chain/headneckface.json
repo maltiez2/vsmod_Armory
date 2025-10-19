@@ -6,9 +6,10 @@
 	},
 	"textureWidth": 64,
 	"textureHeight": 64,
-	"textureSizes": {},
+	"textureSizes": {
+	},
 	"textures": {
-		"material": "game:entity/humanoid/serapharmor/chain/bismuthbronze"
+		"material": "entity/humanoid/serapharmor/chain/bismuthbronze"
 	},
 	"elements": [
 		{
@@ -24,7 +25,6 @@
 				"north": { "texture": "#material", "uv": [ 18.0, 28.0, 23.5, 34.0 ] },
 				"east": { "texture": "#material", "uv": [ 12.0, 28.0, 18.0, 34.0 ] },
 				"south": { "texture": "#material", "uv": [ 29.5, 28.0, 35.0, 34.0 ] },
-				"west": { "texture": "#material", "uv": [ 23.5, 28.0, 29.5, 34.0 ] },
 				"up": { "texture": "#material", "uv": [ 3.0, 28.0, 8.5, 34.0 ], "rotation": 180 },
 				"down": { "texture": "#material", "uv": [ 42.0, 29.0, 47.5, 35.0 ] }
 			},
@@ -57,6 +57,55 @@
 						"north": { "texture": "#material", "uv": [ 24.0, 41.0, 24.5, 43.5 ] },
 						"south": { "texture": "#material", "uv": [ 30.5, 41.0, 31.0, 43.5 ] },
 						"west": { "texture": "#material", "uv": [ 24.5, 41.0, 30.5, 43.5 ] },
+						"up": { "texture": "#material", "uv": [ 23.0, 40.0, 23.5, 46.0 ], "rotation": 180 },
+						"down": { "texture": "#material", "uv": [ 23.5, 40.0, 24.0, 46.0 ] }
+					}
+				},
+				{
+					"name": "ArmorHelmetFace3",
+					"from": [ -0.32, 2.54, 0.0 ],
+					"to": [ 0.0, 3.8, 0.5 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 32.0, 36.0 ],
+					"rotationOrigin": [ -0.5, 2.5, 0.0 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 24.0, 41.0, 24.5, 42.0 ] },
+						"south": { "texture": "#material", "uv": [ 30.5, 41.0, 31.0, 42.0 ] },
+						"west": { "texture": "#material", "uv": [ 24.5, 41.0, 25.0, 42.0 ] },
+						"up": { "texture": "#material", "uv": [ 23.0, 40.0, 23.5, 40.5 ], "rotation": 180 },
+						"down": { "texture": "#material", "uv": [ 23.5, 40.0, 24.0, 40.5 ] }
+					}
+				},
+				{
+					"name": "ArmorHelmetFace4",
+					"from": [ -0.32, 2.54, 5.6 ],
+					"to": [ 0.0, 3.8, 6.1 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 32.0, 36.0 ],
+					"rotationOrigin": [ -0.5, 2.5, 5.6 ],
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 24.0, 41.0, 24.5, 42.0 ] },
+						"south": { "texture": "#material", "uv": [ 30.5, 41.0, 31.0, 42.0 ] },
+						"west": { "texture": "#material", "uv": [ 24.5, 41.0, 25.0, 42.0 ] },
+						"up": { "texture": "#material", "uv": [ 23.0, 40.0, 23.5, 40.5 ], "rotation": 180 },
+						"down": { "texture": "#material", "uv": [ 23.5, 40.0, 24.0, 40.5 ] }
+					}
+				},
+				{
+					"name": "ArmorHelmetFace5",
+					"from": [ -0.32, 0.0, 0.0 ],
+					"to": [ 0.3, 0.55, 6.1 ],
+					"unwrapMode": 1,
+					"autoUnwrap": false,
+					"uv": [ 32.0, 36.0 ],
+					"rotationOrigin": [ -0.32, 0.0, 0.0 ],
+					"rotationZ": -50.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 24.0, 41.0, 24.5, 41.5 ] },
+						"south": { "texture": "#material", "uv": [ 30.5, 41.0, 31.0, 41.5 ] },
+						"west": { "texture": "#material", "uv": [ 24.5, 41.0, 30.5, 41.5 ] },
 						"up": { "texture": "#material", "uv": [ 23.0, 40.0, 23.5, 46.0 ], "rotation": 180 },
 						"down": { "texture": "#material", "uv": [ 23.5, 40.0, 24.0, 46.0 ] }
 					}
