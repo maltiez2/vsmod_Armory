@@ -120,7 +120,7 @@
       "BlockAnimation": "armory:quarterstaff-parry-2h"
     }
   },
-  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 1600, "*": 150},
+  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 450, "*-bismuthbronze": 450, "*-blackbronze": 450, "*-iron": 450, "*-meteoriciron": 650, "*-steel": 850},
   "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 0.5, "y": 0.1, "z": 0.3}, "scale": 1.76},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},

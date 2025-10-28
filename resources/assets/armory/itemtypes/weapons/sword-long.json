@@ -195,7 +195,7 @@
       "AttackTpAnimation": "falx"
     }
   },
-  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
+  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 550, "*-bismuthbronze": 600, "*-blackbronze": 650, "*-iron": 500, "*-meteoriciron": 750, "*-steel": 1250},
   "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransformByType": {
     "*-*bronze": {

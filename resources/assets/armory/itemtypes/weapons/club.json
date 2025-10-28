@@ -126,7 +126,7 @@
       "IdleAnimation": "armory:club-idle-2h"
     }
   },
-  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 350, "*-bismuthbronze": 450, "*-blackbronze": 550, "*-iron": 650, "*-meteoriciron": 750, "*-steel": 2125, "*": 150},
+  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 450, "*-bismuthbronze": 450, "*-blackbronze": 450, "*-iron": 450, "*-meteoriciron": 650, "*-steel": 1250},
   "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransformByType": {
     "*-steel": {

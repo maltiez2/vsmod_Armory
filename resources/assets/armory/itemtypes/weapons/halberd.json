@@ -211,7 +211,7 @@
       "AttackTpAnimation": "spearhit"
     }
   },
-  "durabilitybytype": {"*-copper": 250, "*-tinbronze": 450, "*-bismuthbronze": 530, "*-blackbronze": 600, "*-iron": 850, "*-meteoriciron": 1100, "*-steel": 2125, "*": 150},
+  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 550, "*-bismuthbronze": 600, "*-blackbronze": 650, "*-iron": 500, "*-meteoriciron": 750, "*-steel": 1250},
   "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 39, "y": 0, "z": -130}, "origin": {"x": 0.8, "y": 0.15, "z": 0.2}, "scale": 1.56},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
