@@ -111,7 +111,7 @@
           "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
           "*-steel": [
             {
-              "Damage": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 6, "ArmorPiercingTier": 3},
+              "Damage": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 7, "ArmorPiercingTier": 3},
               "Knockback": 1,
               "DurabilityDamage": 1,
               "Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]
@@ -126,7 +126,7 @@
       "IdleAnimation": "armory:club-idle-2h"
     }
   },
-  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 450, "*-bismuthbronze": 450, "*-blackbronze": 450, "*-iron": 450, "*-meteoriciron": 650, "*-steel": 1250},
+  "durabilitybytype": {"*-copper": 300, "*-tinbronze": 450, "*-bismuthbronze": 450, "*-blackbronze": 450, "*-iron": 450, "*-meteoriciron": 750, "*-steel": 1250},
   "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "guiTransformByType": {
     "*-steel": {
