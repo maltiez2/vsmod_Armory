@@ -93,7 +93,7 @@
   "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
   "shapeByType": {"*-*bronze": {"base": "swords/sword-spatha-plain"}, "*-*iron": {"base": "swords/sword-seax-plain"}, "*-steel": {"base": "swords/sword-long-plain"}},
   "attributes": {
-    "handbook": {"groupBy": ["sword-long-{material}"]},
+    "handbook": {"groupBy": ["sword-long-*"]},
     "groundStorageTransformByType": {
       "*-*bronze": {"translation": {"x": 0.5, "y": 0.04, "z": 0.38}, "rotation": {"x": 11, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
       "*-*iron": {"translation": {"x": 0.5, "y": 0.34, "z": 0.38}, "rotation": {"x": 11, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},

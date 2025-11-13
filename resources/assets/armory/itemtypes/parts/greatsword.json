@@ -5,7 +5,10 @@
   "shapeByType": {"*-steel": {"base": "swords/parts/sword-great"}, "*-iron": {"base": "swords/parts/sword-greatiron"}, "*-meteoriciron": {"base": "swords/parts/sword-greatiron"}},
   "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
   "attributes": {
-    "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+    "groundStorageTransform": {"translation": {"x": 0.1, "y": 0.05, "z": 0.1}, "rotation": {"x": 4, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+    "handbook": {
+      "groupBy": [ "part-greatsword-*" ]
+    }
   },
   "behaviors": [
     {

@@ -20,6 +20,9 @@
         "*-coif": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
       },
       "keepElementsByType": {"*": []}
+    },
+    "handbook": {
+      "groupBy": [ "armor-head-chain-*" ]
     }
   },
   "behaviors": [
