@@ -20,7 +20,10 @@
       "disableElementsByType": {"*-torso-*": ["Waist", "hideupperarm", "hidelowerarm"]},
       "keepElementsByType": {"*": []}
     },
-    "footStepSoundByType": {"*-torso-*": "game:wearable/scale*"}
+    "footStepSoundByType": {"*-torso-*": "game:wearable/scale*"},
+    "handbook": {
+      "groupBy": [ "armor-{bodypart}-scale-*" ]
+    }
   },
   "behaviors": [
     {

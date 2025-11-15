@@ -82,7 +82,7 @@
     ]
   },
   "attributes": {
-    "handbook": {"groupBy": ["shield-heavy-plain-{material}"]},
+    "handbook": {"groupBy": ["shield-heavy-plain-*"]},
     "groundStorageTransformByType": {
       "*-crude": {"translation": {"x": 0.2, "y": 1, "z": 0.95}, "rotation": {"x": 116, "y": -7, "z": -21}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
       "*-copper": {"translation": {"x": 0.2, "y": 0.85, "z": 1.02}, "rotation": {"x": 116, "y": -7, "z": -21}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},

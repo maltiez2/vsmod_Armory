@@ -99,7 +99,7 @@
   },
   "tool": "sword",
   "attributes": {
-    "handbook": {"groupBy": ["sword-short-{material}"]},
+    "handbook": {"groupBy": ["sword-short-*"]},
     "groundStorageTransformByType": {
       "*-copper": {"translation": {"x": 0.5, "y": 0, "z": 0.34}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7},
       "*-*bronze": {"translation": {"x": 0.5, "y": 0, "z": 0.42}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},

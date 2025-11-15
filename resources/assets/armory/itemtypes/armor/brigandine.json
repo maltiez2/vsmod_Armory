@@ -20,7 +20,10 @@
       "disableElementsByType": {"*-torso-*": ["Waist", "hideupperarm", "hidelowerarm"], "*-feet-*": ["hideshoeL", "hideshoeR"]},
       "keepElementsByType": {"*": []}
     },
-    "footStepSoundByType": {"*-torso-*": "game:wearable/brigandine*"}
+    "footStepSoundByType": {"*-torso-*": "game:wearable/brigandine*"},
+    "handbook": {
+      "groupBy": [ "armor-{bodypart}-brigadine-*" ],
+    }
   },
   "behaviors": [
     {

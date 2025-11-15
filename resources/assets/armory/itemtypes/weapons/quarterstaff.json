@@ -50,7 +50,7 @@
   "shape": {"base": "armory:blunt/quarterstaff"},
   "textures": {"head": {"base": "game:block/metal/plate/{material}"}},
   "attributes": {
-    "handbook": {"groupBy": ["quarterstaff-plain-{material}"]},
+    "handbook": {"groupBy": ["quarterstaff-plain-*"]},
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 2, "z": 0.41}, "rotation": {"x": 12, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "toolrackTransform": {"translation": {"x": 1.6, "y": 1.2, "z": 0.5}, "rotation": {"x": 90, "y": -2, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.3},
     "ProficiencyStat": "quarterstaffProficiency",

@@ -27,6 +27,9 @@
         "*-riveted": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
       },
       "keepElementsByType": {"*": []}
+    },
+    "handbook": {
+      "groupBy": [ "armor-{bodypart}-plate-*-{subtype}" ]
     }
   },
   "behaviors": [

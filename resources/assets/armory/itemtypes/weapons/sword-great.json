@@ -44,7 +44,7 @@
   "variantgroups": [{"code": "handling", "states": ["great"]}, {"code": "type", "states": ["plain"]}, {"code": "material", "states": ["steel", "iron", "meteoriciron"]}],
   "damagedby": ["attacking"],
   "tool": "sword",
-  "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
+  "textures": {"blade": {"base": "game:block/metal/plate/*"}},
   "shapeByType": {
     "*-steel": {"base": "swords/sword-great-{type}"},
     "*-iron": {"base": "swords/sword-greatiron-{type}"},
