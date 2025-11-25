@@ -28,9 +28,7 @@
       },
       "keepElementsByType": {"*": []}
     },
-    "handbook": {
-      "groupBy": [ "armor-{bodypart}-plate-*-{subtype}" ]
-    }
+    "handbook": {"groupBy": ["armor-{bodypart}-plate-*-{subtype}"]}
   },
   "behaviors": [
     {

@@ -6,9 +6,7 @@
   "textures": {"metal": {"base": "game:block/metal/plate/{material}"}},
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.8, "y": -0.3, "z": 0.8}, "rotation": {"x": 0, "y": -126, "z": 93}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "handbook": {
-      "groupBy": [ "part-hammerhead-*" ]
-    }
+    "handbook": {"groupBy": ["part-hammerhead-*"]}
   },
   "behaviors": [
     {

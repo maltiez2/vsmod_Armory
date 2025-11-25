@@ -44,14 +44,14 @@
   "variantgroups": [{"code": "handling", "states": ["great"]}, {"code": "type", "states": ["plain"]}, {"code": "material", "states": ["steel", "iron", "meteoriciron"]}],
   "damagedby": ["attacking"],
   "tool": "sword",
-  "textures": {"blade": {"base": "game:block/metal/plate/*"}},
+  "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
   "shapeByType": {
     "*-steel": {"base": "swords/sword-great-{type}"},
     "*-iron": {"base": "swords/sword-greatiron-{type}"},
     "*-meteoriciron": {"base": "swords/sword-greatiron-{type}"}
   },
   "attributes": {
-    "handbook": {"groupBy": ["sword-great-{material}"]},
+    "handbook": {"groupBy": ["sword-great-*"]},
     "groundStorageTransform": {"translation": {"x": 0.4, "y": 0.35, "z": 0.04}, "rotation": {"x": 18, "y": 19, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
     "toolrackTransform": {"translation": {"x": 1.2, "y": 0.1, "z": 0.5}, "rotation": {"x": 90, "y": 180, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "ProficiencyStat": "twoHandedSwordsProficiency",

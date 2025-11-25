@@ -85,7 +85,7 @@
   },
   "variantgroups": [{"code": "type", "states": ["plain"]}, {"code": "material", "states": ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]}],
   "textures": {"blade": {"base": "game:block/metal/plate/{material}"}},
-  "shapeByType": {"*-*bronze": {"base": "swords/sabre-bronze"}, "*-*iron": {"base": "swords/sabre-iron"}, "*-steel": {"base": "swords/sabre-steel"}},
+  "shapeByType": {"*-*bronze": {"base": "swords/sabre-bronze"}, "*": {"base": "swords/sabre-{material}"}},
   "tool": "sword",
   "attributes": {
     "handbook": {"groupBy": ["sabre-*"]},

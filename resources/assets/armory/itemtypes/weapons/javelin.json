@@ -69,7 +69,7 @@
   "attributes": {
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 1, "z": 0.44}, "rotation": {"x": 10, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "toolrackTransform": {"translation": {"x": 0.3, "y": 0.05, "z": 0.6}, "rotation": {"x": 90, "y": 1, "z": 0}, "scale": 1.2},
-    "handbook": { "groupBy": ["javelin-plain-*"] }
+    "handbook": {"groupBy": ["javelin-plain-*"]},
     "ProficiencyStat": "javelinsProficiency",
     "RenderingOffset": false,
     "OneHandedStance": {

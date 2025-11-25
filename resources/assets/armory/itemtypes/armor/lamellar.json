@@ -21,9 +21,7 @@
       "keepElementsByType": {"*": []}
     },
     "footStepSoundByType": {"*-torso-*": "game:wearable/lamellar*"},
-    "handbook": {
-      "groupBy": [ "armor-{bodypart}-lamellar-*" ]
-    }
+    "handbook": {"groupBy": ["armor-{bodypart}-lamellar-*"]}
   },
   "behaviors": [
     {

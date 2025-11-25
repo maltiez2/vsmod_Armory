@@ -21,9 +21,7 @@
       "keepElementsByType": {"*": []}
     },
     "footStepSoundByType": {"*-torso-*": "game:wearable/scale*"},
-    "handbook": {
-      "groupBy": [ "armor-{bodypart}-scale-*" ]
-    }
+    "handbook": {"groupBy": ["armor-{bodypart}-scale-*"]}
   },
   "behaviors": [
     {

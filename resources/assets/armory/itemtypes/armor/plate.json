@@ -21,9 +21,7 @@
       "keepElementsByType": {"*": []}
     },
     "footStepSoundByType": {"*-torso-*": "game:wearable/plate*"},
-    "handbook": {
-      "groupBy": [ "armor-{bodypart}-plate-*" ]
-    }
+    "handbook": {"groupBy": ["armor-{bodypart}-plate-*"]}
   },
   "behaviors": [
     {

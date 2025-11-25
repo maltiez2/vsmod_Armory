@@ -36,6 +36,34 @@
     "output": {"type": "item", "code": "armory:sword-short-plain-steel"}
   },
   {
+    "ingredientPattern": "S,H,P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "armory:part-shortsword-*", "name": "material", "allowedVariants": ["iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-short"},
+      "P": {"type": "item", "code": "game:leather-normal-*", "quantity": 1, "name": "color"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 3,
+    "name": "sword",
+    "output": {"type": "item", "code": "armory:sword-arming-plain-{material}", "attributes": {"handleTexture": "game:block/leather/{color}"}}
+  },
+  {
+    "ingredientPattern": "S,H,P",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {"type": "item", "code": "armory:part-shortsword-*", "name": "material", "allowedVariants": ["iron", "meteoriciron", "steel"]},
+      "H": {"type": "item", "code": "armory:handle-short"},
+      "P": {"type": "item", "code": "game:leather-normal-plain"}
+    },
+    "copyAttributesFrom": "H",
+    "width": 1,
+    "height": 3,
+    "name": "sword",
+    "output": {"type": "item", "code": "armory:sword-arming-plain-{material}"}
+  },
+  {
     "ingredientPattern": "S,H",
     "recipeGroup": 1,
     "ingredients": {

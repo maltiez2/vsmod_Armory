@@ -21,9 +21,7 @@
       "keepElementsByType": {"*": []}
     },
     "footStepSoundByType": {"*-torso-*": "game:wearable/brigandine*"},
-    "handbook": {
-      "groupBy": [ "armor-{bodypart}-brigadine-*" ],
-    }
+    "handbook": {"groupBy": ["armor-{bodypart}-brigadine-*"]}
   },
   "behaviors": [
     {
@@ -32,9 +30,9 @@
         "Layers": ["Outer"],
         "ZonesByType": {"*-torso-*": ["Torso"], "*-arms-*": ["Arms"], "*-hands-*": ["Hands"], "*-legs-*": ["Legs"], "*-feet-*": ["Feet"]},
         "ResistsByType": {
-          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 4},
-          "*-*bronze-*": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 5},
-          "*-*iron-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 6},
+          "*-copper-*": {"PiercingAttack": 4, "SlashingAttack": 4, "BluntAttack": 1},
+          "*-*bronze-*": {"PiercingAttack": 5, "SlashingAttack": 5, "BluntAttack": 3},
+          "*-*iron-*": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 5},
           "*-steel-*": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7}
         },
         "FlatReductionByType": {"*-steel-*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}, "*": {"PiercingAttack": 0, "SlashingAttack": 0, "BluntAttack": 0}},

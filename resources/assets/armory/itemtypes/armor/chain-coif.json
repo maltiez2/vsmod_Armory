@@ -21,9 +21,7 @@
       },
       "keepElementsByType": {"*": []}
     },
-    "handbook": {
-      "groupBy": [ "armor-head-chain-*" ]
-    }
+    "handbook": {"groupBy": ["armor-head-chain-*"]}
   },
   "behaviors": [
     {

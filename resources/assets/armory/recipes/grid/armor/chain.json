@@ -41,6 +41,13 @@
         "code": "game:metalchain-*",
         "name": "material",
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-*",
+        "name": "material",
+        "quantity": 2,
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
     "width": 3,
@@ -49,13 +56,20 @@
     "output": {"type": "item", "code": "armory:armor-head-chain-{material}-coif"}
   },
   {
-    "ingredientPattern": "PPP,_P_",
+    "ingredientPattern": "TPT,_P_",
     "recipeGroup": 1,
     "ingredients": {
       "P": {
         "type": "item",
         "code": "game:metalchain-*",
         "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-*",
+        "name": "material",
+        "quantity": 2,
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
@@ -65,13 +79,20 @@
     "output": {"type": "item", "code": "armory:armor-torso-chain-{material}-vanilla"}
   },
   {
-    "ingredientPattern": "P_,_P",
+    "ingredientPattern": "P_,_T",
     "recipeGroup": 1,
     "ingredients": {
       "P": {
         "type": "item",
         "code": "game:metalchain-*",
         "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-*",
+        "name": "material",
+        "quantity": 2,
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },
@@ -81,13 +102,20 @@
     "output": {"type": "item", "code": "armory:armor-hands-chain-{material}-vanilla"}
   },
   {
-    "ingredientPattern": "_P,P_",
+    "ingredientPattern": "_P,T_",
     "recipeGroup": 1,
     "ingredients": {
       "P": {
         "type": "item",
         "code": "game:metalchain-*",
         "name": "material",
+        "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:metalchain-*",
+        "name": "material",
+        "quantity": 2,
         "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]
       }
     },

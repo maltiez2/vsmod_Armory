@@ -21,9 +21,7 @@
       "keepElementsByType": {"*": []}
     },
     "footStepSoundByType": {"*-torso-*": "game:wearable/chain*"},
-    "handbook": {
-      "groupBy": [ "armor-{bodypart}-chain-*" ]
-    }
+    "handbook": {"groupBy": ["armor-{bodypart}-chain-*"]}
   },
   "behaviors": [
     {
