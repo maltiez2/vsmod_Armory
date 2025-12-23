@@ -9,12 +9,12 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"cloth3": "block/cloth/linen/plain",
-		"cloth2": "block/cloth/linen/red",
-		"cloth1": "block/cloth/linen/white",
-		"leather": "block/leather/plain",
-		"steel": "block/metal/plate/steel",
-		"larch": "block/wood/debarked/larch"
+		"cloth3": "game:block/cloth/linen/plain",
+		"cloth2": "game:block/cloth/linen/red",
+		"cloth1": "game:block/cloth/linen/white",
+		"leather": "game:block/leather/plain",
+		"steel": "game:block/metal/plate/steel",
+		"larch": "game:block/wood/debarked/larch"
 	},
 	"elements": [
 		{

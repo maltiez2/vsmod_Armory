@@ -78,7 +78,7 @@
         "Elements": {"ItemAnchor": [0, 0, 0, 0, -6, 5], "LowerArmR": [0, 0, 0, 0, 0, -70], "UpperArmR": [1.6, 0, 0, -8, 0, -57.2]}
       },
       {
-        "EasingTime": 400,
+        "EasingTime": 300,
         "EasingFunction": "Quintic",
         "DetachedAnchor": false,
         "SwitchArms": false,
@@ -86,10 +86,10 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 67], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0, -1.6, 0, -34.4, -1.1, -75.1]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 67], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0, -1.6, 0, -34.4, -1.1, -69.1]}
       },
       {
-        "EasingTime": 800,
+        "EasingTime": 600,
         "EasingFunction": "Sin",
         "DetachedAnchor": false,
         "SwitchArms": false,
@@ -97,7 +97,7 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 92], "LowerArmR": [0, 0, 0, -16, 0, 3], "UpperArmR": [0, 0, 0, -24, -0.8, -39.2]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 60], "LowerArmR": [0, 0, 0, -16, 0, 3], "UpperArmR": [0, 0, 0, -24, -0.8, -39.2]}
       },
       {
         "EasingTime": 1200,
@@ -108,7 +108,7 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, -88, -25, 0], "LowerArmR": [0, 0, 0, 0, 0, -34], "UpperArmR": [0, 0, 0, -16, -23, -41]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 0], "LowerArmR": [0, 0, 0, 0, 0, -34], "UpperArmR": [0, 0, 0, -16, -23, -41]}
       }
     ],
     "ItemKeyFrames": [],
@@ -123,7 +123,7 @@
       }
     ],
     "ParticlesFrames": [],
-    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.083333336}, {"Code": "stop", "DurationFraction": 0.41666666}, {"Code": "ready", "DurationFraction": 0.75}],
+    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.083333336}, {"Code": "stop", "DurationFraction": 0.5}, {"Code": "ready", "DurationFraction": 0.75}],
     "ItemAnimationStart": 0,
     "ItemAnimationEnd": 0
   },
@@ -142,7 +142,7 @@
         "Elements": {"ItemAnchor": [0, 0, 0, 0, 17, 20], "LowerArmR": [0, 0, 0, 0, 23, -75], "UpperArmR": [1.6, 0, 0, 7, 0, -55.2]}
       },
       {
-        "EasingTime": 400,
+        "EasingTime": 300,
         "EasingFunction": "Quintic",
         "DetachedAnchor": false,
         "SwitchArms": false,
@@ -150,10 +150,10 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 67], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0, -1.6, 0, 11.6, -1.1, -75.1]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 67], "LowerArmR": [0, 0, 0, 0, 0, -3], "UpperArmR": [0, -1.6, 0, 11.6, -1.1, -63.1]}
       },
       {
-        "EasingTime": 800,
+        "EasingTime": 600,
         "EasingFunction": "Sin",
         "DetachedAnchor": false,
         "SwitchArms": false,
@@ -161,7 +161,7 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 92], "LowerArmR": [0, 0, 0, 15, 0, 3], "UpperArmR": [0, 0, 0, 9, 0, -37.2]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 57], "LowerArmR": [0, 0, 0, 15, 0, 3], "UpperArmR": [0, 0, 0, 9, 0, -45.2]}
       },
       {
         "EasingTime": 1200,
@@ -172,7 +172,7 @@
         "PitchDontFollow": false,
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
-        "Elements": {"ItemAnchor": [0, 0, 0, -88, -25, 0], "LowerArmR": [0, 0, 0, 0, 0, -34], "UpperArmR": [0, 0, 0, -16, -23, -41]}
+        "Elements": {"ItemAnchor": [0, 0, 0, 0, 0, 0], "LowerArmR": [0, 0, 0, 0, 0, -34], "UpperArmR": [0, 0, 0, -16, -23, -41]}
       }
     ],
     "ItemKeyFrames": [],
@@ -187,7 +187,7 @@
       }
     ],
     "ParticlesFrames": [],
-    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.083333336}, {"Code": "stop", "DurationFraction": 0.41666666}, {"Code": "ready", "DurationFraction": 0.75}],
+    "CallbackFrames": [{"Code": "start", "DurationFraction": 0.083333336}, {"Code": "stop", "DurationFraction": 0.5}, {"Code": "ready", "DurationFraction": 0.75}],
     "ItemAnimationStart": 0,
     "ItemAnimationEnd": 0
   },
@@ -321,7 +321,7 @@
           "UpperArmR": [0, -1.6, 0, -34, -1.8, -50.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
           "LowerArmL": [0, 0, 0, 0, 0, 0],
-          "UpperArmL": [0, 0, 0, -40, -28, -85]
+          "UpperArmL": [0.8, 0, -0.8, -40, -20, -91]
         }
       }
     ],
@@ -473,7 +473,7 @@
           "UpperArmR": [0, -1.6, 0, -34, -1.8, -50.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
           "LowerArmL": [0, 0, 0, 0, 0, 0],
-          "UpperArmL": [0, 0, 0, -40, -23, -89]
+          "UpperArmL": [0.7, 0, -0.5, -40, -21, -89]
         }
       }
     ],
@@ -540,7 +540,7 @@
           "UpperArmR": [0, -1, 0, -40, 2.2, -38.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
           "LowerArmL": [0, 0, 0, 0, 0, -19],
-          "UpperArmL": [0, 0, 0, 0, -4, -44]
+          "UpperArmL": [0.8, 0, -0.8, -39, -23, -57]
         }
       },
       {
@@ -558,7 +558,7 @@
           "UpperArmR": [0, -1.6, 0, -34, -1.8, -50.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
           "LowerArmL": [0, 0, 0, 0, 0, 0],
-          "UpperArmL": [0, 0, 0, -40, -23, -89]
+          "UpperArmL": [0.8, -0.6, -0.8, -40, -20, -90]
         }
       }
     ],

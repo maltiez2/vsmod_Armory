@@ -83,8 +83,8 @@
             {
               "DamageByType": {
                 "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
+                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 7},
+                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7.5}
               },
               "Knockback": 0.5,
               "DurabilityDamage": 1,
@@ -92,11 +92,11 @@
             },
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
+                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6},
                 "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
                 "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
               },
-              "Knockback": 0.5,
+              "Knockback": 0,
               "DurabilityDamage": 1,
               "Collider": [0, 0, 0.5, 1.3, 0, 0.5]
             }
@@ -112,20 +112,20 @@
             {
               "DamageByType": {
                 "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
+                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 7},
+                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7.5}
               },
               "Knockback": 0.5,
               "DurabilityDamage": 1,
-              "Collider": [-0.4, -0.27, 0.5, 0.70000005, -0.37, 0.5]
+              "Collider": [-0.4, -0.27, 0.5, 0.7, -0.37, 0.5]
             },
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
+                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6},
                 "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
                 "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
               },
-              "Knockback": 0.5,
+              "Knockback": 0,
               "DurabilityDamage": 1,
               "Collider": [0, 0, 0.5, 1.3, 0, 0.5]
             }
@@ -141,20 +141,20 @@
             {
               "DamageByType": {
                 "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
+                "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 7},
+                "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7.5}
               },
               "Knockback": 0.5,
               "DurabilityDamage": 1,
-              "Collider": [-0.4, -0.27, 0.5, 0.70000005, -0.37, 0.5]
+              "Collider": [-0.4, -0.27, 0.5, 0.7, -0.37, 0.5]
             },
             {
               "DamageByType": {
-                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5},
+                "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6},
                 "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5},
                 "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}
               },
-              "Knockback": 0.5,
+              "Knockback": 0,
               "DurabilityDamage": 1,
               "Collider": [0, 0, 0.5, 1.3, 0, 0.5]
             }
@@ -173,19 +173,9 @@
                 "*-meteoriciron": {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 6.5},
                 "*-steel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 7}
               },
-              "Knockback": 1,
-              "DurabilityDamage": 1,
-              "Collider": [0, 0, 0.5, 1.3, 0, 0.5]
-            },
-            {
-              "DamageByType": {
-                "*-iron": {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 6.5},
-                "*-meteoriciron": {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 6.5},
-                "*-steel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 7}
-              },
               "Knockback": 2,
               "DurabilityDamage": 1,
-              "Collider": [0, 0, 0.5, 0, 0, 0.5]
+              "Collider": [0, 0, 0.5, 1.3, 0, 0.5]
             }
           ]
         }
@@ -195,9 +185,10 @@
         "StopOnEntityHit": false,
         "CollideWithTerrain": true,
         "MaxReach": 9,
-        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Tier": 0, "Damage": 0}, "Knockback": 0, "DurabilityDamage": 0, "Collider": [-2.4, 0.1, 0.5, -0.5, 0.1, 0.5]}]
+        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Tier": 1, "Damage": 0.5}, "Knockback": 1, "DurabilityDamage": 0, "Collider": [-2.5, 0.1, 0.5, 0.5, 0.1, 0.5]}]
       },
-      "HandleHitSound": "game:sounds/thud",
+      "AttackHitSound": "game:sounds/thud",
+      "HandleHitSound": "game:sounds/held/shieldblock-wood-light",
       "AttackDirectionsType": "Square",
       "AttackAnimation": {
         "Top": ["armory:halberd-slash-2h-top"],

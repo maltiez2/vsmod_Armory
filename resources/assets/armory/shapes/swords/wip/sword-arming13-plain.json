@@ -9,8 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blade": "block/metal/plate/meteoriciron",
-		"handle": "block/wood/debarked/aged"
+		"blade": "game:block/metal/plate/meteoriciron",
+		"handle": "game:block/wood/debarked/aged"
 	},
 	"elements": [
 		{

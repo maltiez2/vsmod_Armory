@@ -70,28 +70,73 @@
       "CanBlock": true,
       "CanSprint": true,
       "CanThrow": true,
+      "CanBash": true,
       "SpeedPenalty": 0,
       "BlockCooldownMs": 750,
-      "Attack": {
-        "StopOnTerrainHit": false,
-        "StopOnEntityHit": false,
-        "CollideWithTerrain": true,
-        "HitOnlyOneEntity": false,
-        "MaxReach": 15,
-        "DamageTypes": [
-          {
-            "DamageByType": {
-              "*-copper": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 3.5},
-              "*-*bronze": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 4},
-              "*-iron": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 4.5},
-              "*-meteoriciron": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 4.5},
-              "*-steel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 5}
-            },
-            "Knockback": 1,
-            "DurabilityDamage": 1,
-            "Collider": [-2.5, 0, 0.5, 0.8, 0, 0.5]
-          }
-        ]
+      "DirectionalAttacks": {
+        "Top": {
+          "StopOnTerrainHit": false,
+          "StopOnEntityHit": false,
+          "CollideWithTerrain": true,
+          "HitOnlyOneEntity": false,
+          "MaxReach": 15,
+          "DamageTypes": [
+            {
+              "DamageByType": {
+                "*-copper": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 3.5},
+                "*-*bronze": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 4},
+                "*-iron": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 4.5},
+                "*-meteoriciron": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 4.5},
+                "*-steel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 5}
+              },
+              "Knockback": 1,
+              "DurabilityDamage": 1,
+              "Collider": [-2.5, 0, 0.5, 0.8, 0, 0.5]
+            }
+          ]
+        },
+        "BottomRight": {
+          "StopOnTerrainHit": false,
+          "StopOnEntityHit": false,
+          "CollideWithTerrain": true,
+          "HitOnlyOneEntity": false,
+          "MaxReach": 15,
+          "DamageTypes": [
+            {
+              "DamageByType": {
+                "*-copper": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 3.5},
+                "*-*bronze": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 4},
+                "*-iron": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 4.5},
+                "*-meteoriciron": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 4.5},
+                "*-steel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 5}
+              },
+              "Knockback": 1,
+              "DurabilityDamage": 1,
+              "Collider": [0.7, 0, 0.5, -2.5, 0, 0.5]
+            }
+          ]
+        },
+        "BottomLeft": {
+          "StopOnTerrainHit": false,
+          "StopOnEntityHit": false,
+          "CollideWithTerrain": true,
+          "HitOnlyOneEntity": false,
+          "MaxReach": 15,
+          "DamageTypes": [
+            {
+              "DamageByType": {
+                "*-copper": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 3.5},
+                "*-*bronze": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 4},
+                "*-iron": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 4.5},
+                "*-meteoriciron": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 4.5},
+                "*-steel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 5}
+              },
+              "Knockback": 1,
+              "DurabilityDamage": 1,
+              "Collider": [-2.5, 0, 0.5, 0.8, 0, 0.5]
+            }
+          ]
+        }
       },
       "AttackHitSound": "game:sounds/thud",
       "AttackDirectionsType": "Triangle",
@@ -117,7 +162,17 @@
         "BlockTier": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 5},
         "CanBlockProjectiles": false
       },
-      "BlockAnimation": "armory:quarterstaff-parry-2h"
+      "BlockAnimation": "armory:quarterstaff-parry-2h",
+      "BlockBash": {
+        "StopOnTerrainHit": false,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 9,
+        "DamageTypes": [
+          {"DamageByType": {"*": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 2}}, "Knockback": 2, "DurabilityDamage": 1, "Collider": [-2.5, 0, 0.5, 0.8, 0, 0.5]}
+        ]
+      },
+      "BlockBashAnimation": {"Top": ["armory:quarterstaff-bash-2h"], "BottomLeft": ["armory:quarterstaff-bash-2h"], "BottomRight": ["armory:quarterstaff-bash-2h"]}
     }
   },
   "durabilitybytype": {"*-copper": 300, "*-tinbronze": 450, "*-bismuthbronze": 450, "*-blackbronze": 450, "*-iron": 450, "*-meteoriciron": 550, "*-steel": 750},

@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"backDropShape": "entity/humanoid/seraph-hairless",
+		"backDropShape": "game:entity/humanoid/seraph-hairless",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -9,7 +9,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"material": "entity/humanoid/serapharmor/lamellar/bismuthbronze"
+		"material": "game:entity/humanoid/serapharmor/lamellar/bismuthbronze"
 	},
 	"elements": [
 		{
