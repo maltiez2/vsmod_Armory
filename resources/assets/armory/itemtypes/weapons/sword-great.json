@@ -71,6 +71,7 @@
       "CanBlock": true,
       "CanSprint": true,
       "CanBash": true,
+      "CanRiposte": true,
       "Attack": {
         "StopOnTerrainHit": true,
         "StopOnEntityHit": true,
@@ -80,6 +81,17 @@
           "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
           "*-meteoriciron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
           "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}]
+        }
+      },
+      "Riposte": {
+        "StopOnTerrainHit": true,
+        "StopOnEntityHit": true,
+        "CollideWithTerrain": true,
+        "MaxReach": 12,
+        "DamageTypesByType": {
+          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 7}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 7, "Damage": 7.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}]
         }
       },
       "AttackHitSound": "game:sounds/thud",
@@ -92,6 +104,7 @@
           "Bottom": ["armory:sword-great-thrust-2h-bottom"]
         }
       },
+      "RiposteAnimation": "armory:sword-great-parry-thrust-2h",
       "TpAttackAnimation": {"Top": "combatoverhaul-falx-slash", "Left": "combatoverhaul-falx-slash", "Right": "combatoverhaul-falx-slash", "Bottom": "combatoverhaul-falx-slash"},
       "SpeedPenalty": 0,
       "BlockSpeedPenalty": -0.05,
@@ -114,9 +127,13 @@
         "StopOnEntityHit": true,
         "CollideWithTerrain": true,
         "MaxReach": 9,
-        "DamageTypes": [
-          {"DamageByType": {"*": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 6}}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}
-        ]
+        "DamageTypesByType": {
+          "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4.5}, "Knockback": 1.5, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
+          "*-meteoriciron": [
+            {"Damage": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 4.5}, "Knockback": 1.5, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}
+          ],
+          "*-steel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 5}, "Knockback": 1.5, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}]
+        }
       },
       "BlockBashAnimation": {
         "Top": ["armory:sword-great-parry-thrust-2h"],
