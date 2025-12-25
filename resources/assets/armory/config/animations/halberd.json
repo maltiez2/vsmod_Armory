@@ -320,7 +320,7 @@
     "Hold": false,
     "PlayerKeyFrames": [
       {
-        "EasingTime": 200,
+        "EasingTime": 150,
         "EasingFunction": "Sin",
         "DetachedAnchor": false,
         "SwitchArms": false,
@@ -329,16 +329,16 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
         "Elements": {
-          "ItemAnchor": [14, 0, 0, 180, 1, 1],
+          "ItemAnchor": [9, 0, 0, 0, -6, 5],
           "LowerArmR": [0, 0, 0, 0, 0, -70],
-          "UpperArmR": [1.6, 0, 0, -5, 6, -57.2],
+          "UpperArmR": [1.6, 0, 0, -8, 0, -57.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
-          "LowerArmL": [0, 0, 0, 0, 0, -15],
-          "UpperArmL": [0, 0, 0, -16, -24, -75]
+          "LowerArmL": [0, 0, 0, 0, 0, 6],
+          "UpperArmL": [0, 0, 0, -16, -28, -83]
         }
       },
       {
-        "EasingTime": 400,
+        "EasingTime": 500,
         "EasingFunction": "Quintic",
         "DetachedAnchor": false,
         "SwitchArms": false,
@@ -347,12 +347,12 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
         "Elements": {
-          "ItemAnchor": [14, 0, 0, 177, 7, -66],
-          "LowerArmR": [0, 0, 0, 0, 0, -3],
-          "UpperArmR": [0, -1.6, 0, 0.6, 1.9, -58],
+          "ItemAnchor": [9, 0, 0, 0, 0, 70],
+          "LowerArmR": [0, 0, 0, 0, 0, 0],
+          "UpperArmR": [0, -1.6, 0, -14.4, -2.1, -81.1],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
-          "LowerArmL": [0, 0, 0, 0, 0, -73],
-          "UpperArmL": [0, 0, 0, -11, -59, -38]
+          "LowerArmL": [0, 0, 0, 0, 0, -24],
+          "UpperArmL": [0, 0, 0, -11, -28, -66]
         }
       },
       {
@@ -365,12 +365,12 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
         "Elements": {
-          "ItemAnchor": [14, 0, 0, 180, 4, -48],
-          "LowerArmR": [0, 0, 0, 1, 0, 3],
-          "UpperArmR": [0, 0, 0, -2, 7.2, -34.2],
+          "ItemAnchor": [9, 0, 0, 0, 0, 95],
+          "LowerArmR": [0, 0, 0, 0, 0, -87],
+          "UpperArmR": [0, -1.6, 0, -13.4, 2.9, -17.1],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
-          "LowerArmL": [0, 0, 0, 0, 0, -28],
-          "UpperArmL": [0, 0, 0, -11, -85, -43]
+          "LowerArmL": [0, 0, 0, 0, 0, -44],
+          "UpperArmL": [0.8, 0, 0, -10, -51, -42]
         }
       },
       {
@@ -383,12 +383,12 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
         "Elements": {
-          "ItemAnchor": [14, 0, 0, 0, -6, 30],
-          "LowerArmR": [0, 0, 0, 0, 0, -34],
-          "UpperArmR": [0, 0, 0, -34, -21, -69],
+          "ItemAnchor": [9, 0, 0, 0, -6, 71],
+          "LowerArmR": [0, 0, 0, 0, 0, -94],
+          "UpperArmR": [1.6, 0, 0, -30, 11, 12.8],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
-          "LowerArmL": [0, 0, 0, 0, 0, -3],
-          "UpperArmL": [0, 0, 0, 0, -28, -54]
+          "LowerArmL": [0, 0, 0, 0, 0, -77],
+          "UpperArmL": [0.8, 0, 0, -10, -51, -22]
         }
       }
     ],

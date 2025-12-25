@@ -747,12 +747,12 @@
           "LowerArmR": [0, 0, 0, 0, 0, -3],
           "UpperArmR": [0, -1.6, 0, -34.4, -1.1, -75.1],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
-          "LowerArmL": [0, 0, 0, 0, 0, -59],
-          "UpperArmL": [0, 0, 0, -11, -28, -41]
+          "LowerArmL": [0, 0, 0, 0, 0, -42],
+          "UpperArmL": [0, 0, 0, -11, -22, -49]
         }
       },
       {
-        "EasingTime": 600,
+        "EasingTime": 500,
         "EasingFunction": "Sin",
         "DetachedAnchor": false,
         "SwitchArms": false,
@@ -761,12 +761,12 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 1,
         "Elements": {
-          "ItemAnchor": [0, 0, 0, 0, 0, 92],
-          "LowerArmR": [0, 0, 0, 1, 0, 3],
-          "UpperArmR": [0, 0, 0, -19, 5.2, -40.2],
+          "ItemAnchor": [0, 0, 0, 0, 0, 39],
+          "LowerArmR": [0, 0, 0, 0, 0, -3],
+          "UpperArmR": [0, -1.6, 0, -34.4, 1.9, -58.1],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
-          "LowerArmL": [0, 0, 0, 0, 0, -47],
-          "UpperArmL": [0, 0, 0, -11, -53, -17]
+          "LowerArmL": [0, 0, 0, 0, 0, -21],
+          "UpperArmL": [0, 0, 0, -11, -22, -49]
         }
       },
       {

@@ -240,11 +240,11 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 0.8,
         "Elements": {
-          "ItemAnchor": [3, 0, 0, 0, 21, 90],
+          "ItemAnchor": [3, 0, 0, 0, 21, 66],
           "LowerArmR": [0, 0, 0, 0, 0, 0],
-          "UpperArmR": [0, 0, 0, 11, -13.8, -66.2],
+          "UpperArmR": [0, 0, 0, 11, -10.8, -71.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
-          "LowerArmL": [0, 0, 0, 0, 0, -4],
+          "LowerArmL": [0, 0, 0, 0, 0, -7],
           "UpperArmL": [0.8, -0.8, 0, 0, -42, -76]
         }
       },
@@ -258,7 +258,7 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 0.8,
         "Elements": {
-          "ItemAnchor": [3, 0, 0, 0, 0, 82],
+          "ItemAnchor": [3, 0, 0, -2, 9, 56],
           "LowerArmR": [0, 0, 0, 0, 0, -33],
           "UpperArmR": [0, -1, 0, 34, -4.8, -39.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
@@ -325,12 +325,12 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 0.8,
         "Elements": {
-          "ItemAnchor": [3, 0, 0, 0, -9, 90],
+          "ItemAnchor": [3, 0, 0, 0, -9, 74],
           "LowerArmR": [0, 0, 0, 0, 0, 0],
-          "UpperArmR": [0, -1, 0, -41, 3.2, -61.2],
+          "UpperArmR": [0, -1, 0, -41, 5.2, -68.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
           "LowerArmL": [0, 0, 0, 0, 0, -12],
-          "UpperArmL": [0, 0, 0, 0, -10, -52]
+          "UpperArmL": [0, 0, 0, 0, -10, -59]
         }
       },
       {
@@ -343,7 +343,7 @@
         "FOVMultiplier": 1,
         "BobbingAmplitude": 0.8,
         "Elements": {
-          "ItemAnchor": [3, 0, 0, 0, 0, 82],
+          "ItemAnchor": [3, 0, 0, -4, -6, 67],
           "LowerArmR": [0, 0, 0, 0, 0, -33],
           "UpperArmR": [0, -1, 0, -40, 2.2, -38.2],
           "ItemAnchorL": [0, 0, 0, 0, 0, 0],
