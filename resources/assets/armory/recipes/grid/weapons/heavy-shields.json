@@ -83,12 +83,25 @@
     "recipeGroup": 1,
     "ingredients": {
       "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
-      "B": {"type": "item", "code": "game:boss-iron"},
+      "B": {"type": "item", "code": "game:boss-iron", "quantity": 1},
       "P": {"type": "item", "code": "game:plank-*", "quantity": 2}
     },
     "width": 3,
     "height": 3,
     "name": "sheild",
     "output": {"type": "item", "code": "armory:shield-heavy-plain-iron"}
+  },
+  {
+    "ingredientPattern": "PHP,PBP,_P_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "H": {"type": "item", "code": "game:leather-*", "quantity": 2},
+      "B": {"type": "item", "code": "game:metalnailsandstrips-meteoriciron", "quantity": 4},
+      "P": {"type": "item", "code": "game:plank-*", "quantity": 2}
+    },
+    "width": 3,
+    "height": 3,
+    "name": "sheild",
+    "output": {"type": "item", "code": "armory:shield-heavy-plain-meteoriciron"}
   }
 ]

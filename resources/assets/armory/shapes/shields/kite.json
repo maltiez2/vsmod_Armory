@@ -13,7 +13,7 @@
 		"cloth2": "game:block/cloth/linen/red",
 		"cloth1": "game:block/cloth/linen/white",
 		"leather": "game:block/leather/plain",
-		"metal": "game:block/metal/plate/iron",
+		"metal": "game:block/metal/plate/steel",
 		"steel": "game:block/metal/plate/steel",
 		"larch": "game:block/wood/debarked/larch"
 	},

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>1.7.2</ModVersion>
+    <ModVersion>1.8.1</ModVersion>
     <ModId>armory</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -28,8 +28,8 @@
 
   <!-- Dependencies -->
   <ItemGroup>
-    <Dependencies Include="combatoverhaul" Version="0.11.0" />
-    <Dependencies Include="overhaullib" Version="1.16.2" />
+    <Dependencies Include="combatoverhaul" Version="0.12.0" />
+    <Dependencies Include="overhaullib" Version="1.16.13" />
   </ItemGroup>
 
   <!-- Project settings -->
@@ -84,13 +84,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="resources\assets\armory\shapes\armor\lamellar\**" />
+    <Compile Remove="resources\assets\armory\shapes\shields\wip\**" />
     <EmbeddedResource Remove="resources\assets\armory\shapes\armor\lamellar\**" />
+    <EmbeddedResource Remove="resources\assets\armory\shapes\shields\wip\**" />
     <None Remove="resources\assets\armory\shapes\armor\lamellar\**" />
+    <None Remove="resources\assets\armory\shapes\shields\wip\**" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="resources\assets\armory\shapes\armor\brigandine\" />
     <Folder Include="resources\assets\armory\shapes\halberds\" />
-    <Folder Include="resources\assets\armory\shapes\shields\wip\" />
   </ItemGroup>
 
   <!-- Forces rebuild -->

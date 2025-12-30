@@ -7,7 +7,7 @@
   "variantgroups": [
     {"code": "type", "states": ["heavy"]},
     {"code": "subtype", "states": ["plain"]},
-    {"code": "material", "states": ["crude", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron"]}
+    {"code": "material", "states": ["crude", "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron"]}
   ],
   "behaviorsByType": {
     "@.*-(.*iron)": [
@@ -148,7 +148,7 @@
         "IdleAnimation": "combatoverhaul:shield-heavy-ready",
         "BlockTpAnimation": "block"
       },
-      "*-*iron": {
+      "*-iron": {
         "CanAttack": false,
         "CanParry": false,
         "CanBlock": true,
@@ -166,19 +166,65 @@
         "ReadyAnimation": "combatoverhaul:shield-heavy-ready",
         "IdleAnimation": "combatoverhaul:shield-heavy-ready",
         "BlockTpAnimation": "block"
+      },
+      "*-meteoriciron": {
+        "CanAttack": false,
+        "CanParry": false,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": -0.05,
+        "BlockSpeedPenalty": -0.4,
+        "Block": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+          "Directions": [60, 60, 60, 60],
+          "Sound": "game:sounds/held/shieldblock-wood-light",
+          "BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
+        },
+        "BlockCooldownMs": 300,
+        "BlockAnimation": "combatoverhaul:shield-heavy-block-kite",
+        "ReadyAnimation": "combatoverhaul:shield-heavy-ready",
+        "IdleAnimation": "combatoverhaul:shield-heavy-ready",
+        "BlockTpAnimation": "block"
+      },
+      "*-steel": {
+        "CanAttack": false,
+        "CanParry": false,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": -0.05,
+        "BlockSpeedPenalty": -0.4,
+        "Block": {
+          "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+          "Directions": [60, 60, 60, 60],
+          "Sound": "game:sounds/held/shieldblock-wood-light",
+          "BlockTier": {"BluntAttack": 8, "SlashingAttack": 8, "PiercingAttack": 8}
+        },
+        "BlockCooldownMs": 300,
+        "BlockAnimation": "combatoverhaul:shield-heavy-block-kite",
+        "ReadyAnimation": "combatoverhaul:shield-heavy-ready",
+        "IdleAnimation": "combatoverhaul:shield-heavy-ready",
+        "BlockTpAnimation": "block"
       }
     }
   },
   "shapeByType": {
     "*-crude": {"base": "shields/reed"},
     "*-copper": {"base": "shields/aspis"},
-    "*-tinbronze": {"base": "shields/scutum"},
-    "*-bismuthbronze": {"base": "shields/scutum"},
-    "*-blackbronze": {"base": "shields/scutum"},
-    "*-*iron": {"base": "shields/kite"}
+    "*-*bronze": {"base": "shields/scutum"},
+    "*-iron": {"base": "shields/kite"},
+    "*-meteoriciron": {"base": "shields/kite-flat"}
   },
   "texturesByType": {"*-crude": {}, "*": {"metal": {"base": "game:block/metal/plate/{material}"}}},
-  "durabilitybytype": {"*-crude": 500, "*-copper": 1000, "*-tinbronze": 1500, "*-bismuthbronze": 1500, "*-blackbronze": 1500, "*-*iron": 2000},
+  "durabilitybytype": {
+    "*-crude": 300,
+    "*-copper": 600,
+    "*-tinbronze": 1200,
+    "*-bismuthbronze": 1200,
+    "*-blackbronze": 1200,
+    "*-iron": 1200,
+    "*-meteoriciron": 1500,
+    "*-steel": 1800
+  },
   "creativeinventory": {"general": ["*"], "armory": ["*"]},
   "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4},
   "guiTransformByType": {
@@ -187,7 +233,8 @@
     "*-tinbronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 115, "y": -26, "z": -24}, "origin": {"x": 0.6, "y": -0.3, "z": 0.7}, "scale": 0.89},
     "*-bismuthbronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 115, "y": -26, "z": -24}, "origin": {"x": 0.6, "y": -0.3, "z": 0.7}, "scale": 0.89},
     "*-blackbronze": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 115, "y": -26, "z": -24}, "origin": {"x": 0.6, "y": -0.3, "z": 0.7}, "scale": 0.89},
-    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 108, "y": 137, "z": 33}, "origin": {"x": 0.35, "y": -0.1, "z": 0.7}, "scale": 1.1}
+    "*-*iron": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 108, "y": 137, "z": 33}, "origin": {"x": 0.35, "y": -0.1, "z": 0.7}, "scale": 1.1},
+    "*-steel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 108, "y": 137, "z": 33}, "origin": {"x": 0.35, "y": -0.1, "z": 0.7}, "scale": 1.1}
   },
   "tpHandTransformByType": {
     "*-crude": {"translation": {"x": 0.5, "y": 0.6, "z": -0.15}, "rotation": {"x": -99, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
@@ -195,12 +242,14 @@
     "*-tinbronze": {"translation": {"x": 0.5, "y": 0.6, "z": -0.1}, "rotation": {"x": -95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-bismuthbronze": {"translation": {"x": 0.5, "y": 0.6, "z": -0.1}, "rotation": {"x": -95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-blackbronze": {"translation": {"x": 0.5, "y": 0.6, "z": -0.1}, "rotation": {"x": -95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-*iron": {"translation": {"x": -0.5, "y": 0.6, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": -100}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
+    "*-*iron": {"translation": {"x": -0.5, "y": 0.6, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": -100}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9},
+    "*-steel": {"translation": {"x": -0.5, "y": 0.6, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": -100}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
   },
   "tpOffHandTransformByType": {
     "*-crude": {"translation": {"x": 0.48, "y": -0.39, "z": 0.01}, "rotation": {"x": 99, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-copper": {"translation": {"x": -0.52, "y": -0.09, "z": -0.02}, "rotation": {"x": 92, "y": -90, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "*-*bronze": {"translation": {"x": 0.48, "y": -0.39, "z": 0.01}, "rotation": {"x": 95, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
-    "*-*iron": {"translation": {"x": -0.52, "y": -0.39, "z": -0.06}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
+    "*-*iron": {"translation": {"x": -0.52, "y": -0.39, "z": -0.06}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9},
+    "*-steel": {"translation": {"x": -0.52, "y": -0.39, "z": -0.06}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9}
   }
 }

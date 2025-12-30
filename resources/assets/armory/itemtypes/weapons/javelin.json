@@ -81,7 +81,7 @@
       "SpeedPenalty": 0,
       "AttackCooldownMs": 550,
       "GripLengthFactor": 2,
-      "GripMinLength": 12,
+      "GripMinLength": 0,
       "GripMaxLength": 0,
       "Attack": {
         "StopOnTerrainHit": true,
