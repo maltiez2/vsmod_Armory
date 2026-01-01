@@ -76,7 +76,6 @@
         "StopOnTerrainHit": true,
         "StopOnEntityHit": true,
         "CollideWithTerrain": true,
-        "MaxReach": 12,
         "DamageTypesByType": {
           "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 6.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
           "*-meteoriciron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 6.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
@@ -87,7 +86,6 @@
         "StopOnTerrainHit": true,
         "StopOnEntityHit": true,
         "CollideWithTerrain": true,
-        "MaxReach": 12,
         "DamageTypesByType": {
           "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 7}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
           "*-meteoriciron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
@@ -126,7 +124,6 @@
         "StopOnTerrainHit": false,
         "StopOnEntityHit": true,
         "CollideWithTerrain": true,
-        "MaxReach": 9,
         "DamageTypesByType": {
           "*-iron": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 4.5}, "Knockback": 1.5, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}],
           "*-meteoriciron": [
