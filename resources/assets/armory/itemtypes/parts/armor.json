@@ -1,0 +1,27 @@
+﻿{
+  "code": "part",
+  "class": "Item",
+  "variantgroups": [
+    {"code": "type", "states": ["breastplate", "smallarmorplate"]},
+    {"code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "gold", "silver"]}
+  ],
+  "shape": {"base": "armor/parts/{type}"},
+  "textures": {"metal": {"base": "game:block/metal/ingot/{material}"}},
+  "attributes": {
+    "groundStorageTransform": {"translation": {"x": 0.5, "y": 0, "z": 0.5}, "rotation": {"x": -90, "y": 0, "z": 43}, "origin": {"x": 0, "y": 0, "z": 0}},
+    "handbook": {"groupBy": ["part-{type}-*"]}
+  },
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {"layout": "Quadrants", "placeRemoveSound": "sounds/player/build", "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1}}
+    }
+  ],
+  "creativeinventory": {"general": ["*"], "armory-parts": ["*"]},
+  "guiTransformByType": {
+    "*-breastplate-*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 42, "y": 4, "z": -138}, "origin": {"x": 0, "y": -0.1, "z": 0.1}, "scale": 1.9},
+    "*-smallarmorplate-*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 48, "y": 0, "z": 37}, "origin": {"x": 0.04, "y": 0.1, "z": 0.2}, "scale": 3.3}
+  },
+  "tpHandTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 0, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1},
+  "groundTransform": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -90, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 4}
+}

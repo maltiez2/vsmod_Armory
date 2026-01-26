@@ -61,7 +61,7 @@
       "*": {"translation": {"x": 0.5, "y": 2.09, "z": 0.6}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
     },
     "toolrackTransform": {"translation": {"x": -1.2, "y": 0.6, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
-    "ProficiencyStat": "clubsProficiency",
+    "ProficiencyStatsByType": {"*-steel": ["meleeProficiency", "knightlyProficiency", "clubsProficiency"], "*": ["meleeProficiency", "clubsProficiency"]},
     "RenderingOffset": false,
     "OneHandedStance": {
       "CanAttack": true,
@@ -74,10 +74,10 @@
         "CollideWithTerrain": true,
         "MaxReach": 9,
         "DamageTypesByType": {
-          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 3.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
           "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 4.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 4}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
           "*-steel": [
             {
               "Damage": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 5, "ArmorPiercingTier": 1},
@@ -105,10 +105,10 @@
         "CollideWithTerrain": true,
         "MaxReach": 9,
         "DamageTypesByType": {
-          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 4.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
-          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 5.5}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-copper": [{"Damage": {"DamageType": "BluntAttack", "Tier": 2, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-*bronze": [{"Damage": {"DamageType": "BluntAttack", "Tier": 3, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-iron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 4, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
+          "*-meteoriciron": [{"Damage": {"DamageType": "BluntAttack", "Tier": 5, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 2.6, 0, 0.5]}],
           "*-steel": [
             {
               "Damage": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 7, "ArmorPiercingTier": 4},

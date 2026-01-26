@@ -20,14 +20,14 @@
           "AdditionalDurabilityCost": 0,
           "CollisionRadius": 0.05,
           "DamageStatsByType": {
-            "*-obisidan": {"DamageType": "PiercingAttack", "Damage": 7.5},
-            "*-flint": {"DamageType": "PiercingAttack", "Damage": 7},
+            "*-obisidan": {"DamageType": "PiercingAttack", "Damage": 6},
+            "*-flint": {"DamageType": "PiercingAttack", "Damage": 6},
             "*-copper": {"DamageType": "PiercingAttack", "Damage": 8},
-            "*-*bronze": {"DamageType": "PiercingAttack", "Damage": 8.5},
-            "*-iron": {"DamageType": "PiercingAttack", "Damage": 9},
-            "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 9.5},
+            "*-*bronze": {"DamageType": "PiercingAttack", "Damage": 10},
+            "*-iron": {"DamageType": "PiercingAttack", "Damage": 10},
+            "*-meteoriciron": {"DamageType": "PiercingAttack", "Damage": 10},
             "*-steel": {"DamageType": "PiercingAttack", "Damage": 10},
-            "*": {"DamageType": "PiercingAttack", "Damage": 6}
+            "*": {"DamageType": "PiercingAttack", "Damage": 4}
           },
           "SpeedThreshold": 0.3,
           "Knockback": 0.1,
@@ -70,7 +70,7 @@
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 1, "z": 0.44}, "rotation": {"x": 10, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
     "toolrackTransform": {"translation": {"x": 0.3, "y": 0.05, "z": 0.6}, "rotation": {"x": 90, "y": 1, "z": 0}, "scale": 1.2},
     "handbook": {"groupBy": ["javelin-plain-*"]},
-    "ProficiencyStat": "javelinsProficiency",
+    "ProficiencyStats": ["rangedProficiency", "meleeProficiency", "javelinsProficiency"],
     "RenderingOffset": false,
     "OneHandedStance": {
       "CanAttack": true,
@@ -92,14 +92,14 @@
         "DamageTypes": [
           {
             "DamageByType": {
-              "*-flint": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 3},
-              "*-obsidian": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 3},
-              "*-copper": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 3.5},
+              "*-flint": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 4},
+              "*-obsidian": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 4},
+              "*-copper": {"DamageType": "PiercingAttack", "Tier": 2, "Damage": 4},
               "*-*bronze": {"DamageType": "PiercingAttack", "Tier": 3, "Damage": 4},
-              "*-iron": {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 4.5},
-              "*-meteoriciron": {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 4.5},
-              "*-steel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 5},
-              "*": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 2.5}
+              "*-iron": {"DamageType": "PiercingAttack", "Tier": 4, "Damage": 4},
+              "*-meteoriciron": {"DamageType": "PiercingAttack", "Tier": 5, "Damage": 4},
+              "*-steel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 4},
+              "*": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 2}
             },
             "Knockback": 0.5,
             "DurabilityDamage": 1,
@@ -112,7 +112,7 @@
         "StopOnEntityHit": false,
         "CollideWithTerrain": true,
         "MaxReach": 9,
-        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Tier": 1, "Damage": 0.1}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [-1.2, 0, 0.5, 0.6, 0, 0.5]}]
+        "DamageTypes": [{"Damage": {"DamageType": "BluntAttack", "Tier": 1, "Damage": 1}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [-1.2, 0, 0.5, 0.6, 0, 0.5]}]
       },
       "AttackHitSound": "game:sounds/thud",
       "HandleHitSound": "game:sounds/held/shieldblock-wood-light",

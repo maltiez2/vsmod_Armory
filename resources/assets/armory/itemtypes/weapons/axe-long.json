@@ -54,7 +54,7 @@
     "handbook": {"groupBy": ["axe-long-plain-*"]},
     "groundStorageTransform": {"translation": {"x": 0.5, "y": 0.52, "z": 0.35}, "rotation": {"x": 17, "y": 0, "z": -84}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6},
     "toolrackTransform": {"translation": {"x": 0.05, "y": 0.6, "z": 1.05}, "rotation": {"x": 179, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}},
-    "ProficiencyStat": "axesProficiency",
+    "ProficiencyStats": ["meleeProficiency", "axesProficiency"],
     "RenderingOffset": false,
     "OneHandedStance": {
       "CanAttack": false,
@@ -77,10 +77,10 @@
         "DamageTypes": [
           {
             "DamageByType": {
-              "*-*bronze": {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 7},
-              "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 7.5},
+              "*-*bronze": {"DamageType": "SlashingAttack", "Tier": 3, "Damage": 8},
+              "*-iron": {"DamageType": "SlashingAttack", "Tier": 4, "Damage": 8},
               "*-meteoriciron": {"DamageType": "SlashingAttack", "Tier": 5, "Damage": 8},
-              "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8.5}
+              "*-steel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8}
             },
             "Knockback": 0,
             "DurabilityDamage": 1,
